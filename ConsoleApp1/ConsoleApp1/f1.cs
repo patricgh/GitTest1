@@ -6,9 +6,9 @@ namespace ConsoleApp1
 {
     class f1
     {
-        public string GetName()
+        public string GetName(string s)
         {
-            return "Masoud";
+            return s;
         }
     }
 }
