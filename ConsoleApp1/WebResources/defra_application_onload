@@ -1,0 +1,80 @@
+function displayDulyMakingChecklistTab(executionContext) {
+    debugger;
+    var formContext = executionContext.getFormContext();
+    if (formContext.ui.getFormType() == 2 && formContext.getAttribute('defra_regimeid').getValue() != null) {
+        var regimeName = formContext.getAttribute('defra_regimeid').getValue()[0].name;
+        var tabObj = formContext.ui.tabs.get("tab_12")
+        for (i = 0; i < tabObj.sections.getAll().length; i++)
+            tabObj.sections.getAll()[i].setVisible(false);
+
+        switch (regimeName) {
+            case "MCP":
+                var sectionObj = tabObj.sections.get("tab_12_section_2");
+                sectionObj.setVisible(true);
+                break;
+            case "Waste":
+                var sectionObj = tabObj.sections.get("tab_12_section_4");
+                sectionObj.setVisible(true);
+                break;
+           
+        }
+    }
+}
+
+function RaiseRFISCH5(primaryControl, type) {
+    var formContext = primaryControl;
+    debugger;
+    var status = formContext.getAttribute("statuscode").getValue();
+    if (type == 1 && status != 910400002 && status != 910400009) {
+        alert('Creating a SCH5 is not available at this stage.');
+        return;
+    }
+    if (status == 910400022 || status == 910400015 || status == 910400001 || status == 910400002 || status == 910400009) {
+        var entityFormOptions = {};
+        entityFormOptions["entityName"] = "defra_rfisch5";
+        entityFormOptions["openInNewWindow"] = true;
+        entityFormOptions["windowPosition"] = 1;
+        var typeText = "";
+        if (type == 0)
+            typeText = "RFI for application ";
+        else if (type == 1)
+            typeText = "SCH5 for application ";
+        var formParameters = {};
+        formParameters["defra_title"] = typeText + formContext.getAttribute("defra_applicationnumber").getValue();
+        formParameters["defra_applicationid"] = formContext.data.entity.getId();
+        formParameters["defra_applicationidname"] = formContext.getAttribute("defra_applicationnumber").getValue();
+        formParameters["defra_applicationidtype"] = "defra_application";
+        formParameters["defra_channel"] = 0;
+        formParameters["defra_type"] = type;
+
+        switch (status) {
+            case 910400022:   //Admin
+                formParameters["defra_stage"] = 910400000;
+                break;
+            case 910400015:     //Intel
+                formParameters["defra_stage"] = 910400001;
+                break;
+            case 910400001:     //Duly making
+                formParameters["defra_stage"] = 910400002;
+                break;
+            case 910400002:     //Determination
+                formParameters["defra_stage"] = 910400003;
+                break;
+            case 910400009:     //On-hold Pending SCH5
+                formParameters["defra_stage"] = 910400003;
+                break;
+        }
+
+        // Open the form.
+        Xrm.Navigation.openForm(entityFormOptions, formParameters).then(
+            function (success) {
+                console.log(success);
+            },
+            function (error) {
+                console.log(error);
+            });
+    }
+    else {
+        alert('Creating a RFI is not available at this stage.');
+    }
+}

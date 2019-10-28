@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{329ef47e-98ea-e911-a812-000d3abacf5b}</WebResourceId>
+  <Name>defra_mypermit_icon</Name>
+  <DisplayName>My permit icon</DisplayName>
+  <WebResourceType>5</WebResourceType>
+  <IntroducedVersion>1.25.0.2</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/defra_mypermit_icon329EF47E-98EA-E911-A812-000D3ABACF5B</FileName>
+</WebResource>

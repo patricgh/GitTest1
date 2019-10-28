@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{020b122a-c036-4e5e-9416-b67026b02674}" Name="Application (sync): On Update of Complete Duly making " xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/ApplicationsyncOnUpdateofCompleteDulymaking-020B122A-C036-4E5E-9416-B67026B02674.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>0</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnUpdateAttributeList>defra_dulymakingconsultationcompletedon,defra_completeddulymade</TriggerOnUpdateAttributeList>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>1</SyncWorkflowLogOnFailure>
+  <StateCode>0</StateCode>
+  <StatusCode>1</StatusCode>
+  <CreateStage>40</CreateStage>
+  <UpdateStage>40</UpdateStage>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.25.0.2</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <PrimaryEntity>defra_application</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Application (sync): On Update of Complete Duly making " />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{ab93c7df-2ff7-4239-a5c3-ce35d4de4c0d}">
+      <label languagecode="1033" description="All duly making check list items must either be completed or set as NA.  " />
+    </steplabels>
+  </labels>
+</Workflow>

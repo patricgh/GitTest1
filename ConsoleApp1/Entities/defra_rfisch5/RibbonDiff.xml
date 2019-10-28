@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomActions>
+    <HideCustomAction HideActionId="defra.Mscrm.SubGrid.defra_rfisch5.AddExistingAssoc.Hide" Location="Mscrm.SubGrid.defra_rfisch5.AddExistingAssoc" />
+    <HideCustomAction HideActionId="defra.Mscrm.SubGrid.defra_rfisch5.AddExistingStandard.Hide" Location="Mscrm.SubGrid.defra_rfisch5.AddExistingStandard" />
+    <HideCustomAction HideActionId="defra.Mscrm.SubGrid.defra_rfisch5.AddNewStandard.Hide" Location="Mscrm.SubGrid.defra_rfisch5.AddNewStandard" />
+    <HideCustomAction HideActionId="defra.Mscrm.SubGrid.defra_rfisch5.NewRecord.Hide" Location="Mscrm.SubGrid.defra_rfisch5.NewRecord" />
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions />
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules />
+  </RuleDefinitions>
+  <LocLabels />
+</RibbonDiffXml>

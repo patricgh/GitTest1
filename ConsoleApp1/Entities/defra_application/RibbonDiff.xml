@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomActions>
+    <CustomAction Id="defra.defra_application.Button.WriteOffBalance.CustomAction" Location="Mscrm.Form.defra_application.MainTab.Save.Controls._children" Sequence="63">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:defra.defra_application.Button.WriteOffBalance.Alt" Command="defra.defra_application.Command.WriteOffBalance" CommandValueId="WritOffBalance" Id="defra.defra_application.Button.WriteOffBalance" Image32by32="$webresource:ProductManagement/_imgs/ribbon/Revise_32.png" Image16by16="$webresource:ProductManagement/_imgs/ribbon/Revise_16.png" LabelText="$LocLabels:defra.defra_application.Button.WriteOffBalance.LabelText" Sequence="63" TemplateAlias="o2" ToolTipTitle="$LocLabels:defra.defra_application.Button.WriteOffBalance.ToolTipTitle" ToolTipDescription="$LocLabels:defra.defra_application.Button.WriteOffBalance.ToolTipDescription" ModernImage="" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="defra.defra_application.RaiseSCH5.SCH5Btn.CustomAction" Location="Mscrm.Form.defra_application.MainTab.Save.Controls._children" Sequence="63">
+      <CommandUIDefinition>
+        <Button Command="defra.defra_application.SCH5.SCH5Command" Id="defra.defra_application.RaiseSCH5.SCH5Btn" Image32by32="$webresource:defra_SCH5_icon1" Image16by16="$webresource:defra_SCH5_icon1" LabelText="$LocLabels:defra.defra_application.RaiseSCH5.SCH5Btn.LabelText" Sequence="63" TemplateAlias="o2" ToolTipTitle="$LocLabels:defra.defra_application.RaiseSCH5.SCH5Btn.ToolTipTitle" ModernImage="$webresource:defra_SCH5_vector" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="defra.defra_application.RFISCH5.RFIButton.CustomAction" Location="Mscrm.Form.defra_application.MainTab.Save.Controls._children" Sequence="62">
+      <CommandUIDefinition>
+        <Button Command="defra.defra_application.RFISCH5.RFICommand" Id="defra.defra_application.RFISCH5.RFIButton" Image32by32="$webresource:defra_rfi32" Image16by16="$webresource:defra_rfi32" LabelText="$LocLabels:defra.defra_application.RFISCH5.RFIButton.LabelText" Sequence="62" TemplateAlias="o2" ToolTipTitle="$LocLabels:defra.defra_application.RFISCH5.RFIButton.ToolTipTitle" ModernImage="$webresource:defra_rfisch5entityicon" />
+      </CommandUIDefinition>
+    </CustomAction>
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions>
+    <CommandDefinition Id="defra.defra_application.Command.WriteOffBalance">
+      <EnableRules />
+      <DisplayRules>
+        <DisplayRule Id="defra.defra_application.DisplayRule.WriteOffButton" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="Applications.WriteOffBalance" Library="$webresource:defra_/applications/application_form_events.js" />
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="defra.defra_application.generateScreeningReport.CustomAction">
+      <EnableRules />
+      <DisplayRules />
+      <Actions>
+        <Url Address="http://intranet.ea.gov/tools/applications/11639.aspx" WinMode="0" PassParams="false" />
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="defra.defra_application.RFISCH5.RFICommand">
+      <EnableRules />
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="RaiseRFISCH5" Library="$webresource:defra_application_onload">
+          <CrmParameter Value="PrimaryControl" />
+          <IntParameter Value="0" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="defra.defra_application.SCH5.SCH5Command">
+      <EnableRules />
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="RaiseRFISCH5" Library="$webresource:defra_application_onload">
+          <CrmParameter Value="PrimaryControl" />
+          <IntParameter Value="1" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+  </CommandDefinitions>
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules>
+      <DisplayRule Id="defra.defra_application.DisplayRule.WriteOffButton">
+        <ValueRule Field="defra_balance" Value="0" Default="true" InvertResult="true" />
+      </DisplayRule>
+    </DisplayRules>
+    <EnableRules />
+  </RuleDefinitions>
+  <LocLabels>
+    <LocLabel Id="defra.defra_application.Button.WriteOffBalance.Alt">
+      <Titles>
+        <Title description="Write Off Balance" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="defra.defra_application.Button.WriteOffBalance.LabelText">
+      <Titles>
+        <Title description="Write Off" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="defra.defra_application.Button.WriteOffBalance.ToolTipDescription">
+      <Titles>
+        <Title description="Write Off Balance" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="defra.defra_application.Button.WriteOffBalance.ToolTipTitle">
+      <Titles>
+        <Title description="Write Off Balance" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="defra.defra_application.RaiseSCH5.SCH5Btn.LabelText">
+      <Titles>
+        <Title description="Raise SCH5" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="defra.defra_application.RaiseSCH5.SCH5Btn.ToolTipTitle">
+      <Titles>
+        <Title description="Create a new SCH5" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="defra.defra_application.RFISCH5.RFIButton.LabelText">
+      <Titles>
+        <Title description="Raise RFI" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="defra.defra_application.RFISCH5.RFIButton.ToolTipTitle">
+      <Titles>
+        <Title description="Create a new RFI" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
+</RibbonDiffXml>

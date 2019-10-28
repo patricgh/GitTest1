@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{9aab0b64-dfc8-e911-a997-000d3ab311f1}</WebResourceId>
+  <Name>defra_permit_unified</Name>
+  <DisplayName>Permit UI icon</DisplayName>
+  <WebResourceType>11</WebResourceType>
+  <IntroducedVersion>1.20.0.27</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/defra_permit_unified9AAB0B64-DFC8-E911-A997-000D3AB311F1</FileName>
+</WebResource>

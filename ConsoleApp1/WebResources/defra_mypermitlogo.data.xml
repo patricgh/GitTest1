@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{c047109b-e1c8-e911-a997-000d3ab311f1}</WebResourceId>
+  <Name>defra_mypermitlogo</Name>
+  <DisplayName>Mypermit Logo</DisplayName>
+  <WebResourceType>5</WebResourceType>
+  <IntroducedVersion>1.20.0.27</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/defra_mypermitlogoC047109B-E1C8-E911-A997-000D3AB311F1</FileName>
+</WebResource>

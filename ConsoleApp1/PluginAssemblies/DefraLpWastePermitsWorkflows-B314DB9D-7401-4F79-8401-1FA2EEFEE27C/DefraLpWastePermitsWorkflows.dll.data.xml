@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="Defra.Lp.WastePermits.Workflows, Version=1.1.53.17, Culture=neutral, PublicKeyToken=db7936729d303436" PluginAssemblyId="b314db9d-7401-4f79-8401-1fa2eefee27c" CustomizationLevel="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.1.52.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/DefraLpWastePermitsWorkflows-B314DB9D-7401-4F79-8401-1FA2EEFEE27C/DefraLpWastePermitsWorkflows.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="Defra.Lp.WastePermits.Workflows.CreateFmeSupportRecords, Defra.Lp.WastePermits.Workflows, Version=1.1.53.17, Culture=neutral, PublicKeyToken=db7936729d303436" PluginTypeId="558b7057-ac33-46bd-a9b7-42f8664054f5" Name="Defra.Lp.WastePermits.Workflows.CreateFmeSupportRecords">
+      <FriendlyName>fd4ace88-5a6d-4017-adc9-36bccf75f883</FriendlyName>
+      <WorkflowActivityGroupName>Defra.Lp.WastePermits.Workflows (1.1.53.17)</WorkflowActivityGroupName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Defra.Lp.WastePermits.Workflows.ExcelReportGenerator, Defra.Lp.WastePermits.Workflows, Version=1.1.53.17, Culture=neutral, PublicKeyToken=db7936729d303436" PluginTypeId="b6a664dc-e996-4e4b-9671-1eb40b31ecb9" Name="Defra.Lp.WastePermits.Workflows.ExcelReportGenerator">
+      <FriendlyName>a8cef661-6e2d-4dc1-a8f8-b16d677a0566</FriendlyName>
+      <WorkflowActivityGroupName>Defra.Lp.WastePermits.Workflows (1.1.53.17)</WorkflowActivityGroupName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Defra.Lp.WastePermits.Workflows.GenerateApplicationTasksGivenTaskType, Defra.Lp.WastePermits.Workflows, Version=1.1.53.17, Culture=neutral, PublicKeyToken=db7936729d303436" PluginTypeId="6f2a7166-d7e6-40b4-8f85-cc2933e892cc" Name="Defra.Lp.WastePermits.Workflows.GenerateApplicationTasksGivenTaskType">
+      <FriendlyName>GenerateApplicationTasksGivenTaskType</FriendlyName>
+      <WorkflowActivityGroupName>Defra.Lp.WastePermits.Workflows (1.1.53.17)</WorkflowActivityGroupName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Defra.Lp.WastePermits.Workflows.GetActiveCasesCount, Defra.Lp.WastePermits.Workflows, Version=1.1.53.17, Culture=neutral, PublicKeyToken=db7936729d303436" PluginTypeId="96e59da2-5645-4850-bc58-293fa08db460" Name="Defra.Lp.WastePermits.Workflows.GetActiveCasesCount">
+      <FriendlyName>83800983-7999-4366-8c47-045a9091419a</FriendlyName>
+      <WorkflowActivityGroupName>Defra.Lp.WastePermits.Workflows (1.1.53.17)</WorkflowActivityGroupName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Defra.Lp.WastePermits.Workflows.GetActiveLinesCount, Defra.Lp.WastePermits.Workflows, Version=1.1.53.17, Culture=neutral, PublicKeyToken=db7936729d303436" PluginTypeId="a8fa55fb-d280-4243-ac93-bed98976bf84" Name="Defra.Lp.WastePermits.Workflows.GetActiveLinesCount">
+      <FriendlyName>5497957e-2b64-41ba-9b67-82c4644f7e68</FriendlyName>
+      <WorkflowActivityGroupName>Defra.Lp.WastePermits.Workflows (1.1.53.17)</WorkflowActivityGroupName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Defra.Lp.WastePermits.Workflows.GetAddressBasedOnOperatorType, Defra.Lp.WastePermits.Workflows, Version=1.1.53.17, Culture=neutral, PublicKeyToken=db7936729d303436" PluginTypeId="a055bd4d-c69d-42a8-bcb3-2b88f5bba29f" Name="Defra.Lp.WastePermits.Workflows.GetAddressBasedOnOperatorType">
+      <FriendlyName>f656e75f-fab7-4f22-8fec-21f6c878a8e7</FriendlyName>
+      <WorkflowActivityGroupName>Defra.Lp.WastePermits.Workflows (1.1.53.17)</WorkflowActivityGroupName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Defra.Lp.WastePermits.Workflows.GetLocationDetailAndAddress, Defra.Lp.WastePermits.Workflows, Version=1.1.53.17, Culture=neutral, PublicKeyToken=db7936729d303436" PluginTypeId="7a0a3254-964a-46bb-b33e-bfb2ff1c80be" Name="Defra.Lp.WastePermits.Workflows.GetLocationDetailAndAddress">
+      <FriendlyName>09fd4f91-4258-44ae-87e3-4d3b248ff89a</FriendlyName>
+      <WorkflowActivityGroupName>Defra.Lp.WastePermits.Workflows (1.1.53.17)</WorkflowActivityGroupName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Defra.Lp.WastePermits.Workflows.GetPermitDetails, Defra.Lp.WastePermits.Workflows, Version=1.1.53.17, Culture=neutral, PublicKeyToken=db7936729d303436" PluginTypeId="34573c65-56c0-4770-867a-c33ad51ef9b4" Name="Defra.Lp.WastePermits.Workflows.GetPermitDetails">
+      <FriendlyName>413ec683-bf46-4276-959c-52e1eb80510b</FriendlyName>
+      <WorkflowActivityGroupName>Defra.Lp.WastePermits.Workflows (1.1.53.17)</WorkflowActivityGroupName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Defra.Lp.WastePermits.Workflows.GetValidPermitApplication, Defra.Lp.WastePermits.Workflows, Version=1.1.53.17, Culture=neutral, PublicKeyToken=db7936729d303436" PluginTypeId="f281fed1-73ca-4cab-806c-fee2a4ced2e9" Name="Defra.Lp.WastePermits.Workflows.GetValidPermitApplication">
+      <FriendlyName>d13a2d6e-311b-47a5-9dbd-aa83d0e3500e</FriendlyName>
+      <WorkflowActivityGroupName>Defra.Lp.WastePermits.Workflows (1.1.53.17)</WorkflowActivityGroupName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Defra.Lp.WastePermits.Workflows.RefreshApplicationTasks, Defra.Lp.WastePermits.Workflows, Version=1.1.53.17, Culture=neutral, PublicKeyToken=db7936729d303436" PluginTypeId="4cf895f5-d38f-4eae-9804-b7a8884b7153" Name="Defra.Lp.WastePermits.Workflows.RefreshApplicationTasks">
+      <FriendlyName>005286ff-0cb3-4df8-9ff9-e950f7a9c901</FriendlyName>
+      <WorkflowActivityGroupName>Defra.Lp.WastePermits.Workflows (1.1.53.17)</WorkflowActivityGroupName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

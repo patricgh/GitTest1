@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{5f6a4b1c-4e8c-4ec9-8598-77e16f177260}" Name="RFI SCH5 - Create draft email for RFI or SCH5 request" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/RFISCH5-CreatedraftemailforRFIorSCH5request-5F6A4B1C-4E8C-4EC9-8598-77E16F177260.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>0</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>1</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <CreateStage>40</CreateStage>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.25.0.2</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <PrimaryEntity>defra_rfisch5</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="RFI SCH5 - Create draft email for RFI or SCH5 request" />
+  </LocalizedNames>
+</Workflow>

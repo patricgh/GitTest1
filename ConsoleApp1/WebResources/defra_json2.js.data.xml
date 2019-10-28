@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{f222e6de-b1d3-e711-9c15-00155d014a08}</WebResourceId>
+  <Name>defra_json2.js</Name>
+  <DisplayName>JSON2 Library</DisplayName>
+  <Description></Description>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>1.1.29.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/defra_json2jsF222E6DE-B1D3-E711-9C15-00155D014A08</FileName>
+</WebResource>

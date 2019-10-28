@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{b2068ca6-ebe8-e911-a812-000d3abacf5b}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="defra_title" select="1" icon="1" preview="1">
+        <row name="result" id="defra_rfisch5id">
+          <cell name="defra_applicationid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="defra_type" width="100" />
+          <cell name="defra_channel" width="100" />
+          <cell name="defra_stage" width="100" />
+          <cell name="defra_duedate" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="defra_datesent" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="defra_dateresolved" width="100" />
+          <cell name="statuscode" width="100" />
+          <cell name="defra_paymentrequired" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="defra_invoiced" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="defra_rfisch5">
+          <attribute name="createdon" />
+          <attribute name="defra_type" />
+          <attribute name="statuscode" />
+          <attribute name="defra_stage" />
+          <attribute name="defra_paymentrequired" />
+          <attribute name="defra_invoiced" />
+          <attribute name="defra_duedate" />
+          <attribute name="defra_datesent" />
+          <attribute name="defra_dateresolved" />
+          <attribute name="defra_channel" />
+          <attribute name="defra_applicationid" />
+          <order attribute="defra_datesent" descending="false" />
+          <order attribute="defra_duedate" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+            <filter type="or">
+              <condition attribute="defra_duedate" operator="olderthan-x-days" value="1" />
+              <condition attribute="defra_duedate" operator="yesterday" />
+            </filter>
+            <condition attribute="createdby" operator="eq-userid" />
+          </filter>
+          <attribute name="defra_rfisch5id" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.25.0.2</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="OVERDUE - Active RFIs or SCH5s" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
