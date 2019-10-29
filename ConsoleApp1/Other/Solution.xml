@@ -6,7 +6,7 @@
       <LocalizedName description="Common Permitting" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.26.0.2</Version>
+    <Version>1.26.0.3</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>defra</UniqueName>
@@ -568,7 +568,7 @@
       </MissingDependency>
       <MissingDependency>
         <Required key="6" type="1" schemaName="defra_applicationcontact" displayName="Application Contact" solution="Active" />
-        <Dependent key="31" type="60" displayName="Waste Permitting" parentDisplayName="Application" id="{eb93fdda-7622-43c7-a13e-ca8184a60f43}" />
+        <Dependent key="31" type="60" displayName="Waste Permitting Form1" parentDisplayName="Application" id="{eb93fdda-7622-43c7-a13e-ca8184a60f43}" />
       </MissingDependency>
       <MissingDependency>
         <Required key="32" type="1" schemaName="lead" displayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
@@ -1956,7 +1956,7 @@
       </MissingDependency>
       <MissingDependency>
         <Required key="218" type="2" schemaName="territoryid" displayName="Territory" parentSchemaName="systemuser" parentDisplayName="User" solution="msdynce_AppCommon (9.0.4.0066)" />
-        <Dependent key="217" type="60" displayName="Information" parentDisplayName="User" id="{c0d7d7dd-afd0-4675-85fe-1cc5a48be6df}" />
+        <Dependent key="219" type="60" displayName="L&amp;P User" parentDisplayName="User" id="{9c1feac1-e006-408d-ae09-b68974216aa0}" />
       </MissingDependency>
       <MissingDependency>
         <Required key="216" type="2" schemaName="siteid" displayName="Site" parentSchemaName="systemuser" parentDisplayName="User" solution="msdynce_Service (9.0.5.56)" />
@@ -1976,7 +1976,7 @@
       </MissingDependency>
       <MissingDependency>
         <Required key="218" type="2" schemaName="territoryid" displayName="Territory" parentSchemaName="systemuser" parentDisplayName="User" solution="msdynce_AppCommon (9.0.4.0066)" />
-        <Dependent key="219" type="60" displayName="L&amp;P User" parentDisplayName="User" id="{9c1feac1-e006-408d-ae09-b68974216aa0}" />
+        <Dependent key="217" type="60" displayName="Information" parentDisplayName="User" id="{c0d7d7dd-afd0-4675-85fe-1cc5a48be6df}" />
       </MissingDependency>
       <MissingDependency>
         <Required key="218" type="2" schemaName="territoryid" displayName="Territory" parentSchemaName="systemuser" parentDisplayName="User" solution="msdynce_AppCommon (9.0.4.0066)" />
@@ -2140,7 +2140,7 @@
       </MissingDependency>
       <MissingDependency>
         <Required key="257" type="10" schemaName="defra_application_defra_applicationcontact_application" displayName="defra_application_defra_applicationcontact_application" parentSchemaName="defra_applicationcontact" parentDisplayName="Application Contact" solution="Active" />
-        <Dependent key="31" type="60" displayName="Waste Permitting" parentDisplayName="Application" id="{eb93fdda-7622-43c7-a13e-ca8184a60f43}" />
+        <Dependent key="31" type="60" displayName="Waste Permitting Form1" parentDisplayName="Application" id="{eb93fdda-7622-43c7-a13e-ca8184a60f43}" />
       </MissingDependency>
       <MissingDependency>
         <Required key="224" type="10" schemaName="defra_application_incident_application" displayName="defra_application_incident_application" parentSchemaName="incident" parentDisplayName="Case" solution="Active" />
@@ -2156,7 +2156,7 @@
       </MissingDependency>
       <MissingDependency>
         <Required key="224" type="10" schemaName="defra_application_incident_application" displayName="defra_application_incident_application" parentSchemaName="incident" parentDisplayName="Case" solution="Active" />
-        <Dependent key="31" type="60" displayName="Waste Permitting" parentDisplayName="Application" id="{eb93fdda-7622-43c7-a13e-ca8184a60f43}" />
+        <Dependent key="31" type="60" displayName="Waste Permitting Form1" parentDisplayName="Application" id="{eb93fdda-7622-43c7-a13e-ca8184a60f43}" />
       </MissingDependency>
       <MissingDependency>
         <Required key="222" type="10" schemaName="defra_application_defra_applicationline" displayName="defra_application_defra_applicationline" parentSchemaName="defra_applicationline" parentDisplayName="Application Line" solution="Active" />
@@ -2164,7 +2164,7 @@
       </MissingDependency>
       <MissingDependency>
         <Required key="222" type="10" schemaName="defra_application_defra_applicationline" displayName="defra_application_defra_applicationline" parentSchemaName="defra_applicationline" parentDisplayName="Application Line" solution="Active" />
-        <Dependent key="31" type="60" displayName="Waste Permitting" parentDisplayName="Application" id="{eb93fdda-7622-43c7-a13e-ca8184a60f43}" />
+        <Dependent key="31" type="60" displayName="Waste Permitting Form1" parentDisplayName="Application" id="{eb93fdda-7622-43c7-a13e-ca8184a60f43}" />
       </MissingDependency>
       <MissingDependency>
         <Required key="222" type="10" schemaName="defra_application_defra_applicationline" displayName="defra_application_defra_applicationline" parentSchemaName="defra_applicationline" parentDisplayName="Application Line" solution="Active" />
@@ -2192,7 +2192,7 @@
       </MissingDependency>
       <MissingDependency>
         <Required key="263" type="10" schemaName="defra_application_defra_addressdetails" displayName="defra_application_defra_addressdetails" parentSchemaName="defra_addressdetails" parentDisplayName="Contact Details" solution="Active" />
-        <Dependent key="31" type="60" displayName="Waste Permitting" parentDisplayName="Application" id="{eb93fdda-7622-43c7-a13e-ca8184a60f43}" />
+        <Dependent key="31" type="60" displayName="Waste Permitting Form1" parentDisplayName="Application" id="{eb93fdda-7622-43c7-a13e-ca8184a60f43}" />
       </MissingDependency>
       <MissingDependency>
         <Required key="263" type="10" schemaName="defra_application_defra_addressdetails" displayName="defra_application_defra_addressdetails" parentSchemaName="defra_addressdetails" parentDisplayName="Contact Details" solution="Active" />
@@ -2216,7 +2216,7 @@
       </MissingDependency>
       <MissingDependency>
         <Required key="226" type="10" schemaName="defra_application_defra_location" displayName="defra_application_defra_location" parentSchemaName="defra_location" parentDisplayName="Location" solution="Active" />
-        <Dependent key="31" type="60" displayName="Waste Permitting" parentDisplayName="Application" id="{eb93fdda-7622-43c7-a13e-ca8184a60f43}" />
+        <Dependent key="31" type="60" displayName="Waste Permitting Form1" parentDisplayName="Application" id="{eb93fdda-7622-43c7-a13e-ca8184a60f43}" />
       </MissingDependency>
       <MissingDependency>
         <Required key="226" type="10" schemaName="defra_application_defra_location" displayName="defra_application_defra_location" parentSchemaName="defra_location" parentDisplayName="Location" solution="Active" />
@@ -2336,7 +2336,7 @@
       </MissingDependency>
       <MissingDependency>
         <Required key="292" type="26" schemaName="Address Lookup View" displayName="Address Lookup View" parentSchemaName="defra_address" parentDisplayName="Address" solution="Active" id="{bc5ed7db-8992-477e-b21d-8240d245cea5}" />
-        <Dependent key="31" type="60" displayName="Waste Permitting" parentDisplayName="Application" id="{eb93fdda-7622-43c7-a13e-ca8184a60f43}" />
+        <Dependent key="31" type="60" displayName="Waste Permitting Form1" parentDisplayName="Application" id="{eb93fdda-7622-43c7-a13e-ca8184a60f43}" />
       </MissingDependency>
       <MissingDependency>
         <Required key="292" type="26" schemaName="Address Lookup View" displayName="Address Lookup View" parentSchemaName="defra_address" parentDisplayName="Address" solution="Active" id="{bc5ed7db-8992-477e-b21d-8240d245cea5}" />
@@ -2376,7 +2376,7 @@
       </MissingDependency>
       <MissingDependency>
         <Required key="295" type="26" schemaName="Active Application Contacts" displayName="Active Application Contacts" parentSchemaName="defra_applicationcontact" parentDisplayName="Application Contact" solution="Active" id="{2ea7e0c1-c70b-4e57-bb43-97c598ba2fed}" />
-        <Dependent key="31" type="60" displayName="Waste Permitting" parentDisplayName="Application" id="{eb93fdda-7622-43c7-a13e-ca8184a60f43}" />
+        <Dependent key="31" type="60" displayName="Waste Permitting Form1" parentDisplayName="Application" id="{eb93fdda-7622-43c7-a13e-ca8184a60f43}" />
       </MissingDependency>
       <MissingDependency>
         <Required key="296" type="26" schemaName="Active Item Application Questions" displayName="Active Item Application Questions" parentSchemaName="defra_item_application_question" parentDisplayName="Item Application Question" solution="Active" id="{ff6a0858-46d4-48cf-bbd8-2aa0bfe0c40f}" />
@@ -2440,7 +2440,7 @@
       </MissingDependency>
       <MissingDependency>
         <Required key="302" type="26" schemaName="Active Locations" displayName="Active Locations" parentSchemaName="defra_location" parentDisplayName="Location" solution="Active" id="{8c375d93-ead3-4034-ad86-27051e638013}" />
-        <Dependent key="31" type="60" displayName="Waste Permitting" parentDisplayName="Application" id="{eb93fdda-7622-43c7-a13e-ca8184a60f43}" />
+        <Dependent key="31" type="60" displayName="Waste Permitting Form1" parentDisplayName="Application" id="{eb93fdda-7622-43c7-a13e-ca8184a60f43}" />
       </MissingDependency>
       <MissingDependency>
         <Required key="302" type="26" schemaName="Active Locations" displayName="Active Locations" parentSchemaName="defra_location" parentDisplayName="Location" solution="Active" id="{8c375d93-ead3-4034-ad86-27051e638013}" />
@@ -2644,7 +2644,7 @@
       </MissingDependency>
       <MissingDependency>
         <Required key="336" type="26" schemaName="Active Application Lines" displayName="Active Application Lines" parentSchemaName="defra_applicationline" parentDisplayName="Application Line" solution="Active" id="{25eee541-d349-4c31-b7cd-81f4bf66dd39}" />
-        <Dependent key="31" type="60" displayName="Waste Permitting" parentDisplayName="Application" id="{eb93fdda-7622-43c7-a13e-ca8184a60f43}" />
+        <Dependent key="31" type="60" displayName="Waste Permitting Form1" parentDisplayName="Application" id="{eb93fdda-7622-43c7-a13e-ca8184a60f43}" />
       </MissingDependency>
       <MissingDependency>
         <Required key="336" type="26" schemaName="Active Application Lines" displayName="Active Application Lines" parentSchemaName="defra_applicationline" parentDisplayName="Application Line" solution="Active" id="{25eee541-d349-4c31-b7cd-81f4bf66dd39}" />
@@ -2912,11 +2912,11 @@
       </MissingDependency>
       <MissingDependency>
         <Required key="364" type="60" displayName="Contact Quick View" parentDisplayName="Contact" solution="Active" id="{c82fe34b-a303-469b-86ad-1903e2c6c572}" />
-        <Dependent key="31" type="60" displayName="Waste Permitting" parentDisplayName="Application" id="{eb93fdda-7622-43c7-a13e-ca8184a60f43}" />
+        <Dependent key="31" type="60" displayName="Waste Permitting Form1" parentDisplayName="Application" id="{eb93fdda-7622-43c7-a13e-ca8184a60f43}" />
       </MissingDependency>
       <MissingDependency>
         <Required key="365" type="60" displayName="Account Quick View" parentDisplayName="Account" solution="Active" id="{84ba3b39-7d48-4812-94fa-0a86deff9595}" />
-        <Dependent key="31" type="60" displayName="Waste Permitting" parentDisplayName="Application" id="{eb93fdda-7622-43c7-a13e-ca8184a60f43}" />
+        <Dependent key="31" type="60" displayName="Waste Permitting Form1" parentDisplayName="Application" id="{eb93fdda-7622-43c7-a13e-ca8184a60f43}" />
       </MissingDependency>
       <MissingDependency>
         <Required key="365" type="60" displayName="Account Quick View" parentDisplayName="Account" solution="Active" id="{84ba3b39-7d48-4812-94fa-0a86deff9595}" />
@@ -3052,7 +3052,7 @@
       </MissingDependency>
       <MissingDependency>
         <Required key="382" type="61" schemaName="defra_/applications/application_form_events.js" displayName="defra_/applications/application_form_events.js" solution="Active" />
-        <Dependent key="31" type="60" displayName="Waste Permitting" parentDisplayName="Application" id="{eb93fdda-7622-43c7-a13e-ca8184a60f43}" />
+        <Dependent key="31" type="60" displayName="Waste Permitting Form1" parentDisplayName="Application" id="{eb93fdda-7622-43c7-a13e-ca8184a60f43}" />
       </MissingDependency>
       <MissingDependency>
         <Required key="382" type="61" schemaName="defra_/applications/application_form_events.js" displayName="defra_/applications/application_form_events.js" solution="Active" />

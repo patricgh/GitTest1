@@ -1559,7 +1559,7 @@
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>
     <LocalizedNames>
-      <LocalizedName description="Waste Permitting" languagecode="1033" />
+      <LocalizedName description="Waste Permitting Form1" languagecode="1033" />
     </LocalizedNames>
   </systemform>
 </forms>
