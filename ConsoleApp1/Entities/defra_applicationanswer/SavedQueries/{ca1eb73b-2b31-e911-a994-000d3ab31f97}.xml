@@ -15,6 +15,7 @@
           <cell name="defra_answer_option" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="defra_answertext" width="200" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="defra_applicationlineid" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="a_f330a918f1f6e811a99d000d3ab31ad6.defra_itemid" width="300" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
         </row>
       </grid>
     </layoutxml>
@@ -33,6 +34,9 @@
           </link-entity>
           <attribute name="defra_answertext" />
           <attribute name="defra_applicationlineid" />
+          <link-entity alias="a_f330a918f1f6e811a99d000d3ab31ad6" name="defra_applicationline" from="defra_applicationlineid" to="defra_applicationlineid" link-type="outer" visible="false">
+            <attribute name="defra_itemid" />
+          </link-entity>
           <attribute name="defra_applicationanswerid" />
         </entity>
       </fetch>

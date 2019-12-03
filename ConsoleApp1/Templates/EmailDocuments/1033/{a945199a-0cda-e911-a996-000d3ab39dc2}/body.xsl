@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" ?><xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"><xsl:output method="text" indent="no"/><xsl:template match="/data"><![CDATA[<p class=MsoNormal>Hello </p>
+﻿<?xml version="1.0" ?><xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"><xsl:output method="text" indent="no"/><xsl:template match="/data"><![CDATA[<table cellpadding=0 cellspacing=0 width="100%" style="font-family:Arial;padding:0px;margin:0px;"><tbody><tr><td style="background-color:rgb(0, 0, 0);"><img alt="Gov.uk Logo" src="https://apply-for-environmental-permit.service.gov.uk/public/images/azure/gov-uk-logo.png"></td></tr><tr class=keyboardFocusClass><td><img width=200 height=57 alt="Environment Agency Logo" src="https://apply-for-environmental-permit.service.gov.uk/public/images/azure/ea_logo_sm.png" style="margin-top:10px;margin-bottom:10px;"></td></tr></tbody></table><p class=MsoNormal>Hello </p>
 
 <p class=MsoNormal>This permitting decision requires your agreement as
 the area regulatory officer.&#160; Agreement

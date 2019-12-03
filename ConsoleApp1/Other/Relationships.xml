@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <EntityRelationship Name="bpf_defra_application_defra_applicationapplyforawastepermit" />
+  <EntityRelationship Name="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116" />
   <EntityRelationship Name="business_unit_defra_activity" />
   <EntityRelationship Name="business_unit_defra_activitytype" />
   <EntityRelationship Name="business_unit_defra_application" />
@@ -21,6 +22,7 @@
   <EntityRelationship Name="business_unit_defra_industryscheme" />
   <EntityRelationship Name="business_unit_defra_item" />
   <EntityRelationship Name="business_unit_defra_itemapplicationtaskdefinition" />
+  <EntityRelationship Name="business_unit_defra_itemsassociated" />
   <EntityRelationship Name="business_unit_defra_itemtype" />
   <EntityRelationship Name="business_unit_defra_managementsystem" />
   <EntityRelationship Name="business_unit_defra_operatingtechnique" />
@@ -82,6 +84,7 @@
   <EntityRelationship Name="defra_defra_application_defra_webdata" />
   <EntityRelationship Name="defra_defra_application_queueitem_application" />
   <EntityRelationship Name="defra_defra_application_subtypes_defra_application_application_subtype" />
+  <EntityRelationship Name="defra_defra_applicationline_defra_applicationline_parentapplicationline" />
   <EntityRelationship Name="defra_defra_applicationline_defra_payment" />
   <EntityRelationship Name="defra_defra_applicationquestion_defra_applicationanswer_question" />
   <EntityRelationship Name="defra_defra_applicationquestion_defra_applicationquestion_applies_if_parent_question" />
@@ -93,6 +96,9 @@
   <EntityRelationship Name="defra_defra_businesstrack_emailsender" />
   <EntityRelationship Name="defra_defra_businesstrack_primaryteamid" />
   <EntityRelationship Name="defra_defra_facility_defra_applicationline" />
+  <EntityRelationship Name="defra_defra_item_defra_item_IncludedAssessments" />
+  <EntityRelationship Name="defra_defra_item_defra_itemsassociated_AssociatedItem" />
+  <EntityRelationship Name="defra_defra_item_defra_itemsassociated_ParentItem" />
   <EntityRelationship Name="defra_defra_itemtype_defra_applicationline_item_type" />
   <EntityRelationship Name="defra_defra_localauthority_defra_application_LocalAuthority" />
   <EntityRelationship Name="defra_defra_localauthority_defra_locationdetails_localauthority" />
@@ -212,6 +218,8 @@
   <EntityRelationship Name="lk_defra_item_modifiedby" />
   <EntityRelationship Name="lk_defra_itemapplicationtaskdefinition_createdby" />
   <EntityRelationship Name="lk_defra_itemapplicationtaskdefinition_modifiedby" />
+  <EntityRelationship Name="lk_defra_itemsassociated_createdby" />
+  <EntityRelationship Name="lk_defra_itemsassociated_modifiedby" />
   <EntityRelationship Name="lk_defra_itemtype_createdby" />
   <EntityRelationship Name="lk_defra_itemtype_modifiedby" />
   <EntityRelationship Name="lk_defra_localauthority_createdby" />
@@ -250,6 +258,10 @@
   <EntityRelationship Name="lk_defra_wastetypedetail_modifiedby" />
   <EntityRelationship Name="lk_defra_webdata_createdby" />
   <EntityRelationship Name="lk_defra_webdata_modifiedby" />
+  <EntityRelationship Name="lk_new_bpf_68ec9639fe8543e9bce8bf01f3a27116_activestageid" />
+  <EntityRelationship Name="lk_new_bpf_68ec9639fe8543e9bce8bf01f3a27116_createdby" />
+  <EntityRelationship Name="lk_new_bpf_68ec9639fe8543e9bce8bf01f3a27116_modifiedby" />
+  <EntityRelationship Name="lk_new_bpf_68ec9639fe8543e9bce8bf01f3a27116_processid" />
   <EntityRelationship Name="lk_slakpiinstancebase_createdby" />
   <EntityRelationship Name="lk_slakpiinstancebase_modifiedby" />
   <EntityRelationship Name="lk_systemuserbase_createdby" />
@@ -258,6 +270,7 @@
   <EntityRelationship Name="MobileOfflineProfile_SystemUser" />
   <EntityRelationship Name="organization_defra_applicationapplyforawastepermit" />
   <EntityRelationship Name="organization_defra_localauthority" />
+  <EntityRelationship Name="organization_new_bpf_68ec9639fe8543e9bce8bf01f3a27116" />
   <EntityRelationship Name="organization_system_users" />
   <EntityRelationship Name="owner_defra_activity" />
   <EntityRelationship Name="owner_defra_activitytype" />
@@ -279,6 +292,7 @@
   <EntityRelationship Name="owner_defra_industryscheme" />
   <EntityRelationship Name="owner_defra_item" />
   <EntityRelationship Name="owner_defra_itemapplicationtaskdefinition" />
+  <EntityRelationship Name="owner_defra_itemsassociated" />
   <EntityRelationship Name="owner_defra_itemtype" />
   <EntityRelationship Name="owner_defra_managementsystem" />
   <EntityRelationship Name="owner_defra_operatingtechnique" />
@@ -340,6 +354,7 @@
   <EntityRelationship Name="team_defra_industryscheme" />
   <EntityRelationship Name="team_defra_item" />
   <EntityRelationship Name="team_defra_itemapplicationtaskdefinition" />
+  <EntityRelationship Name="team_defra_itemsassociated" />
   <EntityRelationship Name="team_defra_itemtype" />
   <EntityRelationship Name="team_defra_managementsystem" />
   <EntityRelationship Name="team_defra_operatingtechnique" />
@@ -382,6 +397,7 @@
   <EntityRelationship Name="user_defra_industryscheme" />
   <EntityRelationship Name="user_defra_item" />
   <EntityRelationship Name="user_defra_itemapplicationtaskdefinition" />
+  <EntityRelationship Name="user_defra_itemsassociated" />
   <EntityRelationship Name="user_defra_itemtype" />
   <EntityRelationship Name="user_defra_managementsystem" />
   <EntityRelationship Name="user_defra_operatingtechnique" />

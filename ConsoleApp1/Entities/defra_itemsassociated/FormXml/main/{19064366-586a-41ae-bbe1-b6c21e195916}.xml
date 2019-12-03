@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{19064366-586a-41ae-bbe1-b6c21e195916}</formid>
+    <IntroducedVersion>1.28.0.1</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{64d2e755-b811-454e-9a5b-00a7a7dfa971}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{f7f7ce79-b0bc-440d-8f7f-148a7fce3949}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{14c31a8c-7b24-4b2b-bbb0-d6096fb5acfa}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="defra_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="defra_name" uniqueid="{b0136a54-dac5-056e-d3d3-7b83ce4670a5}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{796fdbdf-2ac6-4b8f-862c-dda0b3420a83}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6ad13ab4-a860-4c29-6c93-b221ea1c381c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Parent Item" languagecode="1033" />
+                        </labels>
+                        <control id="defra_parentitem" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="defra_parentitem" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a658ed4e-7b79-18b7-0663-be6d273c6659}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Associated Item" languagecode="1033" />
+                        </labels>
+                        <control id="defra_associateditem" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="defra_associateditem" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

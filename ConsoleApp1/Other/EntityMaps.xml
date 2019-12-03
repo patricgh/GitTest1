@@ -35,6 +35,16 @@
     </AttributeMaps>
   </EntityMap>
   <EntityMap>
+    <EntitySource>defra_item</EntitySource>
+    <EntityTarget>defra_applicationline</EntityTarget>
+    <AttributeMaps>
+      <AttributeMap>
+        <AttributeSource>defra_name</AttributeSource>
+        <AttributeTarget>defra_name</AttributeTarget>
+      </AttributeMap>
+    </AttributeMaps>
+  </EntityMap>
+  <EntityMap>
     <EntitySource>defra_permit</EntitySource>
     <EntityTarget>defra_application</EntityTarget>
     <AttributeMaps>

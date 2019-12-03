@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" ?><xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"><xsl:output method="text" indent="no"/><xsl:template match="/data"><![CDATA[<table cellpadding=0 cellspacing=0 width="100%" style="font-family:Arial;padding:0px;margin:0px;"><tbody><tr><td style="background-color:rgb(0, 0, 0);"><img alt="Gov.uk Logo" src="https://apply-for-environmental-permit.service.gov.uk/public/images/azure/gov-uk-logo.png"></td></tr><tr class=keyboardFocusClass><td><img width=200 height=57 alt="Environment Agency Logo" src="https://apply-for-environmental-permit.service.gov.uk/public/images/azure/ea_logo_sm.png" style="margin-top:10px;margin-bottom:10px;"></td></tr></tbody></table><table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 style="border-collapse:collapse;">
+ <tbody><tr class=keyboardFocusClass>
+  <td width=308 valign=top style="width:231.05pt;padding:0cm 5.4pt 0cm 5.4pt;">
+  <p class=MsoEndnoteText style="line-height:115%;"><span lang=EN-US style="font-size:11.0pt;line-height:115%;">&#160;</span></p>
+  <p class=MsoEndnoteText style="line-height:115%;"><span lang=EN-US style="font-size:11.0pt;line-height:115%;">&#160;</span></p>
+  <p class=MsoEndnoteText style="line-height:115%;"><a name=RecipientsName></a><span lang=EN-US style="font-size:11.0pt;line-height:115%;color:red;">Name</span></p>
+  <p class=MsoEndnoteText style="line-height:115%;"><a name=Address1></a><span lang=EN-US style="font-size:11.0pt;line-height:115%;color:red;">address line 1</span></p>
+  <p class=MsoEndnoteText style="line-height:115%;"><a name=Address2></a><span lang=EN-US style="font-size:11.0pt;line-height:115%;color:red;">address line 2</span></p>
+  <p class=MsoEndnoteText style="line-height:115%;"><a name=Address3></a><span lang=EN-US style="font-size:11.0pt;line-height:115%;color:red;">address line 3</span></p>
+  <p class=MsoEndnoteText style="line-height:115%;"><a name=Address4></a><span lang=EN-US style="font-size:11.0pt;line-height:115%;color:red;">address line 4</span></p>
+  <p class=MsoEndnoteText style="line-height:115%;"><a name=Address5></a><span lang=EN-US style="font-size:11.0pt;line-height:115%;color:red;">address line 5</span></p>
+  <p class=MsoEndnoteText style="line-height:115%;"><a name=Address6></a><span lang=EN-US style="font-size:11.0pt;line-height:115%;">&#160;</span></p>
+  <p class=MsoEndnoteText style="line-height:115%;"><a name=RecordedDelivery></a></p></td><td width=308 valign=top style="width:231.05pt;padding:0cm 5.4pt 0cm 5.4pt;"><p class=MsoEndnoteText style="line-height:115%;"><b><span lang=EN-US style="font-size:11.0pt;line-height:115%;">&#160;</span></b></p>
+  <p class=MsoEndnoteText style="line-height:115%;"><b><span lang=EN-US style="font-size:11.0pt;line-height:115%;">&#160;</span></b></p>
+  <p class=MsoEndnoteText style="line-height:115%;"><b><span lang=EN-US style="font-size:11.0pt;line-height:115%;">Our ref:</span></b></p>
+  <p class=MsoEndnoteText style="line-height:115%;"><a name=OurRef></a><b><span lang=EN-US style="font-size:11.0pt;line-height:115%;">Your
+  ref:</span></b></p>
+  <p class=MsoEndnoteText style="line-height:115%;"><span lang=EN-US style="font-size:11.0pt;line-height:115%;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <a name=YourRef></a></span></p>
+  <p class=MsoEndnoteText style="line-height:115%;"><span lang=EN-US style="font-size:11.0pt;line-height:115%;">&#160;</span></p>
+  <p class=MsoEndnoteText style="line-height:115%;"><b><span lang=EN-US style="font-size:11.0pt;line-height:115%;">Date:&#160;&#160; </span></b><span lang=EN-US style="font-size:11.0pt;line-height:115%;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <a name=LetterDate></a></span></p>
+  <p class=MsoEndnoteText style="line-height:115%;"><span lang=EN-US style="font-size:11.0pt;line-height:115%;">&#160;</span></p>
+  <p class=MsoEndnoteText style="line-height:115%;"><span lang=EN-US style="font-size:11.0pt;line-height:115%;">&#160;</span></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class=MsoEndnoteText style="line-height:115%;"><span lang=EN-US style="font-size:11.0pt;line-height:115%;">&#160;</span></p>
+
+<p class="MsoEndnoteText keyboardFocusClass" style="line-height:115%;"><span lang=EN-US style="font-size:11.0pt;line-height:115%;" class="">Dear <a name=Dear></a><span style="color:red;">]]><xsl:choose><xsl:when test="defra_application/defra_primarycontactid/@name"><xsl:value-of select="defra_application/defra_primarycontactid/@name" /></xsl:when><xsl:otherwise></xsl:otherwise></xsl:choose><![CDATA[&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </span></span></p>
+
+<p class=MsoEndnoteText style="line-height:115%;"><br></p>
+
+<p class=MsoEndnoteText style="line-height:115%;"><a name=SubjectHeading></a><b><span lang=EN-US style="font-size:11.0pt;line-height:115%;">We need
+more information about your application <span style="color:red;">and/or</span>
+Underpayment of application charge</span></b></p>
+
+<p class=MsoEndnoteText style="line-height:115%;"><b><span lang=EN-US style="font-size:11.0pt;line-height:115%;">&#160;</span></b></p>
+
+<p class=MsoEndnoteText style="line-height:115%;"><b><span lang=EN-US style="font-size:11.0pt;line-height:115%;">Application reference: ]]><xsl:choose><xsl:when test="defra_application/defra_applicationnumber"><xsl:value-of select="defra_application/defra_applicationnumber" /></xsl:when><xsl:otherwise></xsl:otherwise></xsl:choose><![CDATA[</span></b></p>
+
+<p class=MsoEndnoteText style="line-height:115%;"><b><span lang=EN-US style="font-size:11.0pt;line-height:115%;">Operator: ]]><xsl:choose><xsl:when test="defra_application/defra_customerid/@name"><xsl:value-of select="defra_application/defra_customerid/@name" /></xsl:when><xsl:otherwise></xsl:otherwise></xsl:choose><![CDATA[</span></b></p>
+
+<p class=MsoEndnoteText style="line-height:115%;"><b><span lang=EN-US style="font-size:11.0pt;line-height:115%;">Facility: ]]><xsl:choose><xsl:when test="defra_application/defra_site_description"><xsl:value-of select="defra_application/defra_site_description" /></xsl:when><xsl:otherwise></xsl:otherwise></xsl:choose><![CDATA[</span></b></p>
+
+<p class=MsoEndnoteText style="line-height:115%;"><span lang=EN-US style="font-size:11.0pt;line-height:115%;color:red;">&#160;</span></p>
+
+<p class=MsoEndnoteText style="line-height:115%;"><span lang=EN-US style="font-size:11.0pt;line-height:115%;" class=keyboardFocusClass>Thank you for your application received on<span style="color:red;"> </span><span style="color:fuchsia;">]]><xsl:choose><xsl:when test="defra_application/defra_submittedon"><xsl:value-of select="defra_application/defra_submittedon" /></xsl:when><xsl:otherwise></xsl:otherwise></xsl:choose><![CDATA[</span>. <span style="color:red;">The following is to
+confirm our conversation of</span><span style="color:fuchsia;"> state date</span><span style="color:red;">.</span></span><span style="color:fuchsia;font-size:11pt;">&#160;</span></p>
+
+<p class=MsoEndnoteText style="line-height:115%;"><u><span lang=EN-US style="font-size:11.0pt;line-height:115%;color:fuchsia;">Where the payment is insufficient</span></u></p>
+
+<p class="MsoNormal keyboardFocusClass"><span lang=EN-US style="font-size:11.0pt;">Unfortunately the application payment you sent
+is incorrect. The correct application charge is £ <span style="color:fuchsia;">insert
+amount. </span>This leaves a </span><a name=OLE_LINK2></a><a name=OLE_LINK1><span style="font-size:11.0pt;">balance of £</span></a><span style="font-size:11.0pt;color:fuchsia;"> <span lang=EN-US>insert amount</span></span><span style="font-size:11.0pt;"> to pay. </span></p>
+
+
+
+<p class=MsoEndnoteText style="line-height:115%;"><u><span lang=EN-US style="font-size:11.0pt;line-height:115%;color:fuchsia;">Where information is missing</span></u><br></p>
+
+<p class=MsoEndnoteText style="line-height:115%;"><span lang=EN-US style="font-size:11.0pt;line-height:115%;">I need to ask you for some missing information before I can do any more
+work on your application. Please provide us with more information to <span style="color:red;">question/the following questions</span><span style="color:fuchsia;"> insert Form part and question numbers</span>. We need to
+know<span style="color:fuchsia;"> Explain what extra details we need. </span></span></p>
+
+<p class=MsoEndnoteText style="line-height:115%;"><span style="color:fuchsia;font-size:11pt;">The following are examples of situations where the
+missing information requires an additional payment to assess. Adapt the
+suggested text to suit the situation as necessary as necessary:</span><br></p>
+
+<p class=MsoEndnoteText style="margin-left:36.0pt;text-indent:-18.0pt;"><span lang=EN-US style="font-size:11.0pt;font-family:Symbol;color:red;">·<span style="font-stretch:normal;font-size:7pt;line-height:normal;font-family:&quot;Times New Roman&quot;;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+</span></span><span lang=EN-US style="font-size:11.0pt;color:red;">Your application requires an assessment
+under the Habitats Regulations. The charge for this assessment is not included
+in your baseline application charge. You will therefore need to make an
+additional payment of £779.</span><span style="color:red;font-size:11pt;">&#160;</span></p>
+
+<p class=MsoEndnoteText style="margin-left:36.0pt;text-indent:-18.0pt;"><span lang=EN-US style="font-size:11.0pt;font-family:Symbol;color:red;">·<span style="font-stretch:normal;font-size:7pt;line-height:normal;font-family:&quot;Times New Roman&quot;;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+</span></span><span lang=EN-US style="font-size:11.0pt;color:red;">You need to send us an Odour Management
+Plan. This should meet the requirements of our H4 Guidance (</span><a href="https://www.gov.uk/government/publications/environmental-permitting-h4-odour-management"><span lang=EN-US style="font-size:11.0pt;">https://www.gov.uk/government/publications/environmental-permitting-h4-odour-management</span></a><span lang=EN-US style="font-size:11.0pt;color:red;">). The charge
+for our assessment of your plan is not included in your baseline application
+charge. You will therefore need to make an additional payment &#160;of £1,246.</span><span style="color:red;font-size:11pt;">&#160;</span></p>
+
+<p class=MsoEndnoteText style="margin-left:36.0pt;text-indent:-18.0pt;"><span lang=EN-US style="font-size:11.0pt;font-family:Symbol;color:red;">·<span style="font-stretch:normal;font-size:7pt;line-height:normal;font-family:&quot;Times New Roman&quot;;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+</span></span><span lang=EN-US style="font-size:11.0pt;color:red;">You need to send us an Noise and Vibration
+Management Plan. This should meet the requirements of our Horizontal Guidance
+for Noise Part 2 – Noise Assessment and Control (</span><a href="https://www.gov.uk/government/publications/environmental-permitting-h3-part-2-noise-assessment-and-control"><span lang=EN-US style="font-size:11.0pt;">https://www.gov.uk/government/publications/environmental-permitting-h3-part-2-noise-assessment-and-control</span></a><span lang=EN-US style="font-size:11.0pt;color:red;">). The
+charge for our assessment of your plan is not included in your baseline
+application charge. You will therefore need to make an additional payment of £1,246.</span><span style="color:red;font-size:11pt;">&#160;</span></p>
+
+<p class=MsoEndnoteText style="margin-left:36.0pt;text-indent:-18.0pt;"><span lang=EN-US style="font-size:11.0pt;font-family:Symbol;color:red;">·<span style="font-stretch:normal;font-size:7pt;line-height:normal;font-family:&quot;Times New Roman&quot;;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+</span></span><span lang=EN-US style="font-size:11.0pt;color:fuchsia;">Intensive Farming only </span><span lang=EN-US style="font-size:11.0pt;color:red;">You need
+to send us an Ammonia Modelling Assessment that meets the requirements of our
+guidance on detailed modelling&#160; (</span><a href="https://www.gov.uk/guidance/environmental-permitting-air-dispersion-modelling-reports"><span lang=EN-US style="font-size:11.0pt;">https://www.gov.uk/guidance/environmental-permitting-air-dispersion-modelling-reports</span></a><span lang=EN-US style="font-size:11.0pt;color:red;">). The
+charge for our assessment of your modelling is not included in your baseline
+application charge. You will therefore need to make an additional payment of
+£620.</span><span style="color:red;font-size:11pt;">&#160;</span></p>
+
+<p class=MsoEndnoteText style="margin-left:36.0pt;text-indent:-18.0pt;"><span lang=EN-US style="font-size:11.0pt;font-family:Symbol;color:fuchsia;">·<span style="font-stretch:normal;font-size:7pt;line-height:normal;font-family:&quot;Times New Roman&quot;;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+</span></span><span lang=EN-US style="font-size:11.0pt;color:fuchsia;">Intensive Farming only </span><span lang=EN-US style="font-size:11.0pt;color:red;">You need
+to send us a Dust and Bio-aerosol Management Plan in line with our guidance &#160;(</span><a href="https://www.gov.uk/guidance/intensive-farming-risk-assessment-for-your-environmental-permit#air-emissions-dust-and-bioaerosols"><span lang=EN-US style="font-size:11.0pt;">https://www.gov.uk/guidance/intensive-farming-risk-assessment-for-your-environmental-permit#air-emissions-dust-and-bioaerosols</span></a><span lang=EN-US style="font-size:11.0pt;color:red;">). The
+charge for our assessment of this plan is not included in your baseline
+application charge. You will therefore need to make an additional payment of £620.</span><span style="color:fuchsia;font-size:11pt;">&#160;</span></p>
+
+<p class=MsoEndnoteText style="margin-left:36.0pt;text-indent:-18.0pt;"><span lang=EN-US style="font-size:11.0pt;font-family:Symbol;color:red;">·<span style="font-stretch:normal;font-size:7pt;line-height:normal;font-family:&quot;Times New Roman&quot;;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+</span></span><span lang=EN-US style="font-size:11.0pt;color:red;">You need to send us a Bio-aerosol Risk
+Assessment. This should meet the requirements of our M9 Position Statement (</span><a href="https://www.gov.uk/government/publications/bioaerosol-monitoring-at-regulated-facilities-use-of-m9-rps-209/bioaerosol-monitoring-at-regulated-facilities-use-of-m9-rps-209"><span lang=EN-US style="font-size:11.0pt;">https://www.gov.uk/government/publications/bioaerosol-monitoring-at-regulated-facilities-use-of-m9-rps-209/bioaerosol-monitoring-at-regulated-facilities-use-of-m9-rps-209</span></a><span lang=EN-US style="font-size:11.0pt;color:red;">).</span><span lang=EN-US> </span><span lang=EN-US style="font-size:11.0pt;color:red;">This must show that the process and/or abatement
+measures adequately prevent, or where this is not possible, significantly
+reduce the risk of bio-aerosols release. It must show that the resulting
+activity will be unlikely to expose the nearest sensitive receptor to elevated
+concentrations of bio-aerosols.</span><span style="color:red;font-size:11pt;">&#160;</span></p>
+
+<p class=MsoEndnoteText style="margin-left:36.0pt;"><span lang=EN-US style="font-size:11.0pt;color:red;">The detail and level
+of risk assessment must be site specific, process and location dependant. You
+must have measures and process controls in place to control and minimise the
+risks identified. These must be clearly stated in your assessment.&#160; The charge for our assessment of your Risk
+Assessment is not included in your baseline application charge. You will
+therefore need to make an additional payment of £1,241.</span><span style="color:red;font-size:11pt;">&#160;</span></p>
+
+<p class=MsoEndnoteText style="margin-left:36.0pt;text-indent:-18.0pt;"><span lang=EN-US style="font-size:11.0pt;font-family:Symbol;color:red;">·<span style="font-stretch:normal;font-size:7pt;line-height:normal;font-family:&quot;Times New Roman&quot;;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+</span></span><span lang=EN-US style="font-size:11.0pt;color:red;">You need to send us a Fire Prevention Plan.
+This should meet the requirements of our guidance on fire prevention plans:
+environmental permits (</span><a href="https://www.gov.uk/government/publications/fire-prevention-plans-environmental-permits/fire-prevention-plans-environmental-permits"><span lang=EN-US style="font-size:11.0pt;">https://www.gov.uk/government/publications/fire-prevention-plans-environmental-permits/fire-prevention-plans-environmental-permits</span></a><span lang=EN-US style="font-size:11.0pt;color:red;">). The
+charge for our assessment of your plan is not included in your baseline
+application charge. You will therefore need to make an additional payment of £1,241.</span><span style="color:red;font-size:11pt;">&#160;</span></p>
+
+<p class=MsoEndnoteText style="margin-left:36.0pt;text-indent:-18.0pt;"><span lang=EN-US style="font-size:11.0pt;font-family:Symbol;color:red;">·<span style="font-stretch:normal;font-size:7pt;line-height:normal;font-family:&quot;Times New Roman&quot;;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+</span></span><span lang=EN-US style="font-size:11.0pt;color:red;">You need to send us a Pest Management Plan.
+This should explain how you’ll prevent or minimise pests in line with our
+guidance control and monitor emissions for your environmental permit (</span><a href="https://www.gov.uk/guidance/control-and-monitor-emissions-for-your-environmental-permit#pests"><span lang=EN-US style="font-size:11.0pt;">https://www.gov.uk/guidance/control-and-monitor-emissions-for-your-environmental-permit#pests</span></a><span lang=EN-US style="font-size:11.0pt;color:red;">). The
+charge for our assessment of your plan is not included in your baseline
+application charge. You will therefore need to make an additional payment of £1,241.</span><span style="color:red;font-size:11pt;">&#160;</span></p>
+
+<p class=MsoEndnoteText style="margin-left:36.0pt;text-indent:-18.0pt;"><span lang=EN-US style="font-size:11.0pt;font-family:Symbol;color:fuchsia;">·<span style="font-stretch:normal;font-size:7pt;line-height:normal;font-family:&quot;Times New Roman&quot;;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+</span></span><span lang=EN-US style="font-size:11.0pt;color:red;">You need to send us a Dust Management Plan.
+This should explain how you’ll prevent or minimise dust in line with our
+guidance control and monitor emissions for your environmental permit (</span><a href="https://www.gov.uk/guidance/control-and-monitor-emissions-for-your-environmental-permit#emissions-that-do-not-have-set-limits"><span lang=EN-US style="font-size:11.0pt;">https://www.gov.uk/guidance/control-and-monitor-emissions-for-your-environmental-permit#emissions-that-do-not-have-set-limits</span></a><span lang=EN-US style="font-size:11.0pt;color:red;">). The
+charge for our assessment of your plan is not included in your baseline
+application charge. You will therefore need to make an additional payment of £1,241.</span><span style="color:fuchsia;font-size:11pt;">&#160;</span></p>
+
+<p class=MsoEndnoteText style="margin-left:36.0pt;text-indent:-18.0pt;"><span lang=EN-US style="font-size:11.0pt;font-family:Symbol;color:red;">·<span style="font-stretch:normal;font-size:7pt;line-height:normal;font-family:&quot;Times New Roman&quot;;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+</span></span><span lang=EN-US style="font-size:11.0pt;color:red;">You need to send us a Waste Recovery Plan
+that meets the requirements of our guidance on waste recovery plans and permits
+(</span><a href="https://www.gov.uk/guidance/waste-recovery-plans-and-permits"><span lang=EN-US style="font-size:11.0pt;">https://www.gov.uk/guidance/waste-recovery-plans-and-permits</span></a><span lang=EN-US style="font-size:11.0pt;color:red;">). The
+charge for our assessment of your plan is not included in your baseline
+application charge. You will therefore need to make an additional payment of £1,231.
+Please note that every time you make any changes to your recovery plan that
+require our assessment we will need to charge this amount. </span></p>
+
+<p class=MsoEndnoteText style="line-height:115%;"><span lang=EN-US style="font-size:11.0pt;line-height:115%;color:fuchsia;">&#160;</span></p>
+
+<p class=MsoEndnoteText style="line-height:115%;"><span lang=EN-US style="font-size:11.0pt;line-height:115%;">Please send the information, quoting the above application reference,
+to:<span style="color:fuchsia;"></span></span></p>
+
+<p class=MsoNormal style="margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;margin-left:0cm;line-height:115%;"><span style="font-size:11.0pt;line-height:115%;">Email address: <span style="color:fuchsia;">For waste or installations</span>
+</span><a href="mailto:psc@environment-agency.gov.uk"><span style="font-size:11.0pt;line-height:115%;">psc@environment-agency.gov.uk</span></a><span style="font-size:11.0pt;line-height:115%;">. <span style="color:fuchsia;">For
+water discharges and groundwater activities</span><u><span style="color:blue;"> </span></u></span><a href="mailto:PSC-waterquality@environment-agency.gov.uk"><span style="font-size:11.0pt;line-height:115%;">PSC-waterquality@environment-agency.gov.uk</span></a><span style="font-size:11.0pt;line-height:115%;"></span></p>
+
+<p class=MsoNormal style="line-height:115%;"><span style="font-size:11.0pt;line-height:115%;">&#160;</span></p>
+
+<p class=MsoNormal style="line-height:115%;"><span style="font-size:11.0pt;line-height:115%;">Postal address:</span></p>
+
+<p class=MsoNormal style="line-height:115%;"><span style="font-size:11.0pt;line-height:115%;">Permitting and Support Centre</span></p>
+
+<p class=MsoNormal style="line-height:115%;"><span style="font-size:11.0pt;line-height:115%;">Quadrant 2</span></p>
+
+<p class=MsoNormal style="line-height:115%;"><span style="font-size:11.0pt;line-height:115%;">99 Parkway Avenue</span></p>
+
+<p class=MsoNormal style="line-height:115%;"><span style="font-size:11.0pt;line-height:115%;">Parkway Business Park</span></p>
+
+<p class=MsoNormal style="line-height:115%;"><span style="font-size:11.0pt;line-height:115%;">Sheffield</span></p>
+
+<p class=MsoNormal style="line-height:115%;"><span style="font-size:11.0pt;line-height:115%;">S9 4WF</span></p>
+
+<p class=MsoEndnoteText style="line-height:115%;"><u><span lang=EN-US style="font-size:11.0pt;line-height:115%;color:fuchsia;"><br></span></u></p><p class=MsoEndnoteText style="line-height:115%;"><u><span lang=EN-US style="font-size:11.0pt;line-height:115%;color:fuchsia;">For all applications</span></u><br></p>
+
+<p class=MsoEndnoteText style="line-height:115%;"><span lang=EN-US style="font-size:11.0pt;line-height:115%;">Please send the <span style="color:red;">information and/or payment</span>
+<span style="color:fuchsia;">delete as applicable</span> within 10 working days
+of this letter. </span><span style="font-size:11.0pt;line-height:115%;color:red;">Details of how to pay are given in Part F
+of the application form.</span><span style="font-size:11.0pt;line-height:115%;color:fuchsia;"> (Include if we’re asking for
+additional payments). </span><span style="font-size:11.0pt;line-height:115%;">I</span><span lang=EN-US style="font-size:11.0pt;line-height:115%;">f we don’t
+hear from you, we must return your application. </span></p>
+
+<p class=MsoEndnoteText style="line-height:115%;"><span style="font-size:11pt;line-height:115%;">When we receive the
+requested </span><span style="font-size:11pt;line-height:115%;color:red;">information and/or payment</span><span style="font-size:11pt;line-height:115%;">, we’ll
+continue to check your application. We’ll check to see if there’s enough
+information for the application to be ‘duly made’. Duly made means that we have
+all the information we need to begin determination. Determination is where we
+assess your application and decide if we can allow what you’ve asked for.</span><br></p>
+
+<p class="MsoNormal keyboardFocusClass" style="line-height:115%;"><span style="font-size:11pt;">We’ll let you know by
+letter whether your application can be duly made. If it can’t be duly made,
+we’ll return your application to you.</span><br></p>
+
+<p class=MsoNormal style="line-height:115%;"><u><span lang=EN-US style="font-size:11.0pt;line-height:115%;color:fuchsia;">Include if an application payment has been received</span></u><span lang=EN-US style="font-size:11pt;line-height:115%;color:fuchsia;">.</span><br></p>
+
+<p class=MsoNormal style="line-height:115%;"><span lang=EN-US style="font-size:11.0pt;line-height:115%;color:red;">If we do have to return your application we’ll send you a partial refund
+of your application payment. We’ll retain 20% of the application charge to
+cover our costs</span><span lang=EN-US style="font-size:11.0pt;line-height:115%;"> </span><span style="font-size:11.0pt;line-height:115%;color:red;">in </span><span style="font-size:11.0pt;line-height:115%;color:red;">reviewing
+your application and requesting information</span><span lang=EN-US style="font-size:11.0pt;line-height:115%;color:red;">. This maximum amount we’ll retain is capped at
+£1,500. Further information on charging can be found at:</span><span lang=EN-US style="font-size:11.0pt;line-height:115%;"> </span><a href="https://www.gov.uk/government/publications/environmental-permitting-ep-charges-scheme-april-2014-to-march-2015"><span style="font-size:11.0pt;line-height:115%;">https://www.gov.uk/government/publications/environmental-permitting-ep-charges-scheme</span></a><span lang=EN-US style="font-size:11.0pt;line-height:115%;color:red;"></span></p>
+
+<p class=MsoNormal style="line-height:115%;"><span style="color:fuchsia;font-size:11pt;">If commercial confidentiality claimed</span><br></p><p class=MsoNormal style="line-height:115%;"><span lang=EN-US style="font-size:11.0pt;line-height:115%;"></span></p>
+
+<p class=MsoEndnoteText style="line-height:115%;"><span lang=EN-US style="font-size:11.0pt;line-height:115%;color:red;">We’ll assess your claim for confidentiality once your
+application is duly made. </span></p>
+
+<p class=MsoEndnoteText style="line-height:115%;"><span style="font-size:11pt;">If you have any questions please phone me on </span><span style="font-size:11pt;color:red;">number</span><span style="font-size:11pt;">
+or email </span><span style="font-size:11pt;color:red;">name</span><span style="font-size:11pt;">@environment-agency.gov.uk.</span><br></p>
+
+<p class=MsoEndnoteText style="line-height:115%;"><span lang=EN-US style="font-size:11.0pt;line-height:115%;">&#160;</span></p>
+
+<p class=MsoEndnoteText style="line-height:115%;"><a name=Closing></a><span lang=EN-US style="font-size:11.0pt;line-height:115%;">Yours sincerely</span></p>
+
+<p class=MsoEndnoteText style="line-height:115%;"><br></p>
+
+<p class=MsoEndnoteText><a name=SignatoryName></a><b><span lang=EN-US style="font-size:11.0pt;color:red;">Signatory name here</span></b></p>
+
+<p class=MsoEndnoteText><a name=SignatoryTitle></a><b><span lang=EN-US style="font-size:11.0pt;color:red;">Signatory title here</span></b></p>
+
+<p class=MsoEndnoteText>&#160;<br></p><font face="Tahoma, Verdana, Arial" size=2 style="display:inline;"></font>]]></xsl:template></xsl:stylesheet>

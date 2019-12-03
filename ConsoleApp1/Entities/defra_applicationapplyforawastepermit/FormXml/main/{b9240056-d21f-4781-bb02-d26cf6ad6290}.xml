@@ -7,120 +7,120 @@
     <FormActivationState>1</FormActivationState>
     <form>
       <tabs>
-        <tab verticallayout="true" id="{ff115809-c327-43a3-b516-69a70c58ca69}" name="StageStep3" locklevel="0" expanded="true" visible="false">
+        <tab verticallayout="true" id="{ff115809-c327-43a3-b516-69a70c58ca69}" name="StageStep3" locklevel="0" expanded="true" visible="false" labelid="{dd9b194f-0177-4131-8c48-cac351cb88b5}">
           <labels>
-            <label description="" languagecode="1033" />
+            <label description="Admin Checks" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{ff115809-c327-43a3-b516-69a70c58ca69}" name="StageStep3_section1">
+                <section showbar="false" columns="1" id="{ff115809-c327-43a3-b516-69a70c58ca69}" name="StageStep3_section1" labelid="{fc161dce-01b0-4754-8648-2fa73d1c4d5a}">
                   <labels>
-                    <label description="" languagecode="1033" />
+                    <label description="Admin Checks" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{7f1d7c11-3881-4b3f-a00b-b0be772cbc8d}" showlabel="true" visible="true">
+                      <cell id="{7f1d7c11-3881-4b3f-a00b-b0be772cbc8d}" showlabel="true" visible="true" labelid="{866b5679-6827-45dc-9e46-49d8e8469ae3}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Admin checks started on" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_adminchecksstartedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_adminchecksstartedon" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_adminchecksstartedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_adminchecksstartedon" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{f34428e1-362e-4054-a078-da944a2a9347}" showlabel="true" visible="true">
+                      <cell id="{f34428e1-362e-4054-a078-da944a2a9347}" showlabel="true" visible="true" labelid="{9c7bc503-4354-467d-9bf7-ef7924d51cce}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Payment Required" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_payment_required" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="defra_payment_required" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_payment_required" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="defra_payment_required" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{31e2d792-8972-4108-92bb-29da956aa3dc}" showlabel="true" visible="true">
+                      <cell id="{31e2d792-8972-4108-92bb-29da956aa3dc}" showlabel="true" visible="true" labelid="{e366462d-ec2a-4074-9758-97595b4b80ee}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Area Team" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_area" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="defra_area" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_area" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="defra_area" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{bdb95c34-c354-43ff-b2fc-b982c9a1bd51}" showlabel="true" visible="true">
+                      <cell id="{bdb95c34-c354-43ff-b2fc-b982c9a1bd51}" showlabel="true" visible="true" labelid="{fe0c1c07-024f-40b5-a021-71d496e5ed8a}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Pre-app system" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_external_system" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="defra_external_system" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_external_system" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="defra_external_system" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{e3f1a263-bfa1-4e04-8ee5-dcd45040fb7d}" showlabel="true" visible="true">
+                      <cell id="{e3f1a263-bfa1-4e04-8ee5-dcd45040fb7d}" showlabel="true" visible="true" labelid="{27072b35-0ed3-4e3b-9cf6-b304eeda4a88}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Pre-app Reference" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_external_system_reference" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="defra_external_system_reference" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_external_system_reference" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="defra_external_system_reference" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{fc987222-4601-464f-8847-4b0abcfb0d41}" showlabel="true" visible="true">
+                      <cell id="{fc987222-4601-464f-8847-4b0abcfb0d41}" showlabel="true" visible="true" labelid="{41a5e16f-dd28-4efe-b5d5-14ca1ddd732c}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Local Authority" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_localauthority" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="defra_localauthority" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_localauthority" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="defra_localauthority" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{5f7b1744-79f2-4587-be35-9a15e42a9c5d}" showlabel="true" visible="true">
+                      <cell id="{5f7b1744-79f2-4587-be35-9a15e42a9c5d}" showlabel="true" visible="true" labelid="{75d7c969-e1c3-49a4-a2ba-8b6746fa2dc2}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Intelligence Checks Required" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_intel_checks_required" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="defra_intel_checks_required" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_intel_checks_required" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="defra_intel_checks_required" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{14472af8-7fcf-4f5b-a067-645a57327197}" showlabel="true" visible="true">
+                      <cell id="{14472af8-7fcf-4f5b-a067-645a57327197}" showlabel="true" visible="true" labelid="{c87195a9-79b7-4d15-b11b-92278e35035a}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Location Screening Result" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_screeningstatus" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="defra_screeningstatus" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_screeningstatus" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="defra_screeningstatus" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{72114faf-b7c9-42d8-a199-b118b523a647}" showlabel="true" visible="true">
+                      <cell id="{72114faf-b7c9-42d8-a199-b118b523a647}" showlabel="true" visible="true" labelid="{fc3d42a5-4c37-4dd1-b4a1-6050336fd015}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Location screening report uploaded" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_reportuploaded" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="defra_reportuploaded" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_reportuploaded" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="defra_reportuploaded" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{f9103fc1-0094-4a31-a25d-5d6beb376067}" showlabel="true" visible="true">
+                      <cell id="{f9103fc1-0094-4a31-a25d-5d6beb376067}" showlabel="true" visible="true" labelid="{899b746f-769a-44df-ad73-1a5779c0767c}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Location Screening Date" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_screeningcompletedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_screeningcompletedon" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_screeningcompletedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_screeningcompletedon" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{2e9eec15-e3c2-4630-a640-db9faea0d112}" showlabel="true" visible="true">
+                      <cell id="{2e9eec15-e3c2-4630-a640-db9faea0d112}" showlabel="true" visible="true" labelid="{ab0aceaa-dc36-4577-b8a7-35dbd61250ab}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Admin checks completed?" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_admincheckscompleted" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="defra_admincheckscompleted" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_admincheckscompleted" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="defra_admincheckscompleted" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="true" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{8611cf8a-f8a5-42b6-b4cf-0c32a46029ed}" showlabel="true" visible="true">
+                      <cell id="{8611cf8a-f8a5-42b6-b4cf-0c32a46029ed}" showlabel="true" visible="true" labelid="{e2c4a1cd-0b54-4425-b077-fb89a361d57c}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Admin checks completed on" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_adminchecksfinishedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_adminchecksfinishedon" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_adminchecksfinishedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_adminchecksfinishedon" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{87d3212a-7f0d-4496-b348-bc7f6ac3759c}" showlabel="true" visible="true">
+                      <cell id="{87d3212a-7f0d-4496-b348-bc7f6ac3759c}" showlabel="true" visible="true" labelid="{f512789b-92c6-4be2-aa4b-cb8b8db7ddc8}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Admin checks completed by" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_admincheckscompletedby" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="defra_admincheckscompletedby" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_admincheckscompletedby" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="defra_admincheckscompletedby" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -129,104 +129,104 @@
             </column>
           </columns>
         </tab>
-        <tab verticallayout="true" id="{49808a20-cfca-44da-bbdb-cca22df16a30}" name="StageStep32" locklevel="0" expanded="true" visible="false">
+        <tab verticallayout="true" id="{49808a20-cfca-44da-bbdb-cca22df16a30}" name="StageStep32" locklevel="0" expanded="true" visible="false" labelid="{b80be7e3-1b7c-4b53-b837-239d46b26297}">
           <labels>
-            <label description="" languagecode="1033" />
+            <label description="Intelligence Checks" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{49808a20-cfca-44da-bbdb-cca22df16a30}" name="StageStep32_section1">
+                <section showbar="false" columns="1" id="{49808a20-cfca-44da-bbdb-cca22df16a30}" name="StageStep32_section1" labelid="{abc61759-8ac6-452f-896e-34807d7c8c47}">
                   <labels>
-                    <label description="" languagecode="1033" />
+                    <label description="Intelligence Checks" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{484e6daf-3a2f-4ae4-a1a5-67ad11dafcc1}" showlabel="true" visible="true">
+                      <cell id="{484e6daf-3a2f-4ae4-a1a5-67ad11dafcc1}" showlabel="true" visible="true" labelid="{d567c8a7-1abc-428b-bf39-4cf67826b6ef}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Intelligence checks started on" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_intelligencechecksstartedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_intelligencechecksstartedon" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_intelligencechecksstartedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_intelligencechecksstartedon" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{8fcbb302-e7ea-423a-b507-02a1fae0ffdf}" showlabel="true" visible="true">
+                      <cell id="{8fcbb302-e7ea-423a-b507-02a1fae0ffdf}" showlabel="true" visible="true" labelid="{234cd664-3f90-42c2-b8ce-2cd6738bf4c9}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Convictions Found" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_convictionsfound" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="defra_convictionsfound" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_convictionsfound" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="defra_convictionsfound" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="true" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{46ebe133-2e80-4052-8e0d-f50c26e659fb}" showlabel="true" visible="true">
+                      <cell id="{46ebe133-2e80-4052-8e0d-f50c26e659fb}" showlabel="true" visible="true" labelid="{a9ee5e58-8778-4bc5-8b99-2e54aca3aa92}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Initial RAGU score" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_raguscore" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="defra_raguscore" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_raguscore" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="defra_raguscore" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="true" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{58d3ca6f-3b88-4313-bb88-aacd55b52742}" showlabel="true" visible="true">
+                      <cell id="{58d3ca6f-3b88-4313-bb88-aacd55b52742}" showlabel="true" visible="true" labelid="{e368f1c6-7dcf-4eb2-94da-3d1c8bc6b074}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Final RAGU Score" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_finalraguscore" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="defra_finalraguscore" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_finalraguscore" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="defra_finalraguscore" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{33e350ea-7156-460f-b792-0bfb92f1a020}" showlabel="true" visible="true">
+                      <cell id="{33e350ea-7156-460f-b792-0bfb92f1a020}" showlabel="true" visible="true" labelid="{501e4198-9d75-40da-9b55-2597a2449e89}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Convictions Declaration" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_convictionsdeclaration" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="defra_convictionsdeclaration" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_convictionsdeclaration" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="defra_convictionsdeclaration" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{1c5667cf-43b4-4582-99b5-80287899a1a5}" showlabel="true" visible="true">
+                      <cell id="{1c5667cf-43b4-4582-99b5-80287899a1a5}" showlabel="true" visible="true" labelid="{6d7469cc-bbeb-48e3-baf6-4cc323f40f0b}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Bankruptcy Declaration" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_bankruptcydeclaration" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="defra_bankruptcydeclaration" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_bankruptcydeclaration" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="defra_bankruptcydeclaration" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{de842cf8-7017-4721-8d31-58605fa65bd8}" showlabel="true" visible="true">
+                      <cell id="{de842cf8-7017-4721-8d31-58605fa65bd8}" showlabel="true" visible="true" labelid="{4b7a5c16-ded8-4e87-ac47-7b881c7935ca}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Convictions Details" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_convictionsdeclarationdetails" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="defra_convictionsdeclarationdetails" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_convictionsdeclarationdetails" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="defra_convictionsdeclarationdetails" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{f82909bd-2606-4d80-9e42-aec927304e1d}" showlabel="true" visible="true">
+                      <cell id="{f82909bd-2606-4d80-9e42-aec927304e1d}" showlabel="true" visible="true" labelid="{8131cce9-dda0-4477-bba7-1d4aee9ea246}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Bankruptcy Details" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_bankruptcydeclarationdetails" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="defra_bankruptcydeclarationdetails" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_bankruptcydeclarationdetails" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="defra_bankruptcydeclarationdetails" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{cbfd6733-ac38-40bd-bc30-65a06a52cdca}" showlabel="true" visible="true">
+                      <cell id="{cbfd6733-ac38-40bd-bc30-65a06a52cdca}" showlabel="true" visible="true" labelid="{e8c53dcb-91dd-4dc4-822a-662b5bcfe5c9}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Intelligence checks completed?" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_intelligencecheckscompleted" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="defra_intelligencecheckscompleted" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_intelligencecheckscompleted" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="defra_intelligencecheckscompleted" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="true" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{8068a3cd-8df2-44a4-b003-789d49d74a2c}" showlabel="true" visible="true">
+                      <cell id="{8068a3cd-8df2-44a4-b003-789d49d74a2c}" showlabel="true" visible="true" labelid="{2643c7ea-31a7-4618-97f0-cc7408d7708c}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Intelligence checks completed on" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_intelligencechecksfinishedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_intelligencechecksfinishedon" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_intelligencechecksfinishedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_intelligencechecksfinishedon" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{d6a39b6f-95c6-4c40-a6ad-17b2699ec1e4}" showlabel="true" visible="true">
+                      <cell id="{d6a39b6f-95c6-4c40-a6ad-17b2699ec1e4}" showlabel="true" visible="true" labelid="{75d516d3-02c9-4647-b0ca-584d87d271a0}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Intelligence checks completed by" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_intelligencecheckscompletedby" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="defra_intelligencecheckscompletedby" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_intelligencecheckscompletedby" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="defra_intelligencecheckscompletedby" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -235,80 +235,80 @@
             </column>
           </columns>
         </tab>
-        <tab verticallayout="true" id="{5cd8f8de-7a7f-4797-a2d2-9f6cc0ce6f7c}" name="StageStep57" locklevel="0" expanded="true" visible="false">
+        <tab verticallayout="true" id="{5cd8f8de-7a7f-4797-a2d2-9f6cc0ce6f7c}" name="StageStep57" locklevel="0" expanded="true" visible="false" labelid="{130133b0-2c23-4437-b525-259199b40784}">
           <labels>
-            <label description="" languagecode="1033" />
+            <label description="Duly Making" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{5cd8f8de-7a7f-4797-a2d2-9f6cc0ce6f7c}" name="StageStep57_section1">
+                <section showbar="false" columns="1" id="{5cd8f8de-7a7f-4797-a2d2-9f6cc0ce6f7c}" name="StageStep57_section1" labelid="{1b446007-2fb1-4e37-a08c-0f7e3fabbc40}">
                   <labels>
-                    <label description="" languagecode="1033" />
+                    <label description="Duly Making" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{10ed78c3-aeb5-4634-9016-fc863cdd8a1a}" showlabel="true" visible="true">
+                      <cell id="{10ed78c3-aeb5-4634-9016-fc863cdd8a1a}" showlabel="true" visible="true" labelid="{64158d26-001c-4062-bed6-eebcda8aad69}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Duly making started on" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_dulymakingstartedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_dulymakingstartedon" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_dulymakingstartedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_dulymakingstartedon" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{030f7d98-d516-47c1-9046-7ab12c9fde87}" showlabel="true" visible="true">
+                      <cell id="{030f7d98-d516-47c1-9046-7ab12c9fde87}" showlabel="true" visible="true" labelid="{a93c4d34-843e-43a5-800b-773e804f9eda}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Location Screening Result" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_screeningstatus" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="defra_screeningstatus" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_screeningstatus" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="defra_screeningstatus" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{2f57b66c-2cd1-43e2-8475-426b5596bbe5}" showlabel="true" visible="true">
+                      <cell id="{2f57b66c-2cd1-43e2-8475-426b5596bbe5}" showlabel="true" visible="true" labelid="{83ae8ef6-5a6c-463d-bcdb-cf53dd6866a9}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Location screening report uploaded" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_reportuploaded" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="defra_reportuploaded" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_reportuploaded" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="defra_reportuploaded" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{f5c90115-d9d2-4749-8fe9-9a8330041a53}" showlabel="true" visible="true">
+                      <cell id="{f5c90115-d9d2-4749-8fe9-9a8330041a53}" showlabel="true" visible="true" labelid="{9a12df0e-f2b6-4983-8c69-7b782bb21e2d}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Location Screening Date" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_screeningcompletedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_screeningcompletedon" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_screeningcompletedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_screeningcompletedon" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{944c2998-07f1-4b8e-a480-a13b0f68e155}" showlabel="true" visible="true">
+                      <cell id="{944c2998-07f1-4b8e-a480-a13b0f68e155}" showlabel="true" visible="true" labelid="{ef7cfb4f-8bd0-481b-852f-c2c43c7efc28}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Duly Making" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_dulymadechecklistid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="defra_dulymadechecklistid" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_dulymadechecklistid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="defra_dulymadechecklistid" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="true" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{8272d9f3-1652-4baf-bf99-67c0d00fe4d8}" showlabel="true" visible="true">
+                      <cell id="{715870c8-9d43-4266-aea9-a398fd1673cf}" showlabel="true" visible="true" labelid="{dfe2dfb5-7cdb-4b6d-9128-96fb8b2de082}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Duly made on" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_completeddulymade" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="defra_completeddulymade" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_dulymadeon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_dulymadeon" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="true" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{22987046-1564-44b0-bc2a-11ddb62c23e9}" showlabel="true" visible="true">
+                      <cell id="{8272d9f3-1652-4baf-bf99-67c0d00fe4d8}" showlabel="true" visible="true" labelid="{86cc7c71-98dd-413b-80bb-31a085069ed6}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Completed Duly Made" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_dulymadecompletedate" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_dulymadecompletedate" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_completeddulymade" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="defra_completeddulymade" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="true" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{daa835a1-e60d-4177-8739-8c9793e66178}" showlabel="true" visible="true">
+                      <cell id="{daa835a1-e60d-4177-8739-8c9793e66178}" showlabel="true" visible="true" labelid="{a13974a8-204f-449f-ba7e-1d190b053811}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Duly making completed by" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_dulymadecompletedby" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="defra_dulymadecompletedby" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_dulymadecompletedby" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="defra_dulymadecompletedby" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -317,112 +317,112 @@
             </column>
           </columns>
         </tab>
-        <tab verticallayout="true" id="{52a86a57-b418-4006-9fe3-d02778441761}" name="StageStep76" locklevel="0" expanded="true" visible="false">
+        <tab verticallayout="true" id="{52a86a57-b418-4006-9fe3-d02778441761}" name="StageStep76" locklevel="0" expanded="true" visible="false" labelid="{fc7671a1-385e-47a4-81cc-7ce1eb6c1e4a}">
           <labels>
-            <label description="" languagecode="1033" />
+            <label description="Determination" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{52a86a57-b418-4006-9fe3-d02778441761}" name="StageStep76_section1">
+                <section showbar="false" columns="1" id="{52a86a57-b418-4006-9fe3-d02778441761}" name="StageStep76_section1" labelid="{bae598c5-4c19-4b00-8755-0586e985d76a}">
                   <labels>
-                    <label description="" languagecode="1033" />
+                    <label description="Determination" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{71091778-6747-41b6-a1ae-9cb7339e4204}" showlabel="true" visible="true">
+                      <cell id="{71091778-6747-41b6-a1ae-9cb7339e4204}" showlabel="true" visible="true" labelid="{d1f1f46f-1700-4ce4-a15d-369bef860581}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Determination started on" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_determinationstartedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_determinationstartedon" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_determinationstartedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_determinationstartedon" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{5d34bea5-1238-4c89-84dc-6990dac57f95}" showlabel="true" visible="true">
+                      <cell id="{5d34bea5-1238-4c89-84dc-6990dac57f95}" showlabel="true" visible="true" labelid="{7c051478-6f8f-4843-9e6e-679e7152dae7}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Decision doc complete" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_decisiondocumentcompleted" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="defra_decisiondocumentcompleted" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_decisiondocumentcompleted" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="defra_decisiondocumentcompleted" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="true" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{c3ba2454-1ed8-4174-8c34-531248c3d03e}" showlabel="true" visible="true">
+                      <cell id="{c3ba2454-1ed8-4174-8c34-531248c3d03e}" showlabel="true" visible="true" labelid="{7b46c1cc-cf9b-47ba-b6fb-c6ca6783f8f5}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Date decision doc complete" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_decisiondocumentcompletedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_decisiondocumentcompletedon" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_decisiondocumentcompletedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_decisiondocumentcompletedon" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="true" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{6a56adb3-a264-4220-a0c2-dfa65e974872}" showlabel="true" visible="true">
+                      <cell id="{6a56adb3-a264-4220-a0c2-dfa65e974872}" showlabel="true" visible="true" labelid="{295387b0-3b58-47ff-b881-98f6572f486b}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Permit doc complete" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_permitdocumentcompleted" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="defra_permitdocumentcompleted" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_permitdocumentcompleted" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="defra_permitdocumentcompleted" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="true" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{8ac40106-e2f8-41ba-bbd8-f70ffe30190d}" showlabel="true" visible="true">
+                      <cell id="{8ac40106-e2f8-41ba-bbd8-f70ffe30190d}" showlabel="true" visible="true" labelid="{7a36ee06-9413-4737-9dfd-6f8b5618a300}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Date permit doc complete" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_permitdocumentcompletedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_permitdocumentcompletedon" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_permitdocumentcompletedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_permitdocumentcompletedon" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{d6f265b0-5bfa-433b-a70d-2cfef568ebc1}" showlabel="true" visible="true">
+                      <cell id="{d6f265b0-5bfa-433b-a70d-2cfef568ebc1}" showlabel="true" visible="true" labelid="{9abbec39-f1c5-4981-b964-aef542aded8f}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Area Handover Document" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_areahandoverdocument" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="defra_areahandoverdocument" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_areahandoverdocument" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="defra_areahandoverdocument" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{f97bebb7-3dda-496b-a8f0-6fcca0048634}" showlabel="true" visible="true">
+                      <cell id="{f97bebb7-3dda-496b-a8f0-6fcca0048634}" showlabel="true" visible="true" labelid="{e4828c3c-96e8-4800-b01d-99d82b03f8ce}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Fire plan" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_fireplan" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="defra_fireplan" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_fireplan" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="defra_fireplan" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="true" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{5e5a83e2-965d-4ea7-9ba2-985b826f6894}" showlabel="true" visible="true">
+                      <cell id="{5e5a83e2-965d-4ea7-9ba2-985b826f6894}" showlabel="true" visible="true" labelid="{7a05f474-620c-46ba-a573-e6354097ab21}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Reviewer" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_reviewerid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="defra_reviewerid" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_reviewerid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="defra_reviewerid" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="true" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{3b1cae7e-d1ed-43cc-aab1-032047615e90}" showlabel="true" visible="true">
+                      <cell id="{3b1cae7e-d1ed-43cc-aab1-032047615e90}" showlabel="true" visible="true" labelid="{80761db4-0ad9-413f-952d-5d206bce6950}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Team Lead" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_permittingteamleaderid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="defra_permittingteamleaderid" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_permittingteamleaderid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="defra_permittingteamleaderid" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="true" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{f5d9cd7e-4ba5-43a5-931b-71d9ea2e78b6}" showlabel="true" visible="true">
+                      <cell id="{f5d9cd7e-4ba5-43a5-931b-71d9ea2e78b6}" showlabel="true" visible="true" labelid="{290a5c87-a6ff-4f3d-aff5-76663d571051}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Permit Effective Date" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_permiteffectivedate" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_permiteffectivedate" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_permiteffectivedate" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_permiteffectivedate" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="true" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{670ea75a-ea25-40c4-946c-795a64a5a4c9}" showlabel="true" visible="true">
+                      <cell id="{670ea75a-ea25-40c4-946c-795a64a5a4c9}" showlabel="true" visible="true" labelid="{dee3ae3f-e77f-49dd-a788-3f83df5f3110}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Determination completed on" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_determinationcompleteddate" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_determinationcompleteddate" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_determinationcompleteddate" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_determinationcompleteddate" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{9ea991cf-0a54-4677-bff4-cddf61bdf41f}" showlabel="true" visible="true">
+                      <cell id="{9ea991cf-0a54-4677-bff4-cddf61bdf41f}" showlabel="true" visible="true" labelid="{541e5903-5ea5-4523-8e14-cda4b003afbb}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Determination completed by" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_determinedbyid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="defra_determinedbyid" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_determinedbyid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="defra_determinedbyid" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -431,48 +431,48 @@
             </column>
           </columns>
         </tab>
-        <tab verticallayout="true" id="{0d2371d6-df6f-4fc6-a087-940b811e1371}" name="StageStep103" locklevel="0" expanded="true" visible="false">
+        <tab verticallayout="true" id="{0d2371d6-df6f-4fc6-a087-940b811e1371}" name="StageStep103" locklevel="0" expanded="true" visible="false" labelid="{8a88a7f6-7811-4de1-9f26-c54c5cd060f6}">
           <labels>
-            <label description="" languagecode="1033" />
+            <label description="Peer Review" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{0d2371d6-df6f-4fc6-a087-940b811e1371}" name="StageStep103_section1">
+                <section showbar="false" columns="1" id="{0d2371d6-df6f-4fc6-a087-940b811e1371}" name="StageStep103_section1" labelid="{23ff491c-f668-4011-92ca-bcf53abfeab7}">
                   <labels>
-                    <label description="" languagecode="1033" />
+                    <label description="Peer Review" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{603f6ee1-3557-4862-942d-c2bf24136ccb}" showlabel="true" visible="true">
+                      <cell id="{603f6ee1-3557-4862-942d-c2bf24136ccb}" showlabel="true" visible="true" labelid="{107cdd9c-86a9-469f-b032-70224af4ca3d}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Peer review started on" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_peerreviewstartedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_peerreviewstartedon" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_peerreviewstartedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_peerreviewstartedon" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{0b364d01-7576-452e-b6c9-72aecc5bec89}" showlabel="true" visible="true">
+                      <cell id="{0b364d01-7576-452e-b6c9-72aecc5bec89}" showlabel="true" visible="true" labelid="{65f964a4-c104-473a-95dd-d9a9b0dde4c9}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Peer Reviewed" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_peerreviewed" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="defra_peerreviewed" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_peerreviewed" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="defra_peerreviewed" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="true" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{2c69dbde-bf4d-45f1-b89b-74e8aa72d7d3}" showlabel="true" visible="true">
+                      <cell id="{2c69dbde-bf4d-45f1-b89b-74e8aa72d7d3}" showlabel="true" visible="true" labelid="{15601dcd-8f39-42b6-b0bc-3d086108fcba}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Peer review completed on" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_peerreviewedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_peerreviewedon" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_peerreviewedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_peerreviewedon" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{b4af835b-ce3e-4c14-84e4-576197b22079}" showlabel="true" visible="true">
+                      <cell id="{b4af835b-ce3e-4c14-84e4-576197b22079}" showlabel="true" visible="true" labelid="{79d4d8f8-d1ef-4d88-ac4b-5795babf1e93}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Peer reviewed by" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_reviewerid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="defra_reviewerid" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_reviewerid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="defra_reviewerid" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -481,64 +481,64 @@
             </column>
           </columns>
         </tab>
-        <tab verticallayout="true" id="{e4abd148-fc85-483a-bab1-d9bde68d2a45}" name="StageStep114" locklevel="0" expanded="true" visible="false">
+        <tab verticallayout="true" id="{e4abd148-fc85-483a-bab1-d9bde68d2a45}" name="StageStep114" locklevel="0" expanded="true" visible="false" labelid="{59ecc499-eac5-4e8f-a8ab-eaf0501a1c28}">
           <labels>
-            <label description="" languagecode="1033" />
+            <label description="Area Review" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{e4abd148-fc85-483a-bab1-d9bde68d2a45}" name="StageStep114_section1">
+                <section showbar="false" columns="1" id="{e4abd148-fc85-483a-bab1-d9bde68d2a45}" name="StageStep114_section1" labelid="{54b8eedc-a186-4a3c-82ef-3e7c4be80382}">
                   <labels>
-                    <label description="" languagecode="1033" />
+                    <label description="Area Review" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{21f285f7-3c94-4711-82f1-149baacee5e5}" showlabel="true" visible="true">
+                      <cell id="{21f285f7-3c94-4711-82f1-149baacee5e5}" showlabel="true" visible="true" labelid="{76a152d1-5493-456a-8c79-8e7668213aac}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Regime" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_regimeid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="defra_regimeid" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_regimeid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="defra_regimeid" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{e46231d8-119f-4353-bf49-502273bdee7c}" showlabel="true" visible="true">
+                      <cell id="{e46231d8-119f-4353-bf49-502273bdee7c}" showlabel="true" visible="true" labelid="{9e023024-5806-40c6-b32c-4d167d0e8aed}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Area Team" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_area" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="defra_area" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_area" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="defra_area" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{a6b8a49b-49b2-482d-b3b4-e253eef38b28}" showlabel="true" visible="true">
+                      <cell id="{a6b8a49b-49b2-482d-b3b4-e253eef38b28}" showlabel="true" visible="true" labelid="{dab907ca-1e9c-4ff7-b8d3-403716229013}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Area review started on" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_areareviewstartedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_areareviewstartedon" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_areareviewstartedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_areareviewstartedon" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="true" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{fb1d28f9-fbe4-4ba8-bc74-fcacc28de35d}" showlabel="true" visible="true">
+                      <cell id="{fb1d28f9-fbe4-4ba8-bc74-fcacc28de35d}" showlabel="true" visible="true" labelid="{410db7f7-e6be-4aa2-a899-24534a7d71e9}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Area Sign Off" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_areasignoff" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="defra_areasignoff" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_areasignoff" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="defra_areasignoff" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="true" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{49114f42-b29b-43c2-a718-696760f4f984}" showlabel="true" visible="true">
+                      <cell id="{49114f42-b29b-43c2-a718-696760f4f984}" showlabel="true" visible="true" labelid="{0b23bf3d-8772-460a-a046-b806b4a3cbf3}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Area review completed on" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_areareviewfinishedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_areareviewfinishedon" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_areareviewfinishedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_areareviewfinishedon" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="true" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{40b096ec-06e5-43f6-b966-4bea9279ea90}" showlabel="true" visible="true">
+                      <cell id="{40b096ec-06e5-43f6-b966-4bea9279ea90}" showlabel="true" visible="true" labelid="{69f98767-bf30-42ec-8723-f05ec123a72e}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Area review completed by" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_determinedbyid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="defra_determinedbyid" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_determinedbyid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="defra_determinedbyid" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -547,40 +547,40 @@
             </column>
           </columns>
         </tab>
-        <tab verticallayout="true" id="{07e7dea3-2146-464b-a638-cc7d9881f8c7}" name="StageStep129" locklevel="0" expanded="true" visible="false">
+        <tab verticallayout="true" id="{07e7dea3-2146-464b-a638-cc7d9881f8c7}" name="StageStep129" locklevel="0" expanded="true" visible="false" labelid="{85cc2a00-f6ae-4b38-bd4b-ce59a734fc57}">
           <labels>
-            <label description="" languagecode="1033" />
+            <label description="Operator Review" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{07e7dea3-2146-464b-a638-cc7d9881f8c7}" name="StageStep129_section1">
+                <section showbar="false" columns="1" id="{07e7dea3-2146-464b-a638-cc7d9881f8c7}" name="StageStep129_section1" labelid="{3d393ff9-97df-41a9-a313-3c9a08c65b8a}">
                   <labels>
-                    <label description="" languagecode="1033" />
+                    <label description="Operator Review" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{36b2fe38-d8e6-4e4d-aac2-3ca8b820fbee}" showlabel="true" visible="true">
+                      <cell id="{36b2fe38-d8e6-4e4d-aac2-3ca8b820fbee}" showlabel="true" visible="true" labelid="{2fc178f8-5d05-4305-8252-ec551e775a5d}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Operator review started on" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_operatorreviewstartedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_operatorreviewstartedon" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_operatorreviewstartedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_operatorreviewstartedon" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="true" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{118e7c74-77f9-4bbb-b077-723cfacc1e6a}" showlabel="true" visible="true">
+                      <cell id="{118e7c74-77f9-4bbb-b077-723cfacc1e6a}" showlabel="true" visible="true" labelid="{6c2a6820-df73-47c4-abf4-4af398493b98}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Operator review completed?" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_operatorreviewcompleted" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="defra_operatorreviewcompleted" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_operatorreviewcompleted" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="defra_operatorreviewcompleted" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="true" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{f188e633-9bf9-4852-a5d5-c5f0f00dd910}" showlabel="true" visible="true">
+                      <cell id="{f188e633-9bf9-4852-a5d5-c5f0f00dd910}" showlabel="true" visible="true" labelid="{66d98fe7-ab04-4c01-b347-8ef610124410}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Operator review completed on" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_operatorreviewcompletedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_operatorreviewcompletedon" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_operatorreviewcompletedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_operatorreviewcompletedon" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="true" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -589,48 +589,48 @@
             </column>
           </columns>
         </tab>
-        <tab verticallayout="true" id="{74c754a1-116f-4310-9428-d2be95d2a3e7}" name="StageStep138" locklevel="0" expanded="true" visible="false">
+        <tab verticallayout="true" id="{74c754a1-116f-4310-9428-d2be95d2a3e7}" name="StageStep138" locklevel="0" expanded="true" visible="false" labelid="{eb43948a-62ce-4181-a680-4ee7a7c0eaba}">
           <labels>
-            <label description="" languagecode="1033" />
+            <label description="Team Lead Sign-Off" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{74c754a1-116f-4310-9428-d2be95d2a3e7}" name="StageStep138_section1">
+                <section showbar="false" columns="1" id="{74c754a1-116f-4310-9428-d2be95d2a3e7}" name="StageStep138_section1" labelid="{e6b63d5d-38cd-40fa-9383-e1b19f1851b8}">
                   <labels>
-                    <label description="" languagecode="1033" />
+                    <label description="Team Lead Sign-Off" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{328fc0f3-ab8a-46ed-9149-a67f84eea667}" showlabel="true" visible="true">
+                      <cell id="{328fc0f3-ab8a-46ed-9149-a67f84eea667}" showlabel="true" visible="true" labelid="{cc9c19de-1f9f-406b-9e91-91eac3e5e969}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Team lead sign-off started on" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_teamleadsignoffstartedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_teamleadsignoffstartedon" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_teamleadsignoffstartedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_teamleadsignoffstartedon" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{454b54b7-4472-431c-911d-764bf2bafe07}" showlabel="true" visible="true">
+                      <cell id="{454b54b7-4472-431c-911d-764bf2bafe07}" showlabel="true" visible="true" labelid="{97a00b51-eb6a-4354-9f65-9edde9d58761}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Team Lead Sign-off" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_permittingteamleadersignoff" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="defra_permittingteamleadersignoff" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_permittingteamleadersignoff" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="defra_permittingteamleadersignoff" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="true" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{33b57ee5-644e-458a-9e33-a0d82e14ef6d}" showlabel="true" visible="true">
+                      <cell id="{33b57ee5-644e-458a-9e33-a0d82e14ef6d}" showlabel="true" visible="true" labelid="{eda08ac9-7ddf-4226-99d3-6a4973eb866e}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Team lead signed-off on" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_teamleadsignofffinishedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_teamleadsignofffinishedon" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_teamleadsignofffinishedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_teamleadsignofffinishedon" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{a7ee9160-a7c0-4d14-b3b6-22c1d7c7bf65}" showlabel="true" visible="true">
+                      <cell id="{a7ee9160-a7c0-4d14-b3b6-22c1d7c7bf65}" showlabel="true" visible="true" labelid="{d08075a9-57e3-4626-9c14-34a12a648b48}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Signed-off by " languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_permittingteamleaderid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="defra_permittingteamleaderid" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_permittingteamleaderid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="defra_permittingteamleaderid" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -639,48 +639,48 @@
             </column>
           </columns>
         </tab>
-        <tab verticallayout="true" id="{fd5989a0-72f8-457c-abb1-280e7490dfa6}" name="StageStep149" locklevel="0" expanded="true" visible="false">
+        <tab verticallayout="true" id="{fd5989a0-72f8-457c-abb1-280e7490dfa6}" name="StageStep149" locklevel="0" expanded="true" visible="false" labelid="{d1b3e866-fddb-458e-b1b0-aa126672ac45}">
           <labels>
-            <label description="" languagecode="1033" />
+            <label description="Issue Permit" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{fd5989a0-72f8-457c-abb1-280e7490dfa6}" name="StageStep149_section1">
+                <section showbar="false" columns="1" id="{fd5989a0-72f8-457c-abb1-280e7490dfa6}" name="StageStep149_section1" labelid="{15d344b6-299a-4946-b957-da69452bba63}">
                   <labels>
-                    <label description="" languagecode="1033" />
+                    <label description="Issue Permit" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{6862ce24-397f-40f3-9c72-e9a53bbf2596}" showlabel="true" visible="true">
+                      <cell id="{6862ce24-397f-40f3-9c72-e9a53bbf2596}" showlabel="true" visible="true" labelid="{e19897f8-7973-4cfd-bbdd-cc8f54207890}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Admin issue started on" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_adminissuestartedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_adminissuestartedon" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_adminissuestartedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_adminissuestartedon" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{482c3942-7d18-48df-a76e-cd8fede244cc}" showlabel="true" visible="true">
+                      <cell id="{482c3942-7d18-48df-a76e-cd8fede244cc}" showlabel="true" visible="true" labelid="{9d2293ac-34e4-4d52-8082-2fa52ccd0aef}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Permit Issue Complete" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_permitissuecompletemcp" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="defra_permitissuecompletemcp" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_permitissuecompletemcp" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="defra_permitissuecompletemcp" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="true" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{b6157e4d-afd6-4c20-88ce-954a2e487bc2}" showlabel="true" visible="true">
+                      <cell id="{b6157e4d-afd6-4c20-88ce-954a2e487bc2}" showlabel="true" visible="true" labelid="{8acfaa25-0e1c-4a89-8c02-51b9fb692201}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Admin issue completed on" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_adminissuefinishedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_adminissuefinishedon" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_adminissuefinishedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_adminissuefinishedon" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{d05d79a3-c19c-4274-b4e4-e8803f043d8e}" showlabel="true" visible="true">
+                      <cell id="{d05d79a3-c19c-4274-b4e4-e8803f043d8e}" showlabel="true" visible="true" labelid="{3e4b21fb-3ab2-4b2f-88db-1bb3b68f39bf}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Admin issue completed by" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_adminissuecompletedby" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="defra_adminissuecompletedby" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_adminissuecompletedby" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="defra_adminissuecompletedby" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                   </rows>

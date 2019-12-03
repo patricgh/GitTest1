@@ -78,3 +78,38 @@ function RaiseRFISCH5(primaryControl, type) {
         alert('Creating a RFI is not available at this stage.');
     }
 }
+
+function setTabFocus(executionContext) {
+    try {
+        var formContext = executionContext.getFormContext();
+        if (formContext.ui.getFormType() == 2) {
+            var status = formContext.getAttribute('statuscode').getValue();
+            switch (status) {
+                case 910400022:
+                case 910400015:
+                    formContext.ui.tabs.get('tab_applicationchecks').setFocus();
+                    break;
+                case 910400021:
+                case 910400001:
+                    formContext.ui.tabs.get('tab_dulymaking').setFocus();
+                    break;
+                case 910400002:
+                case 910400014:
+                case 910400005:
+                case 910400030:
+                case 910400017:
+                    formContext.ui.tabs.get('tab_determination').setFocus();
+                    break;                
+                case 910400018:
+                    formContext.ui.tabs.get('tab_reviewsignoff').setFocus();
+                    break;
+                default:
+                    formContext.ui.tabs.get('tab_general').setFocus();
+            }
+        }
+    }
+    catch (error) {
+        alert('Error occurred in form load script method: setTabFocus().');
+        //alert(error.messa);
+    }
+}

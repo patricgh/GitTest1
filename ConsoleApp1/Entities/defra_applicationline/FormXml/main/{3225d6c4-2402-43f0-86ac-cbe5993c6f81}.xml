@@ -117,6 +117,14 @@
                         </control>
                       </cell>
                     </row>
+                    <row>
+                      <cell id="{02c648a2-101e-8e87-9c79-4aced33365d4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Item Type" languagecode="1033" />
+                        </labels>
+                        <control id="defra_item_type" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="defra_item_type" disabled="false" />
+                      </cell>
+                    </row>
                   </rows>
                 </section>
               </sections>

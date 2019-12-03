@@ -48,7 +48,7 @@
                         <labels>
                           <label description="Item Type" languagecode="1033" />
                         </labels>
-                        <control id="defra_itemtypeid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="defra_itemtypeid" disabled="false" />
+                        <control id="defra_itemtypeid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="defra_itemtypeid" disabled="false" uniqueid="{469c63de-75e3-559c-1e4c-c663e5b4dcd2}" />
                       </cell>
                     </row>
                     <row>
@@ -139,6 +139,55 @@
                             <EnableChartPicker>true</EnableChartPicker>
                             <RecordsPerPage>4</RecordsPerPage>
                             <HeaderColorCode>#FEF7F5</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="IncludedAssessment" id="{e0840087-416b-024a-72d1-a09b5630e225}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Included Assessments" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_3_section_1" showlabel="false" showbar="false" locklevel="0" id="{ea37d4de-d8bb-7b1d-89e1-c422127de47a}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{0ddad010-2160-c937-1c8d-4c415c51328d}" showlabel="false" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="Items (Included Assessments)" languagecode="1033" />
+                        </labels>
+                        <control id="IncludedAssessments" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{78393377-55BE-40F1-81A7-9B2E8C8F47A2}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>defra_defra_item_defra_item_IncludedAssessments</RelationshipName>
+                            <TargetEntityType>defra_item</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{78393377-55BE-40F1-81A7-9B2E8C8F47A2}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F5F5F5</HeaderColorCode>
                           </parameters>
                         </control>
                       </cell>

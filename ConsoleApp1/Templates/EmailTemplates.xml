@@ -2,16 +2,95 @@
 <EmailTemplates xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <emailtemplate>
     <IsCustomizable>1</IsCustomizable>
-    <templateid>{a945199a-0cda-e911-a996-000d3ab39dc2}</templateid>
+    <templateid>{bd22e421-0d23-e911-a98f-000d3ab31aa3}</templateid>
     <subject></subject>
     <subjectpresentationxml></subjectpresentationxml>
     <templatetypecode>8</templatetypecode>
     <body></body>
-    <title>Area review email template</title>
+    <title>(Not in use) MCP application received</title>
     <presentationxml></presentationxml>
     <languagecode>1033</languagecode>
     <generationtypecode>0</generationtypecode>
-    <IntroducedVersion>1.25.0.0</IntroducedVersion>
+    <IntroducedVersion>1.0.0.2</IntroducedVersion>
+  </emailtemplate>
+  <emailtemplate>
+    <IsCustomizable>1</IsCustomizable>
+    <templateid>{3b1a6361-656a-e911-a9a7-000d3ab31ad6}</templateid>
+    <subject></subject>
+    <subjectpresentationxml></subjectpresentationxml>
+    <templatetypecode>8</templatetypecode>
+    <body></body>
+    <title>(Not in use) MCP Area agreement request - Regulatory officer</title>
+    <presentationxml></presentationxml>
+    <languagecode>1033</languagecode>
+    <generationtypecode>0</generationtypecode>
+    <IntroducedVersion>1.11.0.9</IntroducedVersion>
+  </emailtemplate>
+  <emailtemplate>
+    <IsCustomizable>1</IsCustomizable>
+    <templateid>{077ceb1f-f54a-e911-a98d-000d3ab39dc2}</templateid>
+    <subject></subject>
+    <subjectpresentationxml></subjectpresentationxml>
+    <templatetypecode>8</templatetypecode>
+    <body></body>
+    <title>(Not in use) MCP Duly Made - Not in use</title>
+    <presentationxml></presentationxml>
+    <languagecode>1033</languagecode>
+    <generationtypecode>0</generationtypecode>
+    <IntroducedVersion>1.11.0.2</IntroducedVersion>
+  </emailtemplate>
+  <emailtemplate>
+    <IsCustomizable>1</IsCustomizable>
+    <templateid>{6f0ba5a7-6e6a-e911-a9a7-000d3ab31ad6}</templateid>
+    <subject></subject>
+    <subjectpresentationxml></subjectpresentationxml>
+    <templatetypecode>8</templatetypecode>
+    <body></body>
+    <title>(Not in use) MCP Peer review sign off</title>
+    <presentationxml></presentationxml>
+    <languagecode>1033</languagecode>
+    <generationtypecode>0</generationtypecode>
+    <IntroducedVersion>1.11.0.9</IntroducedVersion>
+  </emailtemplate>
+  <emailtemplate>
+    <IsCustomizable>1</IsCustomizable>
+    <templateid>{336bcf4e-0d23-e911-a98f-000d3ab31aa3}</templateid>
+    <subject></subject>
+    <subjectpresentationxml></subjectpresentationxml>
+    <templatetypecode>8</templatetypecode>
+    <body></body>
+    <title>(Not in use) MCP Peer review</title>
+    <presentationxml></presentationxml>
+    <languagecode>1033</languagecode>
+    <generationtypecode>0</generationtypecode>
+    <IntroducedVersion>1.0.0.2</IntroducedVersion>
+  </emailtemplate>
+  <emailtemplate>
+    <IsCustomizable>1</IsCustomizable>
+    <templateid>{bef46479-0d23-e911-a98f-000d3ab31aa3}</templateid>
+    <subject></subject>
+    <subjectpresentationxml></subjectpresentationxml>
+    <templatetypecode>8</templatetypecode>
+    <body></body>
+    <title>(Not in use) MCP Regime selected</title>
+    <presentationxml></presentationxml>
+    <languagecode>1033</languagecode>
+    <generationtypecode>0</generationtypecode>
+    <IntroducedVersion>1.0.0.2</IntroducedVersion>
+  </emailtemplate>
+  <emailtemplate>
+    <IsCustomizable>1</IsCustomizable>
+    <templateid>{99806f94-a45a-e911-a9a5-000d3ab31ad6}</templateid>
+    <subject></subject>
+    <subjectpresentationxml></subjectpresentationxml>
+    <templatetypecode>8</templatetypecode>
+    <body></body>
+    <title>(Not in use) MCP SR Duly Made Template</title>
+    <description>Version 3</description>
+    <presentationxml></presentationxml>
+    <languagecode>1033</languagecode>
+    <generationtypecode>0</generationtypecode>
+    <IntroducedVersion>1.11.0.6</IntroducedVersion>
   </emailtemplate>
   <emailtemplate>
     <IsCustomizable>1</IsCustomizable>
@@ -41,94 +120,93 @@
   </emailtemplate>
   <emailtemplate>
     <IsCustomizable>1</IsCustomizable>
-    <templateid>{bd22e421-0d23-e911-a98f-000d3ab31aa3}</templateid>
+    <templateid>{1693fcec-000a-ea11-a811-000d3abaccb2}</templateid>
     <subject></subject>
     <subjectpresentationxml></subjectpresentationxml>
     <templatetypecode>8</templatetypecode>
     <body></body>
-    <title>MCP application received</title>
+    <title>NEW Acknowledge operator withdrawal</title>
     <presentationxml></presentationxml>
     <languagecode>1033</languagecode>
     <generationtypecode>0</generationtypecode>
-    <IntroducedVersion>1.0.0.2</IntroducedVersion>
+    <IntroducedVersion>1.28.0.1</IntroducedVersion>
   </emailtemplate>
   <emailtemplate>
     <IsCustomizable>1</IsCustomizable>
-    <templateid>{3b1a6361-656a-e911-a9a7-000d3ab31ad6}</templateid>
+    <templateid>{8ac2f5d3-fd09-ea11-a811-000d3abaccb2}</templateid>
     <subject></subject>
     <subjectpresentationxml></subjectpresentationxml>
     <templatetypecode>8</templatetypecode>
     <body></body>
-    <title>MCP Area agreement request - Regulatory officer</title>
+    <title>NEW Area agreement request</title>
     <presentationxml></presentationxml>
     <languagecode>1033</languagecode>
     <generationtypecode>0</generationtypecode>
-    <IntroducedVersion>1.11.0.9</IntroducedVersion>
+    <IntroducedVersion>1.28.0.1</IntroducedVersion>
   </emailtemplate>
   <emailtemplate>
     <IsCustomizable>1</IsCustomizable>
-    <templateid>{077ceb1f-f54a-e911-a98d-000d3ab39dc2}</templateid>
+    <templateid>{a945199a-0cda-e911-a996-000d3ab39dc2}</templateid>
     <subject></subject>
     <subjectpresentationxml></subjectpresentationxml>
     <templatetypecode>8</templatetypecode>
     <body></body>
-    <title>MCP Duly Made - Not in use</title>
+    <title>NEW Area review email template</title>
     <presentationxml></presentationxml>
     <languagecode>1033</languagecode>
     <generationtypecode>0</generationtypecode>
-    <IntroducedVersion>1.11.0.2</IntroducedVersion>
+    <IntroducedVersion>1.25.0.0</IntroducedVersion>
   </emailtemplate>
   <emailtemplate>
     <IsCustomizable>1</IsCustomizable>
-    <templateid>{6f0ba5a7-6e6a-e911-a9a7-000d3ab31ad6}</templateid>
+    <templateid>{94ab4f7a-050a-ea11-a811-000d3abaccb2}</templateid>
     <subject></subject>
     <subjectpresentationxml></subjectpresentationxml>
     <templatetypecode>8</templatetypecode>
     <body></body>
-    <title>MCP Peer review sign off</title>
+    <title>NEW Operator permitting review letter</title>
     <presentationxml></presentationxml>
     <languagecode>1033</languagecode>
     <generationtypecode>0</generationtypecode>
-    <IntroducedVersion>1.11.0.9</IntroducedVersion>
+    <IntroducedVersion>1.28.0.1</IntroducedVersion>
   </emailtemplate>
   <emailtemplate>
     <IsCustomizable>1</IsCustomizable>
-    <templateid>{336bcf4e-0d23-e911-a98f-000d3ab31aa3}</templateid>
+    <templateid>{0010a7e2-010a-ea11-a811-000d3abaccb2}</templateid>
     <subject></subject>
     <subjectpresentationxml></subjectpresentationxml>
     <templatetypecode>8</templatetypecode>
     <body></body>
-    <title>MCP Peer review</title>
+    <title>NEW Returning application as not duly made, with full refund</title>
     <presentationxml></presentationxml>
     <languagecode>1033</languagecode>
     <generationtypecode>0</generationtypecode>
-    <IntroducedVersion>1.0.0.2</IntroducedVersion>
+    <IntroducedVersion>1.28.0.1</IntroducedVersion>
   </emailtemplate>
   <emailtemplate>
     <IsCustomizable>1</IsCustomizable>
-    <templateid>{bef46479-0d23-e911-a98f-000d3ab31aa3}</templateid>
+    <templateid>{bdebdf77-040a-ea11-a811-000d3abaccb2}</templateid>
     <subject></subject>
     <subjectpresentationxml></subjectpresentationxml>
     <templatetypecode>8</templatetypecode>
     <body></body>
-    <title>MCP Regime selected</title>
+    <title>NEW Returning application as not duly made</title>
     <presentationxml></presentationxml>
     <languagecode>1033</languagecode>
     <generationtypecode>0</generationtypecode>
-    <IntroducedVersion>1.0.0.2</IntroducedVersion>
+    <IntroducedVersion>1.28.0.1</IntroducedVersion>
   </emailtemplate>
   <emailtemplate>
     <IsCustomizable>1</IsCustomizable>
-    <templateid>{99806f94-a45a-e911-a9a5-000d3ab31ad6}</templateid>
+    <templateid>{7a0d3212-070a-ea11-a811-000d3abaccb2}</templateid>
     <subject></subject>
     <subjectpresentationxml></subjectpresentationxml>
     <templatetypecode>8</templatetypecode>
     <body></body>
-    <title>MCP SR Duly Made Template</title>
-    <description>Version 3</description>
+    <title>NEW We need more information about your application and/or underpayment email template</title>
     <presentationxml></presentationxml>
     <languagecode>1033</languagecode>
     <generationtypecode>0</generationtypecode>
-    <IntroducedVersion>1.11.0.6</IntroducedVersion>
+    <IntroducedVersion>1.28.0.1</IntroducedVersion>
   </emailtemplate>
 </EmailTemplates>
