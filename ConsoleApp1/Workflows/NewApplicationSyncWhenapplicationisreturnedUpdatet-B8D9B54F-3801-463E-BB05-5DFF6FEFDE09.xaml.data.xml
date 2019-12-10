@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Workflow WorkflowId="{b8d9b54f-3801-463e-bb05-5dff6fefde09}" Name="New Application (Sync): When application is not duly made change the status to 'Returned'" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <XamlFileName>/Workflows/NewApplicationSyncWhenapplicationisnotdulymadechan-B8D9B54F-3801-463E-BB05-5DFF6FEFDE09.xaml</XamlFileName>
+<Workflow WorkflowId="{b8d9b54f-3801-463e-bb05-5dff6fefde09}" Name="New Application (Sync): When application is returned Update the status to 'Returned'" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/NewApplicationSyncWhenapplicationisreturnedUpdatet-B8D9B54F-3801-463E-BB05-5DFF6FEFDE09.xaml</XamlFileName>
   <Type>1</Type>
   <Subprocess>0</Subprocess>
   <Category>0</Category>
   <Mode>1</Mode>
   <Scope>4</Scope>
   <OnDemand>0</OnDemand>
-  <TriggerOnUpdateAttributeList>defra_isnotdulymade</TriggerOnUpdateAttributeList>
+  <TriggerOnUpdateAttributeList>defra_returned</TriggerOnUpdateAttributeList>
   <TriggerOnCreate>0</TriggerOnCreate>
   <TriggerOnDelete>0</TriggerOnDelete>
   <AsyncAutodelete>0</AsyncAutodelete>
@@ -22,6 +22,6 @@
   <IsCustomizable>1</IsCustomizable>
   <PrimaryEntity>defra_application</PrimaryEntity>
   <LocalizedNames>
-    <LocalizedName languagecode="1033" description="New Application (Sync): When application is not duly made change the status to 'Returned'" />
+    <LocalizedName languagecode="1033" description="New Application (Sync): When application is returned Update the status to 'Returned'" />
   </LocalizedNames>
 </Workflow>

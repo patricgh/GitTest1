@@ -11,8 +11,8 @@
   <TriggerOnDelete>0</TriggerOnDelete>
   <AsyncAutodelete>0</AsyncAutodelete>
   <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
-  <StateCode>1</StateCode>
-  <StatusCode>2</StatusCode>
+  <StateCode>0</StateCode>
+  <StatusCode>1</StatusCode>
   <RunAs>1</RunAs>
   <IsTransacted>1</IsTransacted>
   <IntroducedVersion>1.0.0.0</IntroducedVersion>
@@ -26,7 +26,7 @@
     <Description languagecode="1033" description="Click to add description" />
   </Descriptions>
   <ProcessTriggers>
-    <ProcessTrigger processtriggerid="{0f6ff68a-2111-ea11-a811-000d3abacf5b}">
+    <ProcessTrigger processtriggerid="{31a97e7f-df15-ea11-a811-000d3abaccb2}">
       <controltype>1</controltype>
       <scope>1</scope>
       <controlname>defra_regimeid</controlname>
@@ -35,7 +35,7 @@
       <iscustomizable>1</iscustomizable>
       <primaryentitytypecode>defra_application</primaryentitytypecode>
     </ProcessTrigger>
-    <ProcessTrigger processtriggerid="{106ff68a-2111-ea11-a811-000d3abacf5b}">
+    <ProcessTrigger processtriggerid="{32a97e7f-df15-ea11-a811-000d3abaccb2}">
       <scope>1</scope>
       <event>load</event>
       <pipelinestage>0</pipelinestage>

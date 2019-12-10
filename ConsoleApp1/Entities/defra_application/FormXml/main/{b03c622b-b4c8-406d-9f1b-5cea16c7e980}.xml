@@ -313,7 +313,7 @@
                     <row>
                       <cell id="{8bca77ec-2445-a53a-3ce8-71705e5028e6}" showlabel="true" colspan="3" auto="true" rowspan="5" labelid="{34d1f686-5487-44d8-9d16-6894ec3f6c1b}">
                         <labels>
-                          <label description="RFIs or SCH5s" languagecode="1033" />
+                          <label description="RFIs or SCH5s (Application)" languagecode="1033" />
                         </labels>
                         <control id="RFIsSCH5s" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" indicationOfSubgrid="true" uniqueid="{95951653-a83e-6a6c-4a24-05a8755d3d40}">
                           <parameters>
@@ -1040,6 +1040,56 @@
                     </row>
                   </rows>
                 </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="locationscreening" showlabel="true" showbar="true" locklevel="0" id="{11266236-d523-4742-367d-acd5d67626ca}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Location screening" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ee8b5632-b3a1-68a8-3c10-7d6ccbeda6b4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Location Screening Required" languagecode="1033" />
+                        </labels>
+                        <control id="defra_locationscreeningrequired" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="defra_locationscreeningrequired" disabled="false" />
+                      </cell>
+                      <cell id="{981994bb-c47b-5918-4450-91cbbee9b3bb}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Location Screening Completed By" languagecode="1033" />
+                        </labels>
+                        <control id="defra_screeningcompletedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="defra_screeningcompletedby" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{331b4abe-ebe5-d8ba-6c23-95be9b12d6a6}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Location Screening Date" languagecode="1033" />
+                        </labels>
+                        <control id="defra_screeningcompletedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="defra_screeningcompletedon" disabled="false" />
+                      </cell>
+                      <cell id="{d10cc909-a10c-77d3-4d4d-77db965a0604}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Location Screening Result" languagecode="1033" />
+                        </labels>
+                        <control id="defra_screeningstatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="defra_screeningstatus" disabled="false" uniqueid="{1379bdd2-e9b8-ee35-3d97-6823d22b2dc3}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_intelchecks" id="{d5d976bb-0ebe-8347-e28a-59a719d1527b}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Intelligence checks" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
                 <section id="{13205089-c401-dc77-8d85-52b086ab4048}" name="tab_10_section_1" IsUserDefined="0" locklevel="0" showlabel="true" columns="11" showbar="true" layout="varwidth" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{d5fb41ef-79c1-465f-970b-0703ca677706}">
                   <labels>
                     <label description="Intelligence checks" languagecode="1033" />
@@ -1050,7 +1100,7 @@
                         <labels>
                           <label description="Intelligence Checks Required" languagecode="1033" />
                         </labels>
-                        <control id="defra_intel_checks_required" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="defra_intel_checks_required" disabled="false" />
+                        <control id="defra_intel_checks_required" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="defra_intel_checks_required" disabled="false" uniqueid="{1dd6baa0-ba60-021a-dca6-3c01684c5da3}" />
                       </cell>
                       <cell id="{a153b939-6607-b133-2c1b-eb69091673b9}" showlabel="false" userspacer="true">
                         <labels>
@@ -1140,102 +1190,16 @@
                 </section>
               </sections>
             </column>
-            <column width="50%">
-              <sections>
-                <section name="locationscreening" showlabel="true" showbar="true" locklevel="0" id="{11266236-d523-4742-367d-acd5d67626ca}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
-                  <labels>
-                    <label description="Location screening" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell id="{ee8b5632-b3a1-68a8-3c10-7d6ccbeda6b4}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Location Screening Required" languagecode="1033" />
-                        </labels>
-                        <control id="defra_locationscreeningrequired" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="defra_locationscreeningrequired" disabled="false" />
-                      </cell>
-                      <cell id="{981994bb-c47b-5918-4450-91cbbee9b3bb}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Location Screening Completed By" languagecode="1033" />
-                        </labels>
-                        <control id="defra_screeningcompletedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="defra_screeningcompletedby" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{331b4abe-ebe5-d8ba-6c23-95be9b12d6a6}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Location Screening Date" languagecode="1033" />
-                        </labels>
-                        <control id="defra_screeningcompletedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="defra_screeningcompletedon" disabled="false" />
-                      </cell>
-                      <cell id="{d10cc909-a10c-77d3-4d4d-77db965a0604}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Location Screening Result" languagecode="1033" />
-                        </labels>
-                        <control id="defra_screeningstatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="defra_screeningstatus" disabled="false" uniqueid="{1379bdd2-e9b8-ee35-3d97-6823d22b2dc3}" />
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
-                <section name="Applicationchecks_section_4" showlabel="true" showbar="true" locklevel="0" id="{070e8585-8701-9a3b-b7e8-8dadb0541635}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
-                  <labels>
-                    <label description="RFIs" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell id="{ac1086e3-0992-5c59-3576-3b5ea870a660}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Number of active RFIs" languagecode="1033" />
-                        </labels>
-                        <control id="defra_numberofrfis" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="defra_numberofrfis" disabled="true" uniqueid="{3a2d372d-85aa-b179-ce2a-24d756a225de}" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{25a3dd68-163c-184e-1c88-48515ca62e2b}" showlabel="true" colspan="1" auto="false" rowspan="7">
-                        <labels>
-                          <label description="RFIs or SCH5s (Application)" languagecode="1033" />
-                        </labels>
-                        <control id="Appchecks_rfis" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
-                          <parameters>
-                            <ViewId>{FB5A1654-A50B-EA11-A811-000D3ABAC0B9}</ViewId>
-                            <IsUserView>false</IsUserView>
-                            <RelationshipName>defra_defra_application_defra_rfisch5_application</RelationshipName>
-                            <TargetEntityType>defra_rfisch5</TargetEntityType>
-                            <AutoExpand>Fixed</AutoExpand>
-                            <EnableQuickFind>false</EnableQuickFind>
-                            <EnableViewPicker>true</EnableViewPicker>
-                            <ViewIds>{FB5A1654-A50B-EA11-A811-000D3ABAC0B9}</ViewIds>
-                            <EnableJumpBar>false</EnableJumpBar>
-                            <ChartGridMode>All</ChartGridMode>
-                            <VisualizationId />
-                            <IsUserChart>false</IsUserChart>
-                            <EnableChartPicker>true</EnableChartPicker>
-                            <RecordsPerPage>4</RecordsPerPage>
-                            <HeaderColorCode>#F5F5F5</HeaderColorCode>
-                          </parameters>
-                        </control>
-                      </cell>
-                    </row>
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                  </rows>
-                </section>
-              </sections>
-            </column>
           </columns>
         </tab>
-        <tab name="tab_dulymaking" id="{7cee9761-c013-51c9-37a7-b0608e8b4a33}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" labelid="{2774265e-08e5-4a7e-bc2a-4115bca2e5b1}">
+        <tab name="tab_dulymaking" id="{7cee9761-c013-51c9-37a7-b0608e8b4a33}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" labelid="{2774265e-08e5-4a7e-bc2a-4115bca2e5b1}">
           <labels>
             <label description="Duly making" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section id="{9397b7d3-7138-d261-988e-bb314be20102}" name="{bca068a4-5707-4114-9524-fb1c241761c8}_section_5" IsUserDefined="0" locklevel="0" showlabel="true" columns="11" showbar="false" layout="varwidth" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{7caf44b6-854d-4f9f-892f-bbccb0df3e5d}">
+                <section id="{9397b7d3-7138-d261-988e-bb314be20102}" name="{bca068a4-5707-4114-9524-fb1c241761c8}_section_5" IsUserDefined="0" locklevel="0" showlabel="false" columns="11" showbar="false" layout="varwidth" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{7caf44b6-854d-4f9f-892f-bbccb0df3e5d}">
                   <labels>
                     <label description="General" languagecode="1033" />
                   </labels>
@@ -1282,7 +1246,7 @@
                         <labels>
                           <label description="RFIs or SCH5s (Application)" languagecode="1033" />
                         </labels>
-                        <control id="Dulymaking_RFIs" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                        <control id="Dulymaking_RFIs" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{89770337-d2e0-0979-813d-0e5b607e4bba}">
                           <parameters>
                             <ViewId>{0DE4006C-A50B-EA11-A811-000D3ABAC0B9}</ViewId>
                             <IsUserView>false</IsUserView>
@@ -1315,14 +1279,14 @@
             </column>
           </columns>
         </tab>
-        <tab id="{0e5d665a-c3e5-c809-88bd-44618184cb58}" name="tab_determination" IsUserDefined="0" locklevel="0" expanded="true" showlabel="true" labelid="{8529af19-fce6-47f3-b571-517e798a8945}">
+        <tab id="{0e5d665a-c3e5-c809-88bd-44618184cb58}" name="tab_determination" IsUserDefined="0" locklevel="0" expanded="false" showlabel="true" labelid="{8529af19-fce6-47f3-b571-517e798a8945}">
           <labels>
             <label description="Determination" languagecode="1033" />
           </labels>
           <columns>
             <column width="50%">
               <sections>
-                <section id="{3c3110ce-e129-2ab2-975b-e3d58be1aec6}" name="tab_schedule5_section" IsUserDefined="0" locklevel="0" showlabel="false" columns="11" showbar="true" layout="varwidth" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{48cca905-5a91-45dc-8492-d036d6ccc301}" height="auto">
+                <section id="{3c3110ce-e129-2ab2-975b-e3d58be1aec6}" name="tab_schedule5_section" IsUserDefined="0" locklevel="0" showlabel="true" columns="11" showbar="true" layout="varwidth" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{48cca905-5a91-45dc-8492-d036d6ccc301}" height="auto">
                   <labels>
                     <label description="Determined Details" languagecode="1033" />
                   </labels>
@@ -1384,114 +1348,6 @@
                     </row>
                   </rows>
                 </section>
-              </sections>
-            </column>
-            <column width="50%">
-              <sections>
-                <section name="tab_determination_section_3" showlabel="true" showbar="true" locklevel="0" id="{be807666-5cc6-57d8-5761-c4466d2dca10}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
-                  <labels>
-                    <label description="RFIs and SCH5s" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell id="{b0d94b50-619e-9406-8720-906b31036b2d}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Number of active RFIs" languagecode="1033" />
-                        </labels>
-                        <control id="defra_numberofrfis" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="defra_numberofrfis" disabled="true" uniqueid="{1e8b776a-714b-4604-031e-3d4420a65a21}" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{a176ada0-eb53-209d-892c-32ad61a77ed3}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Number of active SCH5s" languagecode="1033" />
-                        </labels>
-                        <control id="defra_numberofrfisorsch5s" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="defra_numberofrfisorsch5s" disabled="true" uniqueid="{257b4332-335d-863e-82c9-1250a078e956}" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{67b6d98d-2372-47bb-55c8-6e9cc0d947c5}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Number of SCH5 pending payments" languagecode="1033" />
-                        </labels>
-                        <control id="defra_numberofsch5payments" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="defra_numberofsch5payments" disabled="true" uniqueid="{8ac0ec45-1119-e2d5-522d-34a875b1c08d}" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{3b1ecd6c-dba6-ae03-c8e1-9694cd9858b7}" showlabel="false" colspan="1" auto="false" rowspan="6">
-                        <labels>
-                          <label description="RFIs or SCH5s (Application)" languagecode="1033" />
-                        </labels>
-                        <control id="determination_rfisch5" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{127816e3-4e44-2b58-5b55-b649eb99d025}">
-                          <parameters>
-                            <ViewId>{835A008A-A50B-EA11-A811-000D3ABAC0B9}</ViewId>
-                            <IsUserView>false</IsUserView>
-                            <RelationshipName>defra_defra_application_defra_rfisch5_application</RelationshipName>
-                            <TargetEntityType>defra_rfisch5</TargetEntityType>
-                            <AutoExpand>Fixed</AutoExpand>
-                            <EnableQuickFind>false</EnableQuickFind>
-                            <EnableViewPicker>false</EnableViewPicker>
-                            <ViewIds>{8A9F9F8D-840B-4621-AFE9-623C0264C9FB},{835A008A-A50B-EA11-A811-000D3ABAC0B9}</ViewIds>
-                            <EnableJumpBar>false</EnableJumpBar>
-                            <ChartGridMode>All</ChartGridMode>
-                            <VisualizationId />
-                            <IsUserChart>false</IsUserChart>
-                            <EnableChartPicker>true</EnableChartPicker>
-                            <RecordsPerPage>4</RecordsPerPage>
-                            <HeaderColorCode>#F5F5F5</HeaderColorCode>
-                          </parameters>
-                        </control>
-                      </cell>
-                    </row>
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                  </rows>
-                </section>
-              </sections>
-            </column>
-          </columns>
-        </tab>
-        <tab name="tab_16" id="{62c55b13-cb6d-9c5e-2db3-2c25ac499903}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
-          <labels>
-            <label description="Reviews" languagecode="1033" />
-          </labels>
-          <columns>
-            <column width="50%">
-              <sections>
-                <section name="tab_approval_section_3" showlabel="true" showbar="true" locklevel="0" id="{081c736e-94c0-000b-62e3-942de6e29301}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
-                  <labels>
-                    <label description="Operator review" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell id="{b716a7da-1cdd-c130-93cd-a13504031553}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Operator review completed?" languagecode="1033" />
-                        </labels>
-                        <control id="defra_operatorreviewcompleted" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="defra_operatorreviewcompleted" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{256c0610-773d-1a02-bc70-1141148a0b24}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Operator review started on" languagecode="1033" />
-                        </labels>
-                        <control id="defra_operatorreviewstartedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="defra_operatorreviewstartedon" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{94a87944-bd6d-0513-1c40-3d62868e53be}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Operator review completed on" languagecode="1033" />
-                        </labels>
-                        <control id="defra_operatorreviewcompletedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="defra_operatorreviewcompletedon" disabled="false" />
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
                 <section id="{62e5eb96-6aad-d30a-83b3-2b59a6010a74}" name="tab_7_section_2" IsUserDefined="0" locklevel="0" showlabel="true" columns="1" showbar="false" layout="varwidth" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{75f98442-630d-4a84-916a-8bbc63b0e0dd}">
                   <labels>
                     <label description="Peer review" languagecode="1033" />
@@ -1533,56 +1389,6 @@
                 </section>
               </sections>
             </column>
-            <column width="50%">
-              <sections>
-                <section id="{23552cda-2549-7379-185d-49b42b1b2d46}" name="tab_7_section_1" IsUserDefined="0" locklevel="0" showlabel="true" columns="1" showbar="true" layout="varwidth" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{fe20c01b-f086-4039-b9e5-297e2fdc716c}">
-                  <labels>
-                    <label description="Area review" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell id="{b1530bd6-840a-b5bd-4de8-ab3d73b27020}" showlabel="true" locklevel="0" labelid="{4d076cfa-c7ae-455c-b0cb-ded17adfe3a8}">
-                        <labels>
-                          <label description="Area" languagecode="1033" />
-                        </labels>
-                        <control id="defra_area" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="defra_area" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{42382c7e-b04b-428a-2a82-8c570a0d5700}" locklevel="0" showlabel="true" labelid="{28453b60-f5c9-4108-b28f-555fc11c9627}">
-                        <labels>
-                          <label description="Area Sign Off" languagecode="1033" />
-                        </labels>
-                        <control disabled="false" id="defra_areasignoff" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="defra_areasignoff" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{980b3841-a49d-d4ae-ca09-493e42011a95}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Area review started on" languagecode="1033" />
-                        </labels>
-                        <control id="defra_areareviewstartedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="defra_areareviewstartedon" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{13bd89ab-e251-5017-5ebc-457027ae8e63}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Area review finished on" languagecode="1033" />
-                        </labels>
-                        <control id="defra_areareviewfinishedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="defra_areareviewfinishedon" disabled="false" />
-                      </cell>
-                    </row>
-                  </rows>
-                </section>
-              </sections>
-            </column>
-          </columns>
-        </tab>
-        <tab id="{7bd7ba38-385c-9bda-4361-a790ab553603}" name="tab_reviewsignoff" IsUserDefined="0" locklevel="0" expanded="true" showlabel="true" labelid="{016f2c50-90d9-4fbb-b6e6-7095cc167f8b}">
-          <labels>
-            <label description="Sign off &amp; issue" languagecode="1033" />
-          </labels>
-          <columns>
             <column width="50%">
               <sections>
                 <section name="tab_approval_section_4" showlabel="true" showbar="true" locklevel="0" id="{8d88ae6c-9553-c16a-507a-89542edc2e75}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
@@ -1634,27 +1440,150 @@
                     </row>
                   </rows>
                 </section>
-              </sections>
-            </column>
-            <column width="50%">
-              <sections>
-                <section id="{6635e43a-1360-4ccc-8c1b-28af4868625f}" name="tab_reviewsignoff_column_18_section_1" columns="11" showlabel="false" showbar="false" IsUserDefined="0">
+                <section id="{23552cda-2549-7379-185d-49b42b1b2d46}" name="tab_7_section_1" IsUserDefined="0" locklevel="0" showlabel="true" columns="1" showbar="true" layout="varwidth" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{fe20c01b-f086-4039-b9e5-297e2fdc716c}">
                   <labels>
-                    <label description="section" languagecode="1033" />
+                    <label description="Area review" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{893ef30b-7dc3-4866-a985-30a9964039dd}">
+                      <cell id="{b1530bd6-840a-b5bd-4de8-ab3d73b27020}" showlabel="true" locklevel="0" labelid="{4d076cfa-c7ae-455c-b0cb-ded17adfe3a8}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Area" languagecode="1033" />
                         </labels>
+                        <control id="defra_area" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="defra_area" disabled="false" />
                       </cell>
-                      <cell id="{944c4d8f-d53e-472b-8a21-c615115b4a7b}">
+                    </row>
+                    <row>
+                      <cell id="{42382c7e-b04b-428a-2a82-8c570a0d5700}" locklevel="0" showlabel="true" labelid="{28453b60-f5c9-4108-b28f-555fc11c9627}">
+                        <labels>
+                          <label description="Area Sign Off" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="defra_areasignoff" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="defra_areasignoff" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{980b3841-a49d-d4ae-ca09-493e42011a95}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Area review started on" languagecode="1033" />
+                        </labels>
+                        <control id="defra_areareviewstartedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="defra_areareviewstartedon" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{13bd89ab-e251-5017-5ebc-457027ae8e63}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Area review finished on" languagecode="1033" />
+                        </labels>
+                        <control id="defra_areareviewfinishedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="defra_areareviewfinishedon" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="sec_operatorreview" showlabel="true" showbar="true" locklevel="0" id="{081c736e-94c0-000b-62e3-942de6e29301}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Operator review" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b716a7da-1cdd-c130-93cd-a13504031553}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Operator review completed?" languagecode="1033" />
+                        </labels>
+                        <control id="defra_operatorreviewcompleted" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="defra_operatorreviewcompleted" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{256c0610-773d-1a02-bc70-1141148a0b24}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Operator review started on" languagecode="1033" />
+                        </labels>
+                        <control id="defra_operatorreviewstartedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="defra_operatorreviewstartedon" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{94a87944-bd6d-0513-1c40-3d62868e53be}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Operator review completed on" languagecode="1033" />
+                        </labels>
+                        <control id="defra_operatorreviewcompletedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="defra_operatorreviewcompletedon" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_18" id="{bd0eb05d-e272-ea19-b482-a410d26b6b73}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+          <labels>
+            <label description="RFIs and SCH5s" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_18_section_1" showlabel="false" showbar="false" locklevel="0" id="{d6875639-5e05-2c2a-9729-e910b9cb1447}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{6d5abe03-8483-a3ac-9d71-a40237c8c957}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Number of active SCH5s" languagecode="1033" />
+                        </labels>
+                        <control id="defra_numberofrfisorsch5s" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="defra_numberofrfisorsch5s" disabled="false" />
+                      </cell>
+                      <cell id="{c7e6038d-ebbb-8a60-826d-3d6c6403d42c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Number of active RFIs" languagecode="1033" />
+                        </labels>
+                        <control id="defra_numberofrfis" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="defra_numberofrfis" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8bc793de-4eac-32e3-eac7-357287e90ee2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Number of SCH5 pending payments" languagecode="1033" />
+                        </labels>
+                        <control id="defra_numberofsch5payments" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="defra_numberofsch5payments" disabled="false" />
+                      </cell>
+                      <cell id="{c2e1c995-ac30-8abe-21ab-796019ca4298}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
                       </cell>
                     </row>
+                    <row>
+                      <cell id="{2d78c318-307e-b650-40d1-46ceb7e10560}" showlabel="false" colspan="2" auto="false" rowspan="6">
+                        <labels>
+                          <label description="RFIs or SCH5s" languagecode="1033" />
+                        </labels>
+                        <control id="RFIsSCH5s" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{1c9346b5-01c1-5098-6547-715ab676e1e8}">
+                          <parameters>
+                            <ViewId>{8A9F9F8D-840B-4621-AFE9-623C0264C9FB}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>defra_defra_application_defra_rfisch5_application</RelationshipName>
+                            <TargetEntityType>defra_rfisch5</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{8A9F9F8D-840B-4621-AFE9-623C0264C9FB}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F5F5F5</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
                   </rows>
                 </section>
               </sections>
@@ -2660,7 +2589,7 @@
             <Handler functionName="PaymentReceived" libraryName="defra_waste_application_form_events.js" handlerUniqueId="{2c2a109e-ab69-41b2-4ad4-471176dab12a}" enabled="true" parameters="" passExecutionContext="false" />
             <Handler functionName="IntelligenceCheck" libraryName="defra_waste_application_form_events.js" handlerUniqueId="{6db2b26b-d249-625e-8c24-55c825cd7664}" enabled="true" parameters="" passExecutionContext="false" />
             <Handler functionName="Applications.OnLoad" libraryName="defra_/applications/application_form_events.js" handlerUniqueId="{a56b9ad9-9a44-dbe0-6e8b-2eb3ce5a1763}" enabled="true" parameters="" passExecutionContext="false" />
-            <Handler functionName="displayDulyMakingChecklistTab" libraryName="defra_waste_application_form_events.js" handlerUniqueId="{7ba95cbb-a26a-c0e9-e997-7418da45a19d}" enabled="true" parameters="" passExecutionContext="true" />
+            <Handler functionName="displayDulyMakingChecklistTab" libraryName="defra_waste_application_form_events.js" handlerUniqueId="{7ba95cbb-a26a-c0e9-e997-7418da45a19d}" enabled="false" parameters="" passExecutionContext="true" />
             <Handler functionName="setTabFocus" libraryName="defra_application_onload" handlerUniqueId="{e63a192d-91ca-ec7c-db88-abb557684717}" enabled="true" parameters="" passExecutionContext="true" />
           </Handlers>
         </event>

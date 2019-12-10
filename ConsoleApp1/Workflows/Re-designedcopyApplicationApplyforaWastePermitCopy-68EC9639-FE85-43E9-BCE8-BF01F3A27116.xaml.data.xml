@@ -29,41 +29,20 @@
     <steplabels id="{0b42a195-54fd-4812-bf87-c8e12b0cd9f7}">
       <label languagecode="1033" description="Application Checks" />
     </steplabels>
-    <steplabels id="{0537f699-28ad-4559-b74a-18717f9a798a}">
-      <label languagecode="1033" description="Admin checks started on" />
-    </steplabels>
     <steplabels id="{6dfafdb2-6656-400e-9985-cf61a05079d7}">
       <label languagecode="1033" description="Intelligence Checks Required" />
     </steplabels>
     <steplabels id="{8260d586-8cfe-45f0-a377-e82784728b8f}">
       <label languagecode="1033" description="Admin checks completed?" />
     </steplabels>
-    <steplabels id="{515fe681-04c1-493f-b503-a91144af3640}">
-      <label languagecode="1033" description="Admin checks completed on" />
-    </steplabels>
-    <steplabels id="{4c23d9c1-ef4a-41d6-9b66-d3b89a6da54a}">
-      <label languagecode="1033" description="Admin checks completed by" />
-    </steplabels>
     <steplabels id="{c9f307d4-d677-416f-a485-a0113ff1288c}">
       <label languagecode="1033" description="Duly Making" />
-    </steplabels>
-    <steplabels id="{f797e3be-e80a-48f1-b243-47132efaac35}">
-      <label languagecode="1033" description="Duly making started on" />
     </steplabels>
     <steplabels id="{40c74168-f715-477e-b0b7-e03172538b1a}">
       <label languagecode="1033" description="Completed Duly Made" />
     </steplabels>
-    <steplabels id="{d7d16401-df6a-4238-975c-19f938697554}">
-      <label languagecode="1033" description="Duly making completed on" />
-    </steplabels>
-    <steplabels id="{8698463e-11aa-4a79-8b3d-55f9e564f9f1}">
-      <label languagecode="1033" description="Duly making completed by" />
-    </steplabels>
     <steplabels id="{02c4ab8f-b6cb-4262-8386-58251cca90fa}">
       <label languagecode="1033" description="Determination" />
-    </steplabels>
-    <steplabels id="{253443ea-95d6-423a-a031-833be3cd1892}">
-      <label languagecode="1033" description="Determination started on" />
     </steplabels>
     <steplabels id="{d6f5d0af-9c95-44b9-bed3-75dd011010ca}">
       <label languagecode="1033" description="Reviewer" />
@@ -74,33 +53,18 @@
     <steplabels id="{3e5d3fe3-4540-4a87-8084-c29c2bfeee1f}">
       <label languagecode="1033" description="Permit Effective Date" />
     </steplabels>
-    <steplabels id="{442427fe-9b94-48d8-a8b3-364f74c08312}">
-      <label languagecode="1033" description="Determination completed on" />
-    </steplabels>
-    <steplabels id="{681ffe6b-ab9a-4118-bf3a-9f6e4d9920b3}">
-      <label languagecode="1033" description="Determination completed by" />
-    </steplabels>
     <steplabels id="{abe1f3fb-aab0-4e70-bc72-7ca3b85e379a}">
-      <label languagecode="1033" description="Sign Off And Issue" />
+      <label languagecode="1033" description="Issue" />
     </steplabels>
     <steplabels id="{af03c9b3-735e-43b1-9a79-139d280f3613}">
       <label languagecode="1033" description="Team leader sign off" />
     </steplabels>
-    <steplabels id="{91394a5f-17a5-454c-9a20-fc7e0204214b}">
-      <label languagecode="1033" description="Admin issue started on" />
-    </steplabels>
     <steplabels id="{5d8f6377-1fbf-4a78-98d1-ece83df116dc}">
       <label languagecode="1033" description="Permit Issue Complete" />
     </steplabels>
-    <steplabels id="{a600fb63-2020-47ac-8b97-09254ff29888}">
-      <label languagecode="1033" description="Admin issue completed on" />
-    </steplabels>
-    <steplabels id="{06585c8b-f704-40c5-ad23-e8aaf0c1eedb}">
-      <label languagecode="1033" description="Admin issue completed by" />
-    </steplabels>
   </labels>
   <ProcessTriggers>
-    <ProcessTrigger processtriggerid="{d968d6cc-7b04-ea11-a811-000d3abacf5b}">
+    <ProcessTrigger processtriggerid="{f82e9f33-961a-ea11-a811-000d3abac0b9}">
       <methodid>{7eef3522-849e-4971-a6fa-e68bbfdb8196}</methodid>
       <scope>1</scope>
       <controlname>0b42a195-54fd-4812-bf87-c8e12b0cd9f7</controlname>
@@ -109,7 +73,7 @@
       <iscustomizable>1</iscustomizable>
       <primaryentitytypecode>defra_application</primaryentitytypecode>
     </ProcessTrigger>
-    <ProcessTrigger processtriggerid="{da68d6cc-7b04-ea11-a811-000d3abacf5b}">
+    <ProcessTrigger processtriggerid="{f92e9f33-961a-ea11-a811-000d3abac0b9}">
       <methodid>{de487abe-d2c6-4176-b2bc-75abe290c51b}</methodid>
       <scope>1</scope>
       <controlname>c9f307d4-d677-416f-a485-a0113ff1288c</controlname>
@@ -118,7 +82,7 @@
       <iscustomizable>1</iscustomizable>
       <primaryentitytypecode>defra_application</primaryentitytypecode>
     </ProcessTrigger>
-    <ProcessTrigger processtriggerid="{db68d6cc-7b04-ea11-a811-000d3abacf5b}">
+    <ProcessTrigger processtriggerid="{fa2e9f33-961a-ea11-a811-000d3abac0b9}">
       <methodid>{9fe59e17-05dc-4f51-bbde-3065125f3de7}</methodid>
       <scope>1</scope>
       <controlname>02c4ab8f-b6cb-4262-8386-58251cca90fa</controlname>
