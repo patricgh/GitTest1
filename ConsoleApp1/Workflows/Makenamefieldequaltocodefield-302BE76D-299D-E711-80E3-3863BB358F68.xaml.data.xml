@@ -18,6 +18,7 @@
   <IntroducedVersion>1.1.2.0</IntroducedVersion>
   <IsCustomizable>1</IsCustomizable>
   <BusinessProcessType>0</BusinessProcessType>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
   <PrimaryEntity>defra_standardrule</PrimaryEntity>
   <LocalizedNames>
     <LocalizedName languagecode="1033" description="Make name field equal to code field" />
@@ -25,22 +26,4 @@
   <Descriptions>
     <Description languagecode="1033" description="Click to add description" />
   </Descriptions>
-  <ProcessTriggers>
-    <ProcessTrigger processtriggerid="{312be76d-299d-e711-80e3-3863bb358f68}">
-      <controltype>1</controltype>
-      <scope>1</scope>
-      <controlname>defra_code</controlname>
-      <event>change</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>defra_standardrule</primaryentitytypecode>
-    </ProcessTrigger>
-    <ProcessTrigger processtriggerid="{322be76d-299d-e711-80e3-3863bb358f68}">
-      <scope>1</scope>
-      <event>load</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>defra_standardrule</primaryentitytypecode>
-    </ProcessTrigger>
-  </ProcessTriggers>
 </Workflow>

@@ -84,6 +84,7 @@
   <EntityRelationship Name="defra_defra_application_defra_webdata" />
   <EntityRelationship Name="defra_defra_application_queueitem_application" />
   <EntityRelationship Name="defra_defra_application_subtypes_defra_application_application_subtype" />
+  <EntityRelationship Name="defra_defra_applicationline_defra_application_MainActivity" />
   <EntityRelationship Name="defra_defra_applicationline_defra_applicationline_parentapplicationline" />
   <EntityRelationship Name="defra_defra_applicationline_defra_payment" />
   <EntityRelationship Name="defra_defra_applicationquestion_defra_applicationanswer_question" />

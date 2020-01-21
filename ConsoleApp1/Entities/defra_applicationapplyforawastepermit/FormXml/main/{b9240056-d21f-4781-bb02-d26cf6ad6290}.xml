@@ -292,7 +292,7 @@
                         <labels>
                           <label description="Duly made on" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_dulymadeon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_dulymadeon" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="true" disabled="false" />
+                        <control id="bpf_defra_application_defra_applicationapplyforawastepermit:defra_dulymadeon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_dulymadeon" relationship="bpf_defra_application_defra_applicationapplyforawastepermit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>

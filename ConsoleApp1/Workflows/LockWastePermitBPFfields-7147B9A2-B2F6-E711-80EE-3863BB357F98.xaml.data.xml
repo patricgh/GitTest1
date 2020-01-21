@@ -18,6 +18,7 @@
   <IntroducedVersion>1.1.43.0</IntroducedVersion>
   <IsCustomizable>1</IsCustomizable>
   <BusinessProcessType>0</BusinessProcessType>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
   <PrimaryEntity>defra_application</PrimaryEntity>
   <LocalizedNames>
     <LocalizedName languagecode="1033" description="Lock Waste Permit BPF fields" />
@@ -25,22 +26,4 @@
   <Descriptions>
     <Description languagecode="1033" description="Lock Waste Permit BPF fields" />
   </Descriptions>
-  <ProcessTriggers>
-    <ProcessTrigger processtriggerid="{029c821e-6e84-e811-a95d-000d3ab31aa3}">
-      <controltype>1</controltype>
-      <scope>1</scope>
-      <controlname>statuscode</controlname>
-      <event>change</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>defra_application</primaryentitytypecode>
-    </ProcessTrigger>
-    <ProcessTrigger processtriggerid="{039c821e-6e84-e811-a95d-000d3ab31aa3}">
-      <scope>1</scope>
-      <event>load</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>defra_application</primaryentitytypecode>
-    </ProcessTrigger>
-  </ProcessTriggers>
 </Workflow>

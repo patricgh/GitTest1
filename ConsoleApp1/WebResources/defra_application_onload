@@ -132,3 +132,232 @@ function setTabFocus(executionContext) {
         //alert(error.messa);
     }
 }
+
+// form render script for regime specific data
+function onloadAppForm(executionContext) {
+    debugger;
+    try {
+        var formContext = executionContext.getFormContext();
+        var globalContext = Xrm.Utility.getGlobalContext();
+        var clientURL = globalContext.getClientUrl();
+        var formName = formContext.ui.formSelector.getCurrentItem().getLabel();
+        if (formContext.getAttribute('defra_regimeid').getValue() != null && formContext.getAttribute('defra_businesstrackid').getValue() != null) {
+            var regimeName = formContext.getAttribute('defra_regimeid').getValue()[0].name;
+            var trackName = formContext.getAttribute('defra_businesstrackid').getValue()[0].name;
+            
+            //var serverUrl = Xrm.Page.context.getClientUrl();
+            var xmlConfigPath = clientURL + "/WebResources/defra_formrederconfig";
+            var xmlHttp = new XMLHttpRequest();
+            xmlHttp.open("GET", xmlConfigPath, false);
+            xmlHttp.send();
+            var responseXML = xmlHttp.responseXML;
+            var resFormLength = responseXML.getElementsByTagName('form').length;
+            var respFormXML = responseXML.getElementsByTagName('form');
+            
+
+            //check the length of tabs
+            //loop through Regimes
+            var regimeLength = responseXML.getElementsByTagName('regime').length;
+            var regimeXML = responseXML.getElementsByTagName('regime');
+            var trackXML;
+            var trackFound = false;
+            for (var z = 0; z < resFormLength; z++) {
+                if (respFormXML[z].id == formName) {
+                    for (var j = 0; j < regimeLength; j++) {
+                        if (regimeXML[j].id == regimeName) {
+                            var regChildNodeLength = regimeXML[j].childNodes.length;
+                            var regChildNodes = regimeXML[j].childNodes;
+                            for (var k = 0; k < regChildNodeLength; k++) {
+                                var foundRegimeNodeXML = regChildNodes[k].childNodes;
+                                //loop through regime's childnodes to find tracks
+                                for (var m = 0; m < foundRegimeNodeXML.length; m++) {
+                                    if (foundRegimeNodeXML[m].id == trackName) {
+                                        trackXML = foundRegimeNodeXML[m].childNodes;
+                                        trackFound = true;
+                                        break;
+                                    }
+                                    if (trackFound)
+                                        break;
+                                }
+                                if (trackFound)
+                                    break;
+                            }
+                        }
+                        if (trackFound)
+                            break;
+                    }
+                }
+                if (trackFound)
+                    break;
+            }            
+
+            //Hide the tabs for the Regime and track
+            var noOfTrackNodes = trackXML.length;
+            for (var c = 0; c < noOfTrackNodes; c++) {
+                if (trackXML[c].nodeName == "tabs") {
+                    for (var b = 0; b < trackXML[c].childNodes.length; b++) {
+                        if (trackXML[c].childNodes[b].nodeName == "tab") {
+                            var tabtoHide = trackXML[c].childNodes[b].innerHTML;
+                            formContext.ui.tabs.get(tabtoHide).setVisible(false);
+                        }
+                    }
+                }
+                else if (trackXML[c].nodeName == "sections") {
+                    for (var b = 0; b < trackXML[c].childNodes.length; b++) {
+                        if (trackXML[c].childNodes[b].nodeName == "section") {
+                            var tabNameforSec = trackXML[c].childNodes[b].id;
+                            var sectionToHide = trackXML[c].childNodes[b].innerHTML;
+                            formContext.ui.tabs.get(tabNameforSec).sections.get(sectionToHide).setVisible(false);
+                        }
+                    }
+                }
+                else if (trackXML[c].nodeName == "attributes") {
+                    for (var b = 0; b < trackXML[c].childNodes.length; b++) {
+                            if (trackXML[c].childNodes[b].nodeName == "attribute") {
+                            var attributetoHide = trackXML[c].childNodes[b].innerHTML;
+                            formContext.getControl(attributetoHide).setVisible(false);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    catch (error) {
+        alert("Error occurred in onloadAppForm method that renders the Application form: " + error.message);
+    }
+}
+
+// Set tab focus on form load
+function setTabFocus(executionContext) {
+    debugger;
+    try {
+        var formContext = executionContext.getFormContext();
+        if (formContext.getAttribute('defra_intel_checks_required').getValue() != null && formContext.getAttribute('defra_intel_checks_required').getValue())
+            formContext.ui.tabs.get('tab_intelchecks').setVisible(true);
+        else
+            formContext.ui.tabs.get('tab_intelchecks').setVisible(false);
+        if (formContext.ui.getFormType() == 2) {
+            var status = formContext.getAttribute('statuscode').getValue();
+            switch (status) {
+                case 910400022:
+                    formContext.ui.tabs.get('tab_applicationreceived').setFocus();
+                    break;
+                case 910400015:
+                    formContext.ui.tabs.get('tab_intelchecks').setFocus();
+                    break;
+                case 910400021:
+                case 910400001:
+                    formContext.ui.tabs.get('tab_dulymaking').setFocus();
+                    break;
+                case 910400002:
+                case 910400014:
+                case 910400005:
+                case 910400030:
+                case 910400017:
+                case 910400018:
+                    formContext.ui.tabs.get('tab_determination').setFocus();
+                    break;
+                default:
+                    formContext.ui.tabs.get('tab_general').setFocus();
+            }
+        }        
+    }
+    catch (error) {
+        alert('Error occurred in form load script method: setTabFocus().');
+        //alert(error.messa);
+    }
+}
+
+// form render script for regime specific data
+function onloadAppForm(executionContext) {
+    debugger;
+    try {
+        var formContext = executionContext.getFormContext();
+        var globalContext = Xrm.Utility.getGlobalContext();
+        var clientURL = globalContext.getClientUrl();
+        var formName = formContext.ui.formSelector.getCurrentItem().getLabel();
+        if (formContext.getAttribute('defra_regimeid').getValue() != null && formContext.getAttribute('defra_businesstrackid').getValue() != null) {
+            var regimeName = formContext.getAttribute('defra_regimeid').getValue()[0].name;
+            var trackName = formContext.getAttribute('defra_businesstrackid').getValue()[0].name;
+            
+            //var serverUrl = Xrm.Page.context.getClientUrl();
+            var xmlConfigPath = clientURL + "/WebResources/defra_formrederconfig";
+            var xmlHttp = new XMLHttpRequest();
+            xmlHttp.open("GET", xmlConfigPath, false);
+            xmlHttp.send();
+            var responseXML = xmlHttp.responseXML;
+            var resFormLength = responseXML.getElementsByTagName('form').length;
+            var respFormXML = responseXML.getElementsByTagName('form');
+            
+
+            //check the length of tabs
+            //loop through Regimes
+            var regimeLength = responseXML.getElementsByTagName('regime').length;
+            var regimeXML = responseXML.getElementsByTagName('regime');
+            var trackXML;
+            var trackFound = false;
+            for (var z = 0; z < resFormLength; z++) {
+                if (respFormXML[z].id == formName) {
+                    for (var j = 0; j < regimeLength; j++) {
+                        if (regimeXML[j].id == regimeName) {
+                            var regChildNodeLength = regimeXML[j].childNodes.length;
+                            var regChildNodes = regimeXML[j].childNodes;
+                            for (var k = 0; k < regChildNodeLength; k++) {
+                                var foundRegimeNodeXML = regChildNodes[k].childNodes;
+                                //loop through regime's childnodes to find tracks
+                                for (var m = 0; m < foundRegimeNodeXML.length; m++) {
+                                    if (foundRegimeNodeXML[m].id == trackName) {
+                                        trackXML = foundRegimeNodeXML[m].childNodes;
+                                        trackFound = true;
+                                        break;
+                                    }
+                                    if (trackFound)
+                                        break;
+                                }
+                                if (trackFound)
+                                    break;
+                            }
+                        }
+                        if (trackFound)
+                            break;
+                    }
+                }
+                if (trackFound)
+                    break;
+            }            
+
+            //Hide the tabs for the Regime and track
+            var noOfTrackNodes = trackXML.length;
+            for (var c = 0; c < noOfTrackNodes; c++) {
+                if (trackXML[c].nodeName == "tabs") {
+                    for (var b = 0; b < trackXML[c].childNodes.length; b++) {
+                        if (trackXML[c].childNodes[b].nodeName == "tab") {
+                            var tabtoHide = trackXML[c].childNodes[b].innerHTML;
+                            formContext.ui.tabs.get(tabtoHide).setVisible(false);
+                        }
+                    }
+                }
+                else if (trackXML[c].nodeName == "sections") {
+                    for (var b = 0; b < trackXML[c].childNodes.length; b++) {
+                        if (trackXML[c].childNodes[b].nodeName == "section") {
+                            var tabNameforSec = trackXML[c].childNodes[b].id;
+                            var sectionToHide = trackXML[c].childNodes[b].innerHTML;
+                            formContext.ui.tabs.get(tabNameforSec).sections.get(sectionToHide).setVisible(false);
+                        }
+                    }
+                }
+                else if (trackXML[c].nodeName == "attributes") {
+                    for (var b = 0; b < trackXML[c].childNodes.length; b++) {
+                            if (trackXML[c].childNodes[b].nodeName == "attribute") {
+                            var attributetoHide = trackXML[c].childNodes[b].innerHTML;
+                            formContext.getControl(attributetoHide).setVisible(false);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    catch (error) {
+        alert("Error occurred in onloadAppForm method that renders the Application form: " + error.message);
+    }
+}

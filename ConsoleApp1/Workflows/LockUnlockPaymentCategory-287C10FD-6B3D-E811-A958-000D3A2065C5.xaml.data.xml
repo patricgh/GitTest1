@@ -18,6 +18,8 @@
   <IntroducedVersion>1.0</IntroducedVersion>
   <IsCustomizable>1</IsCustomizable>
   <BusinessProcessType>0</BusinessProcessType>
+  <ProcessTriggerFormId>{6a557ae5-f0c0-4adc-8660-40dbfc6633e1}</ProcessTriggerFormId>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
   <PrimaryEntity>defra_payment</PrimaryEntity>
   <LocalizedNames>
     <LocalizedName languagecode="1033" description="Lock/Unlock Payment Category" />
@@ -25,24 +27,4 @@
   <Descriptions>
     <Description languagecode="1033" description="Click to add description" />
   </Descriptions>
-  <ProcessTriggers>
-    <ProcessTrigger processtriggerid="{72f6b5cf-47b0-e811-a967-000d3a23443b}">
-      <controltype>1</controltype>
-      <formid>{6a557ae5-f0c0-4adc-8660-40dbfc6633e1}</formid>
-      <scope>1</scope>
-      <controlname>defra_paymentcategory</controlname>
-      <event>change</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>defra_payment</primaryentitytypecode>
-    </ProcessTrigger>
-    <ProcessTrigger processtriggerid="{73f6b5cf-47b0-e811-a967-000d3a23443b}">
-      <formid>{6a557ae5-f0c0-4adc-8660-40dbfc6633e1}</formid>
-      <scope>1</scope>
-      <event>load</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>defra_payment</primaryentitytypecode>
-    </ProcessTrigger>
-  </ProcessTriggers>
 </Workflow>

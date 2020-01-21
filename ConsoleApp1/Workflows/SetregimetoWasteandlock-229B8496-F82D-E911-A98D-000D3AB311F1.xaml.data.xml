@@ -18,6 +18,8 @@
   <IntroducedVersion>1.10.1.1</IntroducedVersion>
   <IsCustomizable>1</IsCustomizable>
   <BusinessProcessType>0</BusinessProcessType>
+  <ProcessTriggerFormId>{080cb19d-9fc5-4312-8d7f-605816add494}</ProcessTriggerFormId>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
   <PrimaryEntity>defra_application</PrimaryEntity>
   <LocalizedNames>
     <LocalizedName languagecode="1033" description="Set regime to Waste and lock" />
@@ -25,24 +27,4 @@
   <Descriptions>
     <Description languagecode="1033" description="Click to add description" />
   </Descriptions>
-  <ProcessTriggers>
-    <ProcessTrigger processtriggerid="{bfcbdcdb-f82d-e911-a98d-000d3ab311f1}">
-      <controltype>1</controltype>
-      <formid>{080cb19d-9fc5-4312-8d7f-605816add494}</formid>
-      <scope>1</scope>
-      <controlname>createdby</controlname>
-      <event>change</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>defra_application</primaryentitytypecode>
-    </ProcessTrigger>
-    <ProcessTrigger processtriggerid="{c0cbdcdb-f82d-e911-a98d-000d3ab311f1}">
-      <formid>{080cb19d-9fc5-4312-8d7f-605816add494}</formid>
-      <scope>1</scope>
-      <event>load</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>defra_application</primaryentitytypecode>
-    </ProcessTrigger>
-  </ProcessTriggers>
 </Workflow>

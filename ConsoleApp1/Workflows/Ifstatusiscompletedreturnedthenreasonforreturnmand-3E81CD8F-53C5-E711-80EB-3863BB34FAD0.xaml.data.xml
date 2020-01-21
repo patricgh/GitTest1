@@ -18,6 +18,7 @@
   <IntroducedVersion>1.1.27.0</IntroducedVersion>
   <IsCustomizable>1</IsCustomizable>
   <BusinessProcessType>0</BusinessProcessType>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
   <PrimaryEntity>defra_dulymadechecklist</PrimaryEntity>
   <LocalizedNames>
     <LocalizedName languagecode="1033" description="If status is completed returned then reason for return mandatory" />
@@ -25,22 +26,4 @@
   <Descriptions>
     <Description languagecode="1033" description="Click to add description" />
   </Descriptions>
-  <ProcessTriggers>
-    <ProcessTrigger processtriggerid="{e717ad2d-69cf-e711-80eb-3863bb34b7d0}">
-      <controltype>1</controltype>
-      <scope>1</scope>
-      <controlname>statuscode</controlname>
-      <event>change</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>defra_dulymadechecklist</primaryentitytypecode>
-    </ProcessTrigger>
-    <ProcessTrigger processtriggerid="{e817ad2d-69cf-e711-80eb-3863bb34b7d0}">
-      <scope>1</scope>
-      <event>load</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>defra_dulymadechecklist</primaryentitytypecode>
-    </ProcessTrigger>
-  </ProcessTriggers>
 </Workflow>

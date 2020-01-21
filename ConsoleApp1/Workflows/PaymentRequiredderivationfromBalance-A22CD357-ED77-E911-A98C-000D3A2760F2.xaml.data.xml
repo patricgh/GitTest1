@@ -20,6 +20,7 @@
   <IsTransacted>1</IsTransacted>
   <IntroducedVersion>1.0</IntroducedVersion>
   <IsCustomizable>1</IsCustomizable>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
   <PrimaryEntity>defra_application</PrimaryEntity>
   <LocalizedNames>
     <LocalizedName languagecode="1033" description="Payment Required derivation from Balance" />
@@ -27,22 +28,4 @@
   <Descriptions>
     <Description languagecode="1033" description="Payment Received" />
   </Descriptions>
-  <ProcessTriggers>
-    <ProcessTrigger processtriggerid="{491a48f7-ae78-e911-a97c-000d3a206976}">
-      <controltype>1</controltype>
-      <scope>1</scope>
-      <controlname>defra_balance</controlname>
-      <event>change</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>defra_application</primaryentitytypecode>
-    </ProcessTrigger>
-    <ProcessTrigger processtriggerid="{4a1a48f7-ae78-e911-a97c-000d3a206976}">
-      <scope>1</scope>
-      <event>load</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>defra_application</primaryentitytypecode>
-    </ProcessTrigger>
-  </ProcessTriggers>
 </Workflow>

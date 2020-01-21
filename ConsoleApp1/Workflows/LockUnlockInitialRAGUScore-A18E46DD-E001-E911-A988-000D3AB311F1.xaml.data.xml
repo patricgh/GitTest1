@@ -18,6 +18,7 @@
   <IntroducedVersion>1.9.0.7</IntroducedVersion>
   <IsCustomizable>1</IsCustomizable>
   <BusinessProcessType>0</BusinessProcessType>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
   <PrimaryEntity>defra_application</PrimaryEntity>
   <LocalizedNames>
     <LocalizedName languagecode="1033" description="Lock/Unlock Initial RAGU Score" />
@@ -25,38 +26,4 @@
   <Descriptions>
     <Description languagecode="1033" description="Click to add description" />
   </Descriptions>
-  <ProcessTriggers>
-    <ProcessTrigger processtriggerid="{b38e46dd-e001-e911-a988-000d3ab311f1}">
-      <controltype>1</controltype>
-      <scope>1</scope>
-      <controlname>defra_raguscore</controlname>
-      <event>change</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>defra_application</primaryentitytypecode>
-    </ProcessTrigger>
-    <ProcessTrigger processtriggerid="{b48e46dd-e001-e911-a988-000d3ab311f1}">
-      <scope>1</scope>
-      <event>load</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>defra_application</primaryentitytypecode>
-    </ProcessTrigger>
-    <ProcessTrigger processtriggerid="{b58e46dd-e001-e911-a988-000d3ab311f1}">
-      <controltype>1</controltype>
-      <scope>1</scope>
-      <controlname>statuscode</controlname>
-      <event>change</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>defra_application</primaryentitytypecode>
-    </ProcessTrigger>
-    <ProcessTrigger processtriggerid="{b68e46dd-e001-e911-a988-000d3ab311f1}">
-      <scope>1</scope>
-      <event>load</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>defra_application</primaryentitytypecode>
-    </ProcessTrigger>
-  </ProcessTriggers>
 </Workflow>

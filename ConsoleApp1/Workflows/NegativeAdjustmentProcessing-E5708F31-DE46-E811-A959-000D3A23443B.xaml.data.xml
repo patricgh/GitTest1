@@ -18,6 +18,7 @@
   <IntroducedVersion>1.2.0.25</IntroducedVersion>
   <IsCustomizable>1</IsCustomizable>
   <BusinessProcessType>0</BusinessProcessType>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
   <PrimaryEntity>defra_applicationline</PrimaryEntity>
   <LocalizedNames>
     <LocalizedName languagecode="1033" description="Negative Adjustment Processing" />
@@ -25,38 +26,4 @@
   <Descriptions>
     <Description languagecode="1033" description="Click to add description" />
   </Descriptions>
-  <ProcessTriggers>
-    <ProcessTrigger processtriggerid="{7da7aa56-67e7-e811-a985-000d3ab311f1}">
-      <controltype>1</controltype>
-      <scope>1</scope>
-      <controlname>defra_item_type</controlname>
-      <event>change</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>defra_applicationline</primaryentitytypecode>
-    </ProcessTrigger>
-    <ProcessTrigger processtriggerid="{7ea7aa56-67e7-e811-a985-000d3ab311f1}">
-      <scope>1</scope>
-      <event>load</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>defra_applicationline</primaryentitytypecode>
-    </ProcessTrigger>
-    <ProcessTrigger processtriggerid="{7fa7aa56-67e7-e811-a985-000d3ab311f1}">
-      <controltype>1</controltype>
-      <scope>1</scope>
-      <controlname>defra_item_type</controlname>
-      <event>change</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>defra_applicationline</primaryentitytypecode>
-    </ProcessTrigger>
-    <ProcessTrigger processtriggerid="{80a7aa56-67e7-e811-a985-000d3ab311f1}">
-      <scope>1</scope>
-      <event>load</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>defra_applicationline</primaryentitytypecode>
-    </ProcessTrigger>
-  </ProcessTriggers>
 </Workflow>

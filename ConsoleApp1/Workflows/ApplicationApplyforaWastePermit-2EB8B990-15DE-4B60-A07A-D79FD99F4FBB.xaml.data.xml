@@ -20,6 +20,7 @@
   <IntroducedVersion>1.0.0.0</IntroducedVersion>
   <IsCustomizable>1</IsCustomizable>
   <BusinessProcessType>0</BusinessProcessType>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
   <PrimaryEntity>defra_application</PrimaryEntity>
   <LocalizedNames>
     <LocalizedName languagecode="1033" description="Application: Apply for a Waste Permit" />
@@ -248,108 +249,4 @@
       <label languagecode="1033" description="Admin issue completed by" />
     </steplabels>
   </labels>
-  <ProcessTriggers>
-    <ProcessTrigger processtriggerid="{d9421c56-1e11-ea11-a811-000d3abacf5b}">
-      <controltype>1</controltype>
-      <methodid>{ff115809-c327-43a3-b516-69a70c58ca69}</methodid>
-      <scope>1</scope>
-      <controlname>defra_intel_checks_required</controlname>
-      <event>change</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>defra_application</primaryentitytypecode>
-    </ProcessTrigger>
-    <ProcessTrigger processtriggerid="{da421c56-1e11-ea11-a811-000d3abacf5b}">
-      <controltype>1</controltype>
-      <methodid>{5cd8f8de-7a7f-4797-a2d2-9f6cc0ce6f7c}</methodid>
-      <scope>1</scope>
-      <controlname>defra_completeddulymade</controlname>
-      <event>change</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>defra_application</primaryentitytypecode>
-    </ProcessTrigger>
-    <ProcessTrigger processtriggerid="{db421c56-1e11-ea11-a811-000d3abacf5b}">
-      <controltype>1</controltype>
-      <methodid>{e4abd148-fc85-483a-bab1-d9bde68d2a45}</methodid>
-      <scope>1</scope>
-      <controlname>defra_regimeid</controlname>
-      <event>change</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>defra_application</primaryentitytypecode>
-    </ProcessTrigger>
-    <ProcessTrigger processtriggerid="{dc421c56-1e11-ea11-a811-000d3abacf5b}">
-      <methodid>{7eef3522-849e-4971-a6fa-e68bbfdb8196}</methodid>
-      <scope>1</scope>
-      <controlname>ff115809-c327-43a3-b516-69a70c58ca69</controlname>
-      <event>STAGEEXIT</event>
-      <pipelinestage>20</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>defra_application</primaryentitytypecode>
-    </ProcessTrigger>
-    <ProcessTrigger processtriggerid="{dd421c56-1e11-ea11-a811-000d3abacf5b}">
-      <methodid>{e305719a-f60f-4b5c-9090-d275d459ce51}</methodid>
-      <scope>1</scope>
-      <controlname>49808a20-cfca-44da-bbdb-cca22df16a30</controlname>
-      <event>STAGEEXIT</event>
-      <pipelinestage>20</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>defra_application</primaryentitytypecode>
-    </ProcessTrigger>
-    <ProcessTrigger processtriggerid="{de421c56-1e11-ea11-a811-000d3abacf5b}">
-      <methodid>{de487abe-d2c6-4176-b2bc-75abe290c51b}</methodid>
-      <scope>1</scope>
-      <controlname>5cd8f8de-7a7f-4797-a2d2-9f6cc0ce6f7c</controlname>
-      <event>STAGEEXIT</event>
-      <pipelinestage>20</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>defra_application</primaryentitytypecode>
-    </ProcessTrigger>
-    <ProcessTrigger processtriggerid="{df421c56-1e11-ea11-a811-000d3abacf5b}">
-      <methodid>{9fe59e17-05dc-4f51-bbde-3065125f3de7}</methodid>
-      <scope>1</scope>
-      <controlname>52a86a57-b418-4006-9fe3-d02778441761</controlname>
-      <event>STAGEEXIT</event>
-      <pipelinestage>20</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>defra_application</primaryentitytypecode>
-    </ProcessTrigger>
-    <ProcessTrigger processtriggerid="{e0421c56-1e11-ea11-a811-000d3abacf5b}">
-      <methodid>{c4a9df86-b5f6-4c22-aa77-4e360dd6b998}</methodid>
-      <scope>1</scope>
-      <controlname>0d2371d6-df6f-4fc6-a087-940b811e1371</controlname>
-      <event>STAGEEXIT</event>
-      <pipelinestage>20</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>defra_application</primaryentitytypecode>
-    </ProcessTrigger>
-    <ProcessTrigger processtriggerid="{e1421c56-1e11-ea11-a811-000d3abacf5b}">
-      <methodid>{89514f05-3d2d-4100-895f-4cf5b84ab91f}</methodid>
-      <scope>1</scope>
-      <controlname>e4abd148-fc85-483a-bab1-d9bde68d2a45</controlname>
-      <event>STAGEEXIT</event>
-      <pipelinestage>20</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>defra_application</primaryentitytypecode>
-    </ProcessTrigger>
-    <ProcessTrigger processtriggerid="{e2421c56-1e11-ea11-a811-000d3abacf5b}">
-      <methodid>{89514f05-3d2d-4100-895f-4cf5b84ab91f}</methodid>
-      <scope>1</scope>
-      <controlname>07e7dea3-2146-464b-a638-cc7d9881f8c7</controlname>
-      <event>STAGEEXIT</event>
-      <pipelinestage>20</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>defra_application</primaryentitytypecode>
-    </ProcessTrigger>
-    <ProcessTrigger processtriggerid="{e3421c56-1e11-ea11-a811-000d3abacf5b}">
-      <methodid>{4e83c9cf-a04f-4fce-8bdf-de914a8e9740}</methodid>
-      <scope>1</scope>
-      <controlname>74c754a1-116f-4310-9428-d2be95d2a3e7</controlname>
-      <event>STAGEEXIT</event>
-      <pipelinestage>20</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>defra_application</primaryentitytypecode>
-    </ProcessTrigger>
-  </ProcessTriggers>
 </Workflow>

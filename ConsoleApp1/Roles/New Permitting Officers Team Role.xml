@@ -203,6 +203,7 @@
     <RolePrivilege name="prvReaddefra_applicationcontact" level="Deep" />
     <RolePrivilege name="prvReaddefra_applicationline" level="Deep" />
     <RolePrivilege name="prvReaddefra_applicationprice" level="Deep" />
+    <RolePrivilege name="prvReaddefra_applicationquestion" level="Deep" />
     <RolePrivilege name="prvReaddefra_autonumbering" level="Global" />
     <RolePrivilege name="prvReaddefra_configuration" level="Deep" />
     <RolePrivilege name="prvReaddefra_country" level="Deep" />

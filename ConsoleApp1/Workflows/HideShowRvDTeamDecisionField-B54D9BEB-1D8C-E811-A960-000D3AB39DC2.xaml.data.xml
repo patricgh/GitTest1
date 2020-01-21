@@ -18,6 +18,7 @@
   <IntroducedVersion>1.2.1.50</IntroducedVersion>
   <IsCustomizable>1</IsCustomizable>
   <BusinessProcessType>0</BusinessProcessType>
+  <ProcessTriggerScope>2</ProcessTriggerScope>
   <PrimaryEntity>defra_dulymadechecklist</PrimaryEntity>
   <LocalizedNames>
     <LocalizedName languagecode="1033" description="Hide/Show RvD Team Decision Field" />
@@ -25,22 +26,4 @@
   <Descriptions>
     <Description languagecode="1033" description="Click to add description" />
   </Descriptions>
-  <ProcessTriggers>
-    <ProcessTrigger processtriggerid="{3de77f37-288c-e811-a960-000d3ab39dc2}">
-      <controltype>1</controltype>
-      <scope>2</scope>
-      <controlname>defra_wasterecoveryplanacceptable</controlname>
-      <event>change</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>defra_dulymadechecklist</primaryentitytypecode>
-    </ProcessTrigger>
-    <ProcessTrigger processtriggerid="{3ee77f37-288c-e811-a960-000d3ab39dc2}">
-      <scope>2</scope>
-      <event>load</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>defra_dulymadechecklist</primaryentitytypecode>
-    </ProcessTrigger>
-  </ProcessTriggers>
 </Workflow>

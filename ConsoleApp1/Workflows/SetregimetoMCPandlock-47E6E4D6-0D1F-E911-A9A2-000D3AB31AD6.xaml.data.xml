@@ -18,6 +18,8 @@
   <IntroducedVersion>1.0.0.1</IntroducedVersion>
   <IsCustomizable>1</IsCustomizable>
   <BusinessProcessType>0</BusinessProcessType>
+  <ProcessTriggerFormId>{56462345-aee2-4825-8c65-7eb3da235080}</ProcessTriggerFormId>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
   <PrimaryEntity>defra_application</PrimaryEntity>
   <LocalizedNames>
     <LocalizedName languagecode="1033" description="Set regime to MCP and lock" />
@@ -25,24 +27,4 @@
   <Descriptions>
     <Description languagecode="1033" description="Click to add description" />
   </Descriptions>
-  <ProcessTriggers>
-    <ProcessTrigger processtriggerid="{9e026cd8-d1e9-e911-a812-000d3abac0b9}">
-      <controltype>1</controltype>
-      <formid>{56462345-aee2-4825-8c65-7eb3da235080}</formid>
-      <scope>1</scope>
-      <controlname>createdby</controlname>
-      <event>change</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>defra_application</primaryentitytypecode>
-    </ProcessTrigger>
-    <ProcessTrigger processtriggerid="{9f026cd8-d1e9-e911-a812-000d3abac0b9}">
-      <formid>{56462345-aee2-4825-8c65-7eb3da235080}</formid>
-      <scope>1</scope>
-      <event>load</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>defra_application</primaryentitytypecode>
-    </ProcessTrigger>
-  </ProcessTriggers>
 </Workflow>

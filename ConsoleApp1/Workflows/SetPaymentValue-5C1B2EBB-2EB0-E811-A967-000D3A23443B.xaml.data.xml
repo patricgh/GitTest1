@@ -18,6 +18,7 @@
   <IntroducedVersion>1.2.1.27</IntroducedVersion>
   <IsCustomizable>1</IsCustomizable>
   <BusinessProcessType>0</BusinessProcessType>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
   <PrimaryEntity>defra_payment</PrimaryEntity>
   <LocalizedNames>
     <LocalizedName languagecode="1033" description="Set Payment Value" />
@@ -25,22 +26,4 @@
   <Descriptions>
     <Description languagecode="1033" description="Click to add description" />
   </Descriptions>
-  <ProcessTriggers>
-    <ProcessTrigger processtriggerid="{c6293fcf-11b1-e811-a96e-000d3a233e06}">
-      <controltype>1</controltype>
-      <scope>1</scope>
-      <controlname>defra_paymentcategory</controlname>
-      <event>change</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>defra_payment</primaryentitytypecode>
-    </ProcessTrigger>
-    <ProcessTrigger processtriggerid="{c7293fcf-11b1-e811-a96e-000d3a233e06}">
-      <scope>1</scope>
-      <event>load</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>defra_payment</primaryentitytypecode>
-    </ProcessTrigger>
-  </ProcessTriggers>
 </Workflow>

@@ -18,6 +18,7 @@
   <IntroducedVersion>1.25.0.3</IntroducedVersion>
   <IsCustomizable>1</IsCustomizable>
   <BusinessProcessType>0</BusinessProcessType>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
   <PrimaryEntity>defra_rfisch5</PrimaryEntity>
   <LocalizedNames>
     <LocalizedName languagecode="1033" description="Show payment fields if type is SCH5" />
@@ -25,22 +26,4 @@
   <Descriptions>
     <Description languagecode="1033" description="Click to add description" />
   </Descriptions>
-  <ProcessTriggers>
-    <ProcessTrigger processtriggerid="{8045fbff-d7f0-e911-a812-000d3abac6d0}">
-      <controltype>1</controltype>
-      <scope>1</scope>
-      <controlname>defra_type</controlname>
-      <event>change</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>defra_rfisch5</primaryentitytypecode>
-    </ProcessTrigger>
-    <ProcessTrigger processtriggerid="{8145fbff-d7f0-e911-a812-000d3abac6d0}">
-      <scope>1</scope>
-      <event>load</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>defra_rfisch5</primaryentitytypecode>
-    </ProcessTrigger>
-  </ProcessTriggers>
 </Workflow>

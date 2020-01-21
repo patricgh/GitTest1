@@ -79,9 +79,9 @@
                     <row>
                       <cell id="{3b9424a0-28a3-b734-96d6-d673d2319ce6}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Facility" languagecode="1033" />
+                          <label description="Primary Activity" languagecode="1033" />
                         </labels>
-                        <control id="defra_facility_description" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="defra_facility_description" disabled="true" uniqueid="{edb36bb0-011b-8e49-3d89-52981dcb910e}" />
+                        <control id="defra_facility_description" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="defra_facility_description" disabled="false" uniqueid="{edb36bb0-011b-8e49-3d89-52981dcb910e}" />
                       </cell>
                     </row>
                     <row>
@@ -797,20 +797,20 @@
         </tab>
         <tab name="tab_14" id="{3a9797d8-0d99-809a-64e8-3eb90779d8a3}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
           <labels>
-            <label description="Regulated Facilities" languagecode="1033" />
+            <label description="Regulated Activities" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
                 <section name="tab_general_section_11" showlabel="false" showbar="false" locklevel="0" id="{973b21c7-9c71-c9a4-8d45-c173211ce29d}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{eb16a243-fae4-4a3b-84d6-75b1efa14689}">
                   <labels>
-                    <label description="Regulated Facilities" languagecode="1033" />
+                    <label description="Regulated Activities" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
                       <cell id="{54b47567-08c9-ea94-3e07-959cd83157d4}" showlabel="false" colspan="1" auto="false" rowspan="6" labelid="{f747a9fb-be5d-46e5-b21e-a2299039b250}">
                         <labels>
-                          <label description="Regulated Facilities" languagecode="1033" />
+                          <label description="Regulated Activities" languagecode="1033" />
                         </labels>
                         <control id="RegulatedFacilities" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{beeb0c66-3774-b03d-d23d-1bd7baa7aa60}">
                           <parameters>

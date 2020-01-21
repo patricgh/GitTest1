@@ -18,6 +18,7 @@
   <IntroducedVersion>1.2.1.27</IntroducedVersion>
   <IsCustomizable>1</IsCustomizable>
   <BusinessProcessType>0</BusinessProcessType>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
   <PrimaryEntity>defra_payment</PrimaryEntity>
   <LocalizedNames>
     <LocalizedName languagecode="1033" description="Hide/Show Payment Value/Refund Value" />
@@ -25,38 +26,4 @@
   <Descriptions>
     <Description languagecode="1033" description="Hides and shows the Payment Value/Refund Value fields depending on the direction." />
   </Descriptions>
-  <ProcessTriggers>
-    <ProcessTrigger processtriggerid="{92bc34db-5bb0-e811-a96a-000d3a20838a}">
-      <controltype>1</controltype>
-      <scope>1</scope>
-      <controlname>defra_paymentcategory</controlname>
-      <event>change</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>defra_payment</primaryentitytypecode>
-    </ProcessTrigger>
-    <ProcessTrigger processtriggerid="{93bc34db-5bb0-e811-a96a-000d3a20838a}">
-      <scope>1</scope>
-      <event>load</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>defra_payment</primaryentitytypecode>
-    </ProcessTrigger>
-    <ProcessTrigger processtriggerid="{94bc34db-5bb0-e811-a96a-000d3a20838a}">
-      <controltype>1</controltype>
-      <scope>1</scope>
-      <controlname>defra_paymentcategory</controlname>
-      <event>change</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>defra_payment</primaryentitytypecode>
-    </ProcessTrigger>
-    <ProcessTrigger processtriggerid="{95bc34db-5bb0-e811-a96a-000d3a20838a}">
-      <scope>1</scope>
-      <event>load</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>defra_payment</primaryentitytypecode>
-    </ProcessTrigger>
-  </ProcessTriggers>
 </Workflow>
