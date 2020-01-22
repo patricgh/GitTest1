@@ -68,6 +68,9 @@
     <steplabels id="{87d3212a-7f0d-4496-b348-bc7f6ac3759c}">
       <label languagecode="1033" description="Admin checks completed by" />
     </steplabels>
+    <steplabels id="{6c681bed-cfb6-4c3a-a158-0379ec145b7c}">
+      <label languagecode="1033" description="Main Activity" />
+    </steplabels>
     <steplabels id="{49808a20-cfca-44da-bbdb-cca22df16a30}">
       <label languagecode="1033" description="Intelligence Checks" />
     </steplabels>
