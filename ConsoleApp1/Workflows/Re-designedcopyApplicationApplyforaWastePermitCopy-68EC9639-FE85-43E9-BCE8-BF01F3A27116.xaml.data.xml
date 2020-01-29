@@ -11,8 +11,8 @@
   <TriggerOnDelete>0</TriggerOnDelete>
   <AsyncAutodelete>0</AsyncAutodelete>
   <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
-  <StateCode>1</StateCode>
-  <StatusCode>2</StatusCode>
+  <StateCode>0</StateCode>
+  <StatusCode>1</StatusCode>
   <processorder>100</processorder>
   <processroleassignment>&lt;DisplayConditions&gt;&lt;Role Id="{627090ff-40a3-4053-8790-584edc5be201}" /&gt;&lt;Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" /&gt;&lt;Role Id="{14E93243-7B91-4CD7-9399-2708C18E96CB}" /&gt;&lt;Role Id="{ADA1957A-1AEE-405C-85E4-4F2A2E534319}" /&gt;&lt;/DisplayConditions&gt;</processroleassignment>
   <RunAs>1</RunAs>
@@ -28,13 +28,16 @@
   </LocalizedNames>
   <labels>
     <steplabels id="{0b42a195-54fd-4812-bf87-c8e12b0cd9f7}">
-      <label languagecode="1033" description="Received" />
+      <label languagecode="1033" description="Initial Checks" />
     </steplabels>
     <steplabels id="{8260d586-8cfe-45f0-a377-e82784728b8f}">
       <label languagecode="1033" description="Admin checks completed?" />
     </steplabels>
     <steplabels id="{6dfafdb2-6656-400e-9985-cf61a05079d7}">
       <label languagecode="1033" description="Intelligence Checks Required" />
+    </steplabels>
+    <steplabels id="{b90d1809-3544-4abb-acbf-4fb42d0c7b1f}">
+      <label languagecode="1033" description="Intelligence checks completed?" />
     </steplabels>
     <steplabels id="{c9f307d4-d677-416f-a485-a0113ff1288c}">
       <label languagecode="1033" description="Duly Making" />
@@ -57,11 +60,17 @@
     <steplabels id="{3e5d3fe3-4540-4a87-8084-c29c2bfeee1f}">
       <label languagecode="1033" description="Permit Effective Date" />
     </steplabels>
+    <steplabels id="{1e4c2ed9-401c-4658-a11a-25f9c3b72891}">
+      <label languagecode="1033" description="Sign-Off" />
+    </steplabels>
+    <steplabels id="{e16a3c0b-0c33-4ecb-9d47-785482e71ff2}">
+      <label languagecode="1033" description="Team Lead Sign-off" />
+    </steplabels>
+    <steplabels id="{22603d08-c04f-405a-9e36-8e72ff3997a9}">
+      <label languagecode="1033" description="Team leader signed-off on" />
+    </steplabels>
     <steplabels id="{abe1f3fb-aab0-4e70-bc72-7ca3b85e379a}">
       <label languagecode="1033" description="Issue" />
-    </steplabels>
-    <steplabels id="{af03c9b3-735e-43b1-9a79-139d280f3613}">
-      <label languagecode="1033" description="Team leader sign off" />
     </steplabels>
     <steplabels id="{5d8f6377-1fbf-4a78-98d1-ece83df116dc}">
       <label languagecode="1033" description="Permit Issue Complete" />

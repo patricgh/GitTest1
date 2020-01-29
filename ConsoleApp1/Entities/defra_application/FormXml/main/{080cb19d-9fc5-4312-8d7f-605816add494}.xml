@@ -77,6 +77,26 @@
                       </cell>
                     </row>
                     <row>
+                      <cell id="{1e94383d-3133-40db-bd7e-3183119a9803}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Main Activity" languagecode="1033" />
+                        </labels>
+                        <control id="defra_mainactivity" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="defra_mainactivity" disabled="false" uniqueid="{b7e54a86-8a55-8bed-144a-3ea775646be9}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>true</DisableViewPicker>
+                            <DefaultViewId>{25EEE541-D349-4C31-B7CD-81F4BF66DD39}</DefaultViewId>
+                            <AllowFilterOff>true</AllowFilterOff>
+                            <FilterRelationshipName>defra_application_defra_applicationline</FilterRelationshipName>
+                            <DependentAttributeName>defra_applicationline.defra_applicationid</DependentAttributeName>
+                            <DependentAttributeType>defra_application</DependentAttributeType>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{3b9424a0-28a3-b734-96d6-d673d2319ce6}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Primary Activity" languagecode="1033" />
