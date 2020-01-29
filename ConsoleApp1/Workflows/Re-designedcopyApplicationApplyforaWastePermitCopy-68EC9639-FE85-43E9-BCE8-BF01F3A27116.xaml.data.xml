@@ -51,14 +51,14 @@
     <steplabels id="{02c4ab8f-b6cb-4262-8386-58251cca90fa}">
       <label languagecode="1033" description="Determination" />
     </steplabels>
-    <steplabels id="{d6f5d0af-9c95-44b9-bed3-75dd011010ca}">
-      <label languagecode="1033" description="Reviewer" />
-    </steplabels>
-    <steplabels id="{97fe01c0-2a26-4a41-8320-6b0fd8c96363}">
-      <label languagecode="1033" description="Team Lead" />
+    <steplabels id="{b8f8619d-f8ec-4a3e-a6c5-fe5224973415}">
+      <label languagecode="1033" description="Review status" />
     </steplabels>
     <steplabels id="{3e5d3fe3-4540-4a87-8084-c29c2bfeee1f}">
       <label languagecode="1033" description="Permit Effective Date" />
+    </steplabels>
+    <steplabels id="{97fe01c0-2a26-4a41-8320-6b0fd8c96363}">
+      <label languagecode="1033" description="Team Lead" />
     </steplabels>
     <steplabels id="{1e4c2ed9-401c-4658-a11a-25f9c3b72891}">
       <label languagecode="1033" description="Sign-Off" />

@@ -31,6 +31,7 @@
   <EntityRelationship Name="business_unit_defra_permit_lines" />
   <EntityRelationship Name="business_unit_defra_preapplication" />
   <EntityRelationship Name="business_unit_defra_regime" />
+  <EntityRelationship Name="business_unit_defra_review" />
   <EntityRelationship Name="business_unit_defra_rfisch5" />
   <EntityRelationship Name="business_unit_defra_scheduledprocess" />
   <EntityRelationship Name="business_unit_defra_sitemapsecurity" />
@@ -80,6 +81,7 @@
   <EntityRelationship Name="defra_defra_activity_defra_applicationquestion_applies_to_activity" />
   <EntityRelationship Name="defra_defra_application_defra_applicationanswer_Application" />
   <EntityRelationship Name="defra_defra_application_defra_payment" />
+  <EntityRelationship Name="defra_defra_application_defra_review_applicationid" />
   <EntityRelationship Name="defra_defra_application_defra_rfisch5_application" />
   <EntityRelationship Name="defra_defra_application_defra_webdata" />
   <EntityRelationship Name="defra_defra_application_queueitem_application" />
@@ -164,6 +166,7 @@
   <EntityRelationship Name="defra_systemuser_defra_payment_issued_by" />
   <EntityRelationship Name="defra_systemuser_defra_payment_refund_approved_by" />
   <EntityRelationship Name="defra_systemuser_defra_payment_refundactionedby" />
+  <EntityRelationship Name="defra_systemuser_defra_review_reviewerid" />
   <EntityRelationship Name="defra_tasktype_defra_applicationtask_application_task_typeid" />
   <EntityRelationship Name="defra_tasktype_defra_applicationtaskdefinition_tasktypeid" />
   <EntityRelationship Name="defra_tasktype_defra_itemapplicationtaskdefinition_applicationtasktypeid" />
@@ -239,6 +242,8 @@
   <EntityRelationship Name="lk_defra_preapplication_modifiedby" />
   <EntityRelationship Name="lk_defra_regime_createdby" />
   <EntityRelationship Name="lk_defra_regime_modifiedby" />
+  <EntityRelationship Name="lk_defra_review_createdby" />
+  <EntityRelationship Name="lk_defra_review_modifiedby" />
   <EntityRelationship Name="lk_defra_rfisch5_createdby" />
   <EntityRelationship Name="lk_defra_rfisch5_modifiedby" />
   <EntityRelationship Name="lk_defra_scheduledprocess_createdby" />
@@ -302,6 +307,7 @@
   <EntityRelationship Name="owner_defra_permit_lines" />
   <EntityRelationship Name="owner_defra_preapplication" />
   <EntityRelationship Name="owner_defra_regime" />
+  <EntityRelationship Name="owner_defra_review" />
   <EntityRelationship Name="owner_defra_rfisch5" />
   <EntityRelationship Name="owner_defra_scheduledprocess" />
   <EntityRelationship Name="owner_defra_sitemapsecurity" />
@@ -364,6 +370,7 @@
   <EntityRelationship Name="team_defra_permit_lines" />
   <EntityRelationship Name="team_defra_preapplication" />
   <EntityRelationship Name="team_defra_regime" />
+  <EntityRelationship Name="team_defra_review" />
   <EntityRelationship Name="team_defra_rfisch5" />
   <EntityRelationship Name="team_defra_scheduledprocess" />
   <EntityRelationship Name="team_defra_sitemapsecurity" />
@@ -407,6 +414,7 @@
   <EntityRelationship Name="user_defra_permit_lines" />
   <EntityRelationship Name="user_defra_preapplication" />
   <EntityRelationship Name="user_defra_regime" />
+  <EntityRelationship Name="user_defra_review" />
   <EntityRelationship Name="user_defra_rfisch5" />
   <EntityRelationship Name="user_defra_scheduledprocess" />
   <EntityRelationship Name="user_defra_sitemapsecurity" />

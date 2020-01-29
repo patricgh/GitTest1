@@ -1338,10 +1338,11 @@
                         </labels>
                         <control id="defra_activereviews" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="defra_activereviews" disabled="false" />
                       </cell>
-                      <cell id="{8395a88b-10ee-c2aa-3ab1-b214edad46c0}" showlabel="false">
+                      <cell id="{494467dc-cb3e-edc7-8e7c-c97bd57d7d1e}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Review status" languagecode="1033" />
                         </labels>
+                        <control id="defra_reviewstatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="defra_reviewstatus" disabled="false" />
                       </cell>
                     </row>
                     <row>

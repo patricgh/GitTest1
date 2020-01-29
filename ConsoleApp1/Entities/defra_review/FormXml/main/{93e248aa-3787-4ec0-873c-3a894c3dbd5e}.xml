@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{93e248aa-3787-4ec0-873c-3a894c3dbd5e}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{af6975ea-6b32-4c96-92a2-e98ed0297889}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{b9a956a7-c587-4a3d-95b9-8159decacf82}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4635d686-8487-4bfc-93f5-b34135d92887}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="defra_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="defra_name" uniqueid="{554508d6-c1e6-b806-234d-b58a74e098b6}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3496807d-1378-05ca-652e-065c621bb747}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Application" languagecode="1033" />
+                        </labels>
+                        <control id="defra_applicationid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="defra_applicationid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dc4175c2-b582-b34e-be46-260048c571d7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Type" languagecode="1033" />
+                        </labels>
+                        <control id="defra_type" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="defra_type" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a96ec5e6-cdb6-edbe-5cb0-b008ccb0a01d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Reviewer" languagecode="1033" />
+                        </labels>
+                        <control id="defra_reviewerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="defra_reviewerid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9548eb0d-e562-d8e1-78d6-edcc85ae97c2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Started on" languagecode="1033" />
+                        </labels>
+                        <control id="defra_startedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="defra_startedon" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c4cddced-45a9-46be-cc76-103718a183a3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Completed on" languagecode="1033" />
+                        </labels>
+                        <control id="defra_completedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="defra_completedon" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b9423831-186e-4c4a-af7b-c91c28efc54c}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
