@@ -725,7 +725,7 @@
           <columns>
             <column width="100%">
               <sections>
-                <section name="tab_general_section_15" showlabel="true" showbar="false" locklevel="0" id="{87e8e550-5437-2742-7de0-a65a0c927138}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                <section name="tab_general_section_15" showlabel="true" showbar="false" locklevel="0" id="{87e8e550-5437-2742-7de0-a65a0c927138}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" visible="false">
                   <labels>
                     <label description="General" languagecode="1033" />
                   </labels>
