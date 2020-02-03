@@ -62,6 +62,9 @@
     <steplabels id="{2e9eec15-e3c2-4630-a640-db9faea0d112}">
       <label languagecode="1033" description="Admin checks completed?" />
     </steplabels>
+    <steplabels id="{46b12de9-489d-4919-a0a2-c9f9a0aafaee}">
+      <label languagecode="1033" description="Admin completed date" />
+    </steplabels>
     <steplabels id="{8611cf8a-f8a5-42b6-b4cf-0c32a46029ed}">
       <label languagecode="1033" description="Admin checks completed on" />
     </steplabels>

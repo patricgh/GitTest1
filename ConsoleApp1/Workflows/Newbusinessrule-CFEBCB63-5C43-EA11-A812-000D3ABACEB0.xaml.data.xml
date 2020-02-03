@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Workflow WorkflowId="{c5795778-7380-e811-a95f-000d3ab31ad6}" Name="Make External System Reference Visible or Invisible" Description="Click to add description" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <XamlFileName>/Workflows/MakeExternalSystemReferenceVisibleorInvisible-C5795778-7380-E811-A95F-000D3AB31AD6.xaml</XamlFileName>
+<Workflow WorkflowId="{cfebcb63-5c43-ea11-a812-000d3abaceb0}" Name="New business rule" Description="Click to add description" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/Newbusinessrule-CFEBCB63-5C43-EA11-A812-000D3ABACEB0.xaml</XamlFileName>
   <Type>1</Type>
   <Subprocess>0</Subprocess>
   <Category>2</Category>
@@ -11,17 +11,17 @@
   <TriggerOnDelete>0</TriggerOnDelete>
   <AsyncAutodelete>0</AsyncAutodelete>
   <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
-  <StateCode>0</StateCode>
-  <StatusCode>1</StatusCode>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
   <RunAs>1</RunAs>
   <IsTransacted>1</IsTransacted>
-  <IntroducedVersion>1.2.1.44</IntroducedVersion>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
   <IsCustomizable>1</IsCustomizable>
   <BusinessProcessType>0</BusinessProcessType>
   <ProcessTriggerScope>1</ProcessTriggerScope>
-  <PrimaryEntity>defra_application</PrimaryEntity>
+  <PrimaryEntity>defra_review</PrimaryEntity>
   <LocalizedNames>
-    <LocalizedName languagecode="1033" description="Make External System Reference Visible or Invisible" />
+    <LocalizedName languagecode="1033" description="New business rule" />
   </LocalizedNames>
   <Descriptions>
     <Description languagecode="1033" description="Click to add description" />

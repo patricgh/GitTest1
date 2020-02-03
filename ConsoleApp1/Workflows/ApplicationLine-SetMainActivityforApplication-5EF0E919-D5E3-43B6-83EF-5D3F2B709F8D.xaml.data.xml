@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Workflow WorkflowId="{4899f4b7-a536-4160-a025-8fd864682066}" Name="Application Line (Async) Set Main Activity if there are more than one" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <XamlFileName>/Workflows/ApplicationLineAsyncSetMainActivityiftherearemoret-4899F4B7-A536-4160-A025-8FD864682066.xaml</XamlFileName>
+<Workflow WorkflowId="{5ef0e919-d5e3-43b6-83ef-5d3f2b709f8d}" Name="Application Line - Set Main Activity for Application" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/ApplicationLine-SetMainActivityforApplication-5EF0E919-D5E3-43B6-83EF-5D3F2B709F8D.xaml</XamlFileName>
   <Type>1</Type>
   <Subprocess>0</Subprocess>
   <Category>0</Category>
@@ -16,10 +16,10 @@
   <StatusCode>2</StatusCode>
   <RunAs>1</RunAs>
   <IsTransacted>1</IsTransacted>
-  <IntroducedVersion>1.30.0.1</IntroducedVersion>
+  <IntroducedVersion>1.31.0.0</IntroducedVersion>
   <IsCustomizable>1</IsCustomizable>
   <PrimaryEntity>defra_applicationline</PrimaryEntity>
   <LocalizedNames>
-    <LocalizedName languagecode="1033" description="Application Line (Async) Set Main Activity if there are more than one" />
+    <LocalizedName languagecode="1033" description="Application Line - Set Main Activity for Application" />
   </LocalizedNames>
 </Workflow>
