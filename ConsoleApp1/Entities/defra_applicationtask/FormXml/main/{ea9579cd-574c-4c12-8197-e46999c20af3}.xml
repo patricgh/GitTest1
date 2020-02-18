@@ -14,28 +14,11 @@
           <columns>
             <column width="100%">
               <sections>
-                <section showlabel="false" showbar="false" IsUserDefined="0" id="{e8c2b219-0d74-445b-83b9-66ef501f265e}" name="{e8c2b219-0d74-445b-83b9-66ef501f265e}" columns="1" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Top">
+                <section showlabel="true" showbar="true" IsUserDefined="0" id="{e8c2b219-0d74-445b-83b9-66ef501f265e}" name="{e8c2b219-0d74-445b-83b9-66ef501f265e}" columns="11" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Top">
                   <labels>
                     <label description="General" languagecode="1033" />
                   </labels>
                   <rows>
-                    <row>
-                      <cell id="{b4e1266e-5d9d-7306-be5a-a27726d651ba}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Type" languagecode="1033" />
-                        </labels>
-                        <control id="defra_application_task_typeid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="defra_application_task_typeid" disabled="true" uniqueid="{2b8bec04-bb3b-32ad-ed03-680d7d578b3c}">
-                          <parameters>
-                            <AutoResolve>true</AutoResolve>
-                            <DisableMru>false</DisableMru>
-                            <DisableQuickFind>false</DisableQuickFind>
-                            <DisableViewPicker>false</DisableViewPicker>
-                            <DefaultViewId>{C7610FC5-070A-4849-93DA-39ADFD4E88FF}</DefaultViewId>
-                            <AllowFilterOff>false</AllowFilterOff>
-                          </parameters>
-                        </control>
-                      </cell>
-                    </row>
                     <row>
                       <cell id="{3d384938-ab82-4261-0d3a-05b638544e86}" showlabel="true" locklevel="0">
                         <labels>
@@ -52,8 +35,6 @@
                           </parameters>
                         </control>
                       </cell>
-                    </row>
-                    <row>
                       <cell id="{30d48322-e593-6ceb-60ca-c50de25a75e7}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Status" languagecode="1033" />
@@ -62,18 +43,37 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{c5b79408-207a-3278-957c-05bad5b976e2}" showlabel="true" locklevel="0" rowspan="4">
+                      <cell id="{a7898472-2253-a2be-86ea-0ee84970b2d8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Response date" languagecode="1033" />
+                        </labels>
+                        <control id="defra_responsedate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="defra_responsedate" disabled="false" />
+                      </cell>
+                      <cell id="{2cd783d6-baee-be88-bc2e-2dc0239ad616}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c5b79408-207a-3278-957c-05bad5b976e2}" showlabel="true" locklevel="0" rowspan="4" colspan="2">
                         <labels>
                           <label description="Notes" languagecode="1033" />
                         </labels>
                         <control id="defra_notes" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="defra_notes" disabled="false" uniqueid="{d67695e6-ebe8-a6b1-de9a-3b4156bd16e0}" />
                       </cell>
                     </row>
+                    <row></row>
+                    <row></row>
                     <row />
-                    <row></row>
-                    <row></row>
                     <row>
-                      <cell id="{3e4bc2e8-9997-a166-3562-6e5309b4ab77}" showlabel="true" locklevel="0">
+                      <cell id="{2c3e13ae-6d7e-a55d-415a-a7372527d679}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Modified On" languagecode="1033" />
+                        </labels>
+                        <control id="modifiedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="false" />
+                      </cell>
+                      <cell id="{3e4bc2e8-9997-a166-3562-6e5309b4ab77}" showlabel="true" locklevel="0" visible="false">
                         <labels>
                           <label description="Related facility" languagecode="1033" />
                         </labels>
@@ -90,14 +90,21 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{c359a466-4474-4bae-a0c9-3f51b8d6196b}" showlabel="true" locklevel="0" visible="false">
+                      <cell id="{b4e1266e-5d9d-7306-be5a-a27726d651ba}" showlabel="true" locklevel="0" visible="false">
                         <labels>
-                          <label description="Name" languagecode="1033" />
+                          <label description="Type" languagecode="1033" />
                         </labels>
-                        <control id="defra_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="defra_name" uniqueid="{5962ee93-d3bb-ba67-c34a-4d48a336726d}" disabled="false" />
+                        <control id="defra_application_task_typeid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="defra_application_task_typeid" disabled="true" uniqueid="{2b8bec04-bb3b-32ad-ed03-680d7d578b3c}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{C7610FC5-070A-4849-93DA-39ADFD4E88FF}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
                       </cell>
-                    </row>
-                    <row>
                       <cell id="{8462261c-e018-4fc4-b2e6-c9fc597885cf}" showlabel="true" locklevel="1" visible="false">
                         <labels>
                           <label description="Owner" languagecode="1033" />
@@ -108,6 +115,19 @@
                             <DisableMru>false</DisableMru>
                           </parameters>
                         </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c359a466-4474-4bae-a0c9-3f51b8d6196b}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="defra_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="defra_name" uniqueid="{5962ee93-d3bb-ba67-c34a-4d48a336726d}" disabled="false" />
+                      </cell>
+                      <cell id="{c8a9816a-6b29-ae63-c11e-30b4e37a6180}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
                       </cell>
                     </row>
                   </rows>

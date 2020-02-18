@@ -10,9 +10,9 @@
     <layoutxml>
       <grid name="resultset" jump="defra_name" select="1" icon="1" preview="1">
         <row name="result" id="defra_applicationtaskdefinitionid">
-          <cell name="defra_tasktypeid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
-          <cell name="defra_name" width="300" />
-          <cell name="defra_shortname" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="defra_name" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="defra_applicationtasksubtype" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="defra_guidance" width="300" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
         </row>
       </grid>
     </layoutxml>
@@ -25,8 +25,8 @@
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
           </filter>
-          <attribute name="defra_shortname" />
-          <attribute name="defra_tasktypeid" />
+          <attribute name="defra_guidance" />
+          <attribute name="defra_applicationtasksubtype" />
           <attribute name="defra_applicationtaskdefinitionid" />
         </entity>
       </fetch>

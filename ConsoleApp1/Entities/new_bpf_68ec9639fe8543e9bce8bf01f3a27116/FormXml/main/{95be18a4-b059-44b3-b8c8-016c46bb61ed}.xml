@@ -22,13 +22,29 @@
                     <row>
                       <cell id="{8260d586-8cfe-45f0-a377-e82784728b8f}" showlabel="true" visible="true" labelid="{7150fe5b-b445-49f4-8be5-37968c822083}">
                         <labels>
-                          <label description="Admin checks completed?" languagecode="1033" />
+                          <label description="Area" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116:defra_admincheckscompleted" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="defra_admincheckscompleted" relationship="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116" isrequired="true" disabled="false" />
+                        <control id="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116:defra_area" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="defra_area" relationship="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116" isrequired="true" disabled="false" />
                       </cell>
                     </row>
                     <row>
                       <cell id="{6dfafdb2-6656-400e-9985-cf61a05079d7}" showlabel="true" visible="true" labelid="{c6497483-af3e-4ae4-96b4-ea953dec5377}">
+                        <labels>
+                          <label description="Local Authority" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116:defra_localauthority" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="defra_localauthority" relationship="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b90d1809-3544-4abb-acbf-4fb42d0c7b1f}" showlabel="true" visible="true" labelid="{5296ff52-8483-4e1f-b538-84719d4c710a}">
+                        <labels>
+                          <label description="Application completed date" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116:defra_admincompleteddate" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_admincompleteddate" relationship="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1b24dbb5-616b-419c-ab9c-31f6cf0788df}" showlabel="true" visible="true" labelid="{a8dbcead-2293-4e7f-ba53-e86b6b354080}">
                         <labels>
                           <label description="Intelligence Checks Required" languagecode="1033" />
                         </labels>
@@ -41,24 +57,74 @@
             </column>
           </columns>
         </tab>
-        <tab verticallayout="true" id="{c9f307d4-d677-416f-a485-a0113ff1288c}" name="StageStep10" locklevel="0" expanded="true" visible="false" labelid="{4ae2cbc8-0b1e-4f83-aa5c-c64efbace7ca}">
+        <tab verticallayout="true" id="{034e5968-9e94-4821-af7c-6cb98c0a6426}" name="StageStep13" locklevel="0" expanded="true" visible="false" labelid="{fd0b9da5-5d44-4e36-8642-8c0dfd2909fd}">
+          <labels>
+            <label description="Intelligence Checks" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{034e5968-9e94-4821-af7c-6cb98c0a6426}" name="StageStep13_section1" labelid="{90f81dd8-3580-4a40-b1b9-e5d67281f223}">
+                  <labels>
+                    <label description="Intelligence Checks" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{99c6872c-6410-4b84-9efe-a25f2996ea01}" showlabel="true" visible="true" labelid="{248dc2f3-912c-487d-8568-ed507df153ed}">
+                        <labels>
+                          <label description="Intelligence checks completed?" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116:defra_intelligencecheckscompleted" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="defra_intelligencecheckscompleted" relationship="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fb8239c7-c7be-4794-958e-25a8e324fa40}" showlabel="true" visible="true" labelid="{77190eb1-40ca-4ade-a8e1-97ee9ffb2a2a}">
+                        <labels>
+                          <label description="Intelligence checks finished on" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116:defra_intelligencechecksfinishedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_intelligencechecksfinishedon" relationship="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{c9f307d4-d677-416f-a485-a0113ff1288c}" name="StageStep19" locklevel="0" expanded="true" visible="false" labelid="{4ae2cbc8-0b1e-4f83-aa5c-c64efbace7ca}">
           <labels>
             <label description="Duly Making" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{c9f307d4-d677-416f-a485-a0113ff1288c}" name="StageStep10_section1" labelid="{83cc2c6c-b4ff-4dee-894b-a07f5d0d3be8}">
+                <section showbar="false" columns="1" id="{c9f307d4-d677-416f-a485-a0113ff1288c}" name="StageStep19_section1" labelid="{0ccac3f7-8237-4c0e-9dce-466362fb1c18}">
                   <labels>
                     <label description="Duly Making" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
+                      <cell id="{942cadee-a19f-4aec-af7a-2b5bb4e6ba96}" showlabel="true" visible="true" labelid="{4e6f36de-5106-4525-a425-1b77c7347fae}">
+                        <labels>
+                          <label description="Duly made outcome" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116:defra_returned" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="defra_returned" relationship="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{40c74168-f715-477e-b0b7-e03172538b1a}" showlabel="true" visible="true" labelid="{45b92f79-7dff-4260-bad1-7028658d3a3c}">
                         <labels>
-                          <label description="Completed Duly Made" languagecode="1033" />
+                          <label description="Duly made date" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116:defra_completeddulymade" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="defra_completeddulymade" relationship="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116" isrequired="true" disabled="false" />
+                        <control id="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116:defra_dulymadeon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_dulymadeon" relationship="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cd366357-b7da-4293-aac1-68c9b2166da1}" showlabel="true" visible="true" labelid="{a91ee514-847d-4958-a4b3-74c2da557532}">
+                        <labels>
+                          <label description="Checklist - Number of active tasks" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116:defra_dulymakingapplicationtaskcount" classid="{c6d124ca-7eda-4a60-aea9-7fb8d318b68f}" datafieldname="defra_dulymakingapplicationtaskcount" relationship="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
@@ -75,32 +141,24 @@
             </column>
           </columns>
         </tab>
-        <tab verticallayout="true" id="{02c4ab8f-b6cb-4262-8386-58251cca90fa}" name="StageStep17" locklevel="0" expanded="true" visible="false" labelid="{df6894b7-0217-466e-80a1-4326f9f925fc}">
+        <tab verticallayout="true" id="{02c4ab8f-b6cb-4262-8386-58251cca90fa}" name="StageStep29" locklevel="0" expanded="true" visible="false" labelid="{df6894b7-0217-466e-80a1-4326f9f925fc}">
           <labels>
             <label description="Determination" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{02c4ab8f-b6cb-4262-8386-58251cca90fa}" name="StageStep17_section1" labelid="{cd75d6c0-4a72-4bd0-b0a5-78a411d19cd2}">
+                <section showbar="false" columns="1" id="{02c4ab8f-b6cb-4262-8386-58251cca90fa}" name="StageStep29_section1" labelid="{343e5ecb-abf4-4a41-a6f9-0cb23c1e5279}">
                   <labels>
                     <label description="Determination" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{d6f5d0af-9c95-44b9-bed3-75dd011010ca}" showlabel="true" visible="true" labelid="{5a4bf869-a9fe-43b5-ba5f-657a7aac7f59}">
+                      <cell id="{8f9cd9ec-51f5-4745-b76d-b69b6941a3ad}" showlabel="true" visible="true" labelid="{2d77b171-abaa-4765-94f8-e7a70f12eb35}">
                         <labels>
-                          <label description="Reviewer" languagecode="1033" />
+                          <label description="Number of active reviews" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116:defra_reviewerid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="defra_reviewerid" relationship="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116" isrequired="true" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{97fe01c0-2a26-4a41-8320-6b0fd8c96363}" showlabel="true" visible="true" labelid="{073534bf-3a7a-4cc6-92f7-034b648d8d3c}">
-                        <labels>
-                          <label description="Team Lead" languagecode="1033" />
-                        </labels>
-                        <control id="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116:defra_permittingteamleaderid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="defra_permittingteamleaderid" relationship="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116" isrequired="true" disabled="false" />
+                        <control id="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116:defra_activereviews" classid="{c6d124ca-7eda-4a60-aea9-7fb8d318b68f}" datafieldname="defra_activereviews" relationship="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
@@ -111,32 +169,66 @@
                         <control id="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116:defra_permiteffectivedate" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_permiteffectivedate" relationship="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116" isrequired="true" disabled="false" />
                       </cell>
                     </row>
+                    <row>
+                      <cell id="{97fe01c0-2a26-4a41-8320-6b0fd8c96363}" showlabel="true" visible="true" labelid="{073534bf-3a7a-4cc6-92f7-034b648d8d3c}">
+                        <labels>
+                          <label description="Team Lead" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116:defra_permittingteamleaderid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="defra_permittingteamleaderid" relationship="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
                   </rows>
                 </section>
               </sections>
             </column>
           </columns>
         </tab>
-        <tab verticallayout="true" id="{abe1f3fb-aab0-4e70-bc72-7ca3b85e379a}" name="StageStep26" locklevel="0" expanded="true" visible="false" labelid="{b3c28e5a-0073-4e17-b1ff-e177dd89c2bf}">
+        <tab verticallayout="true" id="{1e4c2ed9-401c-4658-a11a-25f9c3b72891}" name="StageStep37" locklevel="0" expanded="true" visible="false" labelid="{168b6b3f-d906-4ae9-932d-2d2d8fb357b0}">
+          <labels>
+            <label description="Sign-Off" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{1e4c2ed9-401c-4658-a11a-25f9c3b72891}" name="StageStep37_section1" labelid="{4d86cd44-cfd9-4599-b0d9-4e51e67319d7}">
+                  <labels>
+                    <label description="Sign-Off" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e16a3c0b-0c33-4ecb-9d47-785482e71ff2}" showlabel="true" visible="true" labelid="{d6debf40-654c-443b-b7d1-dd6692a13527}">
+                        <labels>
+                          <label description="Team Lead Sign-off" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116:defra_permittingteamleadersignoff" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="defra_permittingteamleadersignoff" relationship="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{22603d08-c04f-405a-9e36-8e72ff3997a9}" showlabel="true" visible="true" labelid="{28bf1231-4d97-4eb5-ba08-fff07808e541}">
+                        <labels>
+                          <label description="Team leader signed-off on" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116:defra_teamleadsignofffinishedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_teamleadsignofffinishedon" relationship="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{abe1f3fb-aab0-4e70-bc72-7ca3b85e379a}" name="StageStep43" locklevel="0" expanded="true" visible="false" labelid="{b3c28e5a-0073-4e17-b1ff-e177dd89c2bf}">
           <labels>
             <label description="Issue" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{abe1f3fb-aab0-4e70-bc72-7ca3b85e379a}" name="StageStep26_section1" labelid="{47b0fa49-6f97-4f46-aa59-c73b8fa1a5b9}">
+                <section showbar="false" columns="1" id="{abe1f3fb-aab0-4e70-bc72-7ca3b85e379a}" name="StageStep43_section1" labelid="{afb9bad6-a80e-4387-936b-5c81f1d0ce87}">
                   <labels>
                     <label description="Issue" languagecode="1033" />
                   </labels>
                   <rows>
-                    <row>
-                      <cell id="{af03c9b3-735e-43b1-9a79-139d280f3613}" showlabel="true" visible="true" labelid="{0462bdcf-d24c-4f90-b3c2-39a0d32fa70f}">
-                        <labels>
-                          <label description="Team leader sign off" languagecode="1033" />
-                        </labels>
-                        <control id="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116:defra_permittingteamleadersignoff" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="defra_permittingteamleadersignoff" relationship="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116" isrequired="true" disabled="false" />
-                      </cell>
-                    </row>
                     <row>
                       <cell id="{5d8f6377-1fbf-4a78-98d1-ece83df116dc}" showlabel="true" visible="true" labelid="{ae7d69ca-9724-453e-afbc-cbca6d450ad5}">
                         <labels>

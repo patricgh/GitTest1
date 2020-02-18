@@ -37,13 +37,13 @@
                     </row>
                   </rows>
                 </section>
-                <section name="{741c2c31-bace-4731-80aa-e8058643eb61}_section_2" showlabel="false" showbar="false" locklevel="0" id="{e095b843-7ee9-1d96-bdb9-7039ed954648}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Top">
+                <section name="{741c2c31-bace-4731-80aa-e8058643eb61}_section_2" showlabel="false" showbar="false" locklevel="0" id="{e095b843-7ee9-1d96-bdb9-7039ed954648}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Top" height="auto">
                   <labels>
                     <label description="Section" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{74226ba7-c0b0-6452-c969-bb93d1b8065b}" showlabel="true" colspan="1" auto="false" rowspan="7">
+                      <cell id="{74226ba7-c0b0-6452-c969-bb93d1b8065b}" showlabel="true" colspan="1" auto="true" rowspan="5">
                         <labels>
                           <label description="Application Task Definitions" languagecode="1033" />
                         </labels>
@@ -53,7 +53,7 @@
                             <IsUserView>false</IsUserView>
                             <RelationshipName>defra_tasktype_defra_applicationtaskdefinition_tasktypeid</RelationshipName>
                             <TargetEntityType>defra_applicationtaskdefinition</TargetEntityType>
-                            <AutoExpand>Fixed</AutoExpand>
+                            <AutoExpand>Auto</AutoExpand>
                             <EnableQuickFind>false</EnableQuickFind>
                             <EnableViewPicker>false</EnableViewPicker>
                             <ViewIds>{FFDC3BE8-6788-4173-B875-C09A27332D2E}</ViewIds>
@@ -62,7 +62,7 @@
                             <VisualizationId />
                             <IsUserChart>false</IsUserChart>
                             <EnableChartPicker>false</EnableChartPicker>
-                            <RecordsPerPage>4</RecordsPerPage>
+                            <RecordsPerPage>10</RecordsPerPage>
                             <HeaderColorCode>#FEF7F5</HeaderColorCode>
                           </parameters>
                         </control>
@@ -71,41 +71,7 @@
                     <row />
                     <row />
                     <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row>
-                      <cell id="{ec9137ee-da34-d174-c0a5-31064eddb756}" showlabel="true" colspan="1" auto="false" rowspan="7">
-                        <labels>
-                          <label description="Links" languagecode="1033" />
-                        </labels>
-                        <control id="Links" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{e5a603eb-17c4-e3d4-8a08-2b6ee83e61c9}">
-                          <parameters>
-                            <ViewId>{0D2F601B-B289-4688-B6A7-349DA6EAC33D}</ViewId>
-                            <IsUserView>false</IsUserView>
-                            <RelationshipName>defra_tasktype_defra_itemapplicationtaskdefinition_applicationtasktypeid</RelationshipName>
-                            <TargetEntityType>defra_itemapplicationtaskdefinition</TargetEntityType>
-                            <AutoExpand>Fixed</AutoExpand>
-                            <EnableQuickFind>false</EnableQuickFind>
-                            <EnableViewPicker>false</EnableViewPicker>
-                            <ViewIds>{0D2F601B-B289-4688-B6A7-349DA6EAC33D}</ViewIds>
-                            <EnableJumpBar>false</EnableJumpBar>
-                            <ChartGridMode>All</ChartGridMode>
-                            <VisualizationId />
-                            <IsUserChart>false</IsUserChart>
-                            <EnableChartPicker>true</EnableChartPicker>
-                            <RecordsPerPage>4</RecordsPerPage>
-                            <HeaderColorCode>#FEF7F5</HeaderColorCode>
-                          </parameters>
-                        </control>
-                      </cell>
-                    </row>
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
+                    <row height="auto" />
                   </rows>
                 </section>
               </sections>

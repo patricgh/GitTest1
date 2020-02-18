@@ -16,7 +16,7 @@ function displayDulyMakingChecklistTab(executionContext) {
                 var sectionObj = tabObj.sections.get("tab_12_section_4");
                 sectionObj.setVisible(true);
                 break;
-           
+
         }
     }
 }
@@ -90,7 +90,7 @@ function setTabFocus(executionContext) {
         if (formContext.ui.getFormType() == 2) {
             var status = formContext.getAttribute('statuscode').getValue();
             switch (status) {
-                case 910400022:                
+                case 910400022:
                     formContext.ui.tabs.get('tab_applicationchecks').setFocus();
                     break;
                 case 910400015:
@@ -107,25 +107,11 @@ function setTabFocus(executionContext) {
                 case 910400017:
                 case 910400018:
                     formContext.ui.tabs.get('tab_determination').setFocus();
-                    break;                
+                    break;
                 default:
                     formContext.ui.tabs.get('tab_general').setFocus();
             }
-        }
-        //Check Regime to show or hide sections
-        var regimetext = formContext.getAttribute('defra_regimeid').getValue()[0].name;
-        switch (regimetext) {
-            case "Waste":
-                var tabObj = formContext.ui.tabs.get("tab_determination");
-                var sectionObj = tabObj.sections.get("sec_operatorreview");
-                sectionObj.setVisible(false);
-                break;
-            case "MCP":
-                var tabObj = formContext.ui.tabs.get("tab_determination");
-                var sectionObj = tabObj.sections.get("sec_operatorreview");
-                sectionObj.setVisible(true);
-                break;            
-        }
+        }        
     }
     catch (error) {
         alert('Error occurred in form load script method: setTabFocus().');
@@ -144,7 +130,7 @@ function onloadAppForm(executionContext) {
         if (formContext.getAttribute('defra_regimeid').getValue() != null && formContext.getAttribute('defra_businesstrackid').getValue() != null) {
             var regimeName = formContext.getAttribute('defra_regimeid').getValue()[0].name;
             var trackName = formContext.getAttribute('defra_businesstrackid').getValue()[0].name;
-            
+
             //var serverUrl = Xrm.Page.context.getClientUrl();
             var xmlConfigPath = clientURL + "/WebResources/defra_formrederconfig";
             var xmlHttp = new XMLHttpRequest();
@@ -153,7 +139,7 @@ function onloadAppForm(executionContext) {
             var responseXML = xmlHttp.responseXML;
             var resFormLength = responseXML.getElementsByTagName('form').length;
             var respFormXML = responseXML.getElementsByTagName('form');
-            
+
 
             //check the length of tabs
             //loop through Regimes
@@ -189,7 +175,7 @@ function onloadAppForm(executionContext) {
                 }
                 if (trackFound)
                     break;
-            }            
+            }
 
             //Hide the tabs for the Regime and track
             var noOfTrackNodes = trackXML.length;
@@ -213,7 +199,7 @@ function onloadAppForm(executionContext) {
                 }
                 else if (trackXML[c].nodeName == "attributes") {
                     for (var b = 0; b < trackXML[c].childNodes.length; b++) {
-                            if (trackXML[c].childNodes[b].nodeName == "attribute") {
+                        if (trackXML[c].childNodes[b].nodeName == "attribute") {
                             var attributetoHide = trackXML[c].childNodes[b].innerHTML;
                             formContext.getControl(attributetoHide).setVisible(false);
                         }
@@ -260,7 +246,7 @@ function setTabFocus(executionContext) {
                 default:
                     formContext.ui.tabs.get('tab_general').setFocus();
             }
-        }        
+        }
     }
     catch (error) {
         alert('Error occurred in form load script method: setTabFocus().');
@@ -268,7 +254,7 @@ function setTabFocus(executionContext) {
     }
 }
 
-// form render script for regime specific data
+//Form onload script 
 function onloadAppForm(executionContext) {
     debugger;
     try {
@@ -279,7 +265,7 @@ function onloadAppForm(executionContext) {
         if (formContext.getAttribute('defra_regimeid').getValue() != null && formContext.getAttribute('defra_businesstrackid').getValue() != null) {
             var regimeName = formContext.getAttribute('defra_regimeid').getValue()[0].name;
             var trackName = formContext.getAttribute('defra_businesstrackid').getValue()[0].name;
-            
+
             //var serverUrl = Xrm.Page.context.getClientUrl();
             var xmlConfigPath = clientURL + "/WebResources/defra_formrederconfig";
             var xmlHttp = new XMLHttpRequest();
@@ -288,7 +274,7 @@ function onloadAppForm(executionContext) {
             var responseXML = xmlHttp.responseXML;
             var resFormLength = responseXML.getElementsByTagName('form').length;
             var respFormXML = responseXML.getElementsByTagName('form');
-            
+
 
             //check the length of tabs
             //loop through Regimes
@@ -324,37 +310,41 @@ function onloadAppForm(executionContext) {
                 }
                 if (trackFound)
                     break;
-            }            
+            }
 
             //Hide the tabs for the Regime and track
-            var noOfTrackNodes = trackXML.length;
-            for (var c = 0; c < noOfTrackNodes; c++) {
-                if (trackXML[c].nodeName == "tabs") {
-                    for (var b = 0; b < trackXML[c].childNodes.length; b++) {
-                        if (trackXML[c].childNodes[b].nodeName == "tab") {
-                            var tabtoHide = trackXML[c].childNodes[b].innerHTML;
-                            formContext.ui.tabs.get(tabtoHide).setVisible(false);
+            if (trackFound) {
+                var noOfTrackNodes = trackXML.length;
+                for (var c = 0; c < noOfTrackNodes; c++) {
+                    if (trackXML[c].nodeName == "tabs") {
+                        for (var b = 0; b < trackXML[c].childNodes.length; b++) {
+                            if (trackXML[c].childNodes[b].nodeName == "tab") {
+                                var tabtoHide = trackXML[c].childNodes[b].innerHTML;
+                                formContext.ui.tabs.get(tabtoHide).setVisible(false);
+                            }
                         }
                     }
-                }
-                else if (trackXML[c].nodeName == "sections") {
-                    for (var b = 0; b < trackXML[c].childNodes.length; b++) {
-                        if (trackXML[c].childNodes[b].nodeName == "section") {
-                            var tabNameforSec = trackXML[c].childNodes[b].id;
-                            var sectionToHide = trackXML[c].childNodes[b].innerHTML;
-                            formContext.ui.tabs.get(tabNameforSec).sections.get(sectionToHide).setVisible(false);
+                    else if (trackXML[c].nodeName == "sections") {
+                        for (var b = 0; b < trackXML[c].childNodes.length; b++) {
+                            if (trackXML[c].childNodes[b].nodeName == "section") {
+                                var tabNameforSec = trackXML[c].childNodes[b].id;
+                                var sectionToHide = trackXML[c].childNodes[b].innerHTML;
+                                formContext.ui.tabs.get(tabNameforSec).sections.get(sectionToHide).setVisible(false);
+                            }
                         }
                     }
-                }
-                else if (trackXML[c].nodeName == "attributes") {
-                    for (var b = 0; b < trackXML[c].childNodes.length; b++) {
+                    else if (trackXML[c].nodeName == "attributes") {
+                        for (var b = 0; b < trackXML[c].childNodes.length; b++) {
                             if (trackXML[c].childNodes[b].nodeName == "attribute") {
-                            var attributetoHide = trackXML[c].childNodes[b].innerHTML;
-                            formContext.getControl(attributetoHide).setVisible(false);
+                                var attributetoHide = trackXML[c].childNodes[b].innerHTML;
+                                formContext.getControl(attributetoHide).setVisible(false);
+                            }
                         }
                     }
                 }
             }
+            else
+                alert("Track not present in the configuration.");
         }
     }
     catch (error) {

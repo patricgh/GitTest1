@@ -36,24 +36,19 @@
                       </cell>
                     </row>
                     <row>
+                      <cell id="{b29ba771-56d3-ce71-cbb7-cda33d51ed57}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Application task sub-type" languagecode="1033" />
+                        </labels>
+                        <control id="defra_applicationtasksubtype" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="defra_applicationtasksubtype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{6e8d25e9-7755-2644-a202-1bd229d4b3b2}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Short Name" languagecode="1033" />
                         </labels>
                         <control id="defra_shortname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="defra_shortname" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{9ba40a62-225c-4372-8e72-11dad1544002}" showlabel="true" locklevel="1" visible="false">
-                        <labels>
-                          <label description="Owner" languagecode="1033" />
-                        </labels>
-                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{e457a3c9-9d7b-2a2c-c005-b976d89aa559}" disabled="false">
-                          <parameters>
-                            <AutoResolve>true</AutoResolve>
-                            <DisableMru>false</DisableMru>
-                          </parameters>
-                        </control>
                       </cell>
                     </row>
                     <row>
@@ -68,6 +63,19 @@
                     <row />
                     <row />
                     <row />
+                    <row>
+                      <cell id="{9ba40a62-225c-4372-8e72-11dad1544002}" showlabel="true" locklevel="1" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{e457a3c9-9d7b-2a2c-c005-b976d89aa559}" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
                   </rows>
                 </section>
                 <section name="{91447680-a181-4eeb-a88b-292f0982a976}_section_2" showlabel="false" showbar="false" locklevel="0" id="{503e7b36-2e1c-c2eb-ce07-9dc663b46713}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Top">

@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Workflow WorkflowId="{479348e1-bbba-4716-9d44-ebccd62e57ca}" Name="Application Task(Synck) -Update Duly Making check list count" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <XamlFileName>/Workflows/ApplicationTaskSynck-UpdateDulyMakingchecklistcoun-479348E1-BBBA-4716-9D44-EBCCD62E57CA.xaml</XamlFileName>
+<Workflow WorkflowId="{479348e1-bbba-4716-9d44-ebccd62e57ca}" Name="Application Task(Sync) -Update Duly Making check list count" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/ApplicationTaskSync-UpdateDulyMakingchecklistcount-479348E1-BBBA-4716-9D44-EBCCD62E57CA.xaml</XamlFileName>
   <Type>1</Type>
   <Subprocess>0</Subprocess>
   <Category>0</Category>
   <Mode>1</Mode>
   <Scope>4</Scope>
   <OnDemand>0</OnDemand>
-  <TriggerOnUpdateAttributeList>defra_completed</TriggerOnUpdateAttributeList>
+  <TriggerOnUpdateAttributeList>defra_completed,defra_responsedate</TriggerOnUpdateAttributeList>
   <TriggerOnCreate>1</TriggerOnCreate>
   <TriggerOnDelete>0</TriggerOnDelete>
   <AsyncAutodelete>0</AsyncAutodelete>
@@ -22,6 +22,6 @@
   <IsCustomizable>1</IsCustomizable>
   <PrimaryEntity>defra_applicationtask</PrimaryEntity>
   <LocalizedNames>
-    <LocalizedName languagecode="1033" description="Application Task(Synck) -Update Duly Making check list count" />
+    <LocalizedName languagecode="1033" description="Application Task(Sync) -Update Duly Making check list count" />
   </LocalizedNames>
 </Workflow>

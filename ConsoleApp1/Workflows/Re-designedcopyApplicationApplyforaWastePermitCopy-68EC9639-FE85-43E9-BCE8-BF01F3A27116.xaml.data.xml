@@ -11,8 +11,8 @@
   <TriggerOnDelete>0</TriggerOnDelete>
   <AsyncAutodelete>0</AsyncAutodelete>
   <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
-  <StateCode>0</StateCode>
-  <StatusCode>1</StatusCode>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
   <processorder>100</processorder>
   <processroleassignment>&lt;DisplayConditions&gt;&lt;Role Id="{627090ff-40a3-4053-8790-584edc5be201}" /&gt;&lt;Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" /&gt;&lt;Role Id="{14E93243-7B91-4CD7-9399-2708C18E96CB}" /&gt;&lt;Role Id="{ADA1957A-1AEE-405C-85E4-4F2A2E534319}" /&gt;&lt;/DisplayConditions&gt;</processroleassignment>
   <RunAs>1</RunAs>
@@ -28,22 +28,40 @@
   </LocalizedNames>
   <labels>
     <steplabels id="{0b42a195-54fd-4812-bf87-c8e12b0cd9f7}">
-      <label languagecode="1033" description="Initial Checks" />
+      <label languagecode="1033" description="Received" />
     </steplabels>
     <steplabels id="{8260d586-8cfe-45f0-a377-e82784728b8f}">
-      <label languagecode="1033" description="Admin checks completed?" />
+      <label languagecode="1033" description="Area" />
     </steplabels>
     <steplabels id="{6dfafdb2-6656-400e-9985-cf61a05079d7}">
-      <label languagecode="1033" description="Intelligence Checks Required" />
+      <label languagecode="1033" description="Local Authority" />
     </steplabels>
     <steplabels id="{b90d1809-3544-4abb-acbf-4fb42d0c7b1f}">
+      <label languagecode="1033" description="Application completed date" />
+    </steplabels>
+    <steplabels id="{1b24dbb5-616b-419c-ab9c-31f6cf0788df}">
+      <label languagecode="1033" description="Intelligence Checks Required" />
+    </steplabels>
+    <steplabels id="{034e5968-9e94-4821-af7c-6cb98c0a6426}">
+      <label languagecode="1033" description="Intelligence Checks" />
+    </steplabels>
+    <steplabels id="{99c6872c-6410-4b84-9efe-a25f2996ea01}">
       <label languagecode="1033" description="Intelligence checks completed?" />
+    </steplabels>
+    <steplabels id="{fb8239c7-c7be-4794-958e-25a8e324fa40}">
+      <label languagecode="1033" description="Intelligence checks finished on" />
     </steplabels>
     <steplabels id="{c9f307d4-d677-416f-a485-a0113ff1288c}">
       <label languagecode="1033" description="Duly Making" />
     </steplabels>
+    <steplabels id="{942cadee-a19f-4aec-af7a-2b5bb4e6ba96}">
+      <label languagecode="1033" description="Duly made outcome" />
+    </steplabels>
     <steplabels id="{40c74168-f715-477e-b0b7-e03172538b1a}">
-      <label languagecode="1033" description="Completed Duly Made" />
+      <label languagecode="1033" description="Duly made date" />
+    </steplabels>
+    <steplabels id="{cd366357-b7da-4293-aac1-68c9b2166da1}">
+      <label languagecode="1033" description="Checklist - Number of active tasks" />
     </steplabels>
     <steplabels id="{699371f7-b139-4364-a403-a09d71d8a675}">
       <label languagecode="1033" description="Duly Making Officer" />
@@ -51,8 +69,8 @@
     <steplabels id="{02c4ab8f-b6cb-4262-8386-58251cca90fa}">
       <label languagecode="1033" description="Determination" />
     </steplabels>
-    <steplabels id="{b8f8619d-f8ec-4a3e-a6c5-fe5224973415}">
-      <label languagecode="1033" description="Review status" />
+    <steplabels id="{8f9cd9ec-51f5-4745-b76d-b69b6941a3ad}">
+      <label languagecode="1033" description="Number of active reviews" />
     </steplabels>
     <steplabels id="{3e5d3fe3-4540-4a87-8084-c29c2bfeee1f}">
       <label languagecode="1033" description="Permit Effective Date" />
