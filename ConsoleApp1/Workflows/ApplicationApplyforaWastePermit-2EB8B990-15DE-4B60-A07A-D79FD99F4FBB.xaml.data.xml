@@ -134,6 +134,9 @@
     <steplabels id="{8272d9f3-1652-4baf-bf99-67c0d00fe4d8}">
       <label languagecode="1033" description="Completed Duly Made" />
     </steplabels>
+    <steplabels id="{67a7fffc-dc83-4bbf-bc72-94e81acb3df6}">
+      <label languagecode="1033" description="Checklist - Active task count" />
+    </steplabels>
     <steplabels id="{daa835a1-e60d-4177-8739-8c9793e66178}">
       <label languagecode="1033" description="Duly making completed by" />
     </steplabels>
