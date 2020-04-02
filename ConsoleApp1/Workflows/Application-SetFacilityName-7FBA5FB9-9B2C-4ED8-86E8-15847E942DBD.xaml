@@ -13,14 +13,7 @@
   <mxswa:Workflow>
     <mxswa:Workflow.Variables>
       <Variable x:TypeArguments="x:Int32" Default="0" Name="CustomActivityStep1Count_localParameter" />
-      <Variable x:TypeArguments="mxs:EntityReference" Default="[New EntityReference()]" Name="CustomActivityStep2MianActivity_localParameter" />
       <Variable x:TypeArguments="x:String" Default="[Nothing]" Name="CustomActivityStep2ReturnData_localParameter" />
-      <Variable x:TypeArguments="x:String" Default="[Nothing]" Name="CustomActivityStep2PrimaryStandardRuleRef_localParameter" />
-      <Variable x:TypeArguments="x:String" Default="[Nothing]" Name="CustomActivityStep2PrimaryStandardRuleDesc_localParameter" />
-      <Variable x:TypeArguments="x:String" Default="[Nothing]" Name="CustomActivityStep2StandardRuleRefList_localParameter" />
-      <Variable x:TypeArguments="x:String" Default="[Nothing]" Name="CustomActivityStep2PrimaryActivityChargeCode_localParameter" />
-      <Variable x:TypeArguments="x:String" Default="[Nothing]" Name="CustomActivityStep2PrimaryActivityChargeDesc_localParameter" />
-      <Variable x:TypeArguments="x:String" Default="[Nothing]" Name="CustomActivityStep2ActivityChargeCodeList_localParameter" />
       <Variable x:TypeArguments="x:String" Default="[Nothing]" Name="CustomActivityStep3Result_localParameter" />
     </mxswa:Workflow.Variables>
     <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.Composite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="CustomActivityStep1">
@@ -133,24 +126,9 @@
             <mxswa:ActivityReference.Arguments>
               <InArgument x:TypeArguments="mxs:EntityReference" x:Key="Application">[DirectCast(CustomActivityStep2_1_converted, Microsoft.Xrm.Sdk.EntityReference)]</InArgument>
               <InArgument x:TypeArguments="mxs:EntityReference" x:Key="Permit">[DirectCast(CustomActivityStep2_3_converted, Microsoft.Xrm.Sdk.EntityReference)]</InArgument>
-              <OutArgument x:TypeArguments="mxs:EntityReference" x:Key="MianActivity">[CustomActivityStep2MianActivity_localParameter]</OutArgument>
               <OutArgument x:TypeArguments="x:String" x:Key="ReturnData">[CustomActivityStep2ReturnData_localParameter]</OutArgument>
-              <OutArgument x:TypeArguments="x:String" x:Key="PrimaryStandardRuleRef">[CustomActivityStep2PrimaryStandardRuleRef_localParameter]</OutArgument>
-              <OutArgument x:TypeArguments="x:String" x:Key="PrimaryStandardRuleDesc">[CustomActivityStep2PrimaryStandardRuleDesc_localParameter]</OutArgument>
-              <OutArgument x:TypeArguments="x:String" x:Key="StandardRuleRefList">[CustomActivityStep2StandardRuleRefList_localParameter]</OutArgument>
-              <OutArgument x:TypeArguments="x:String" x:Key="PrimaryActivityChargeCode">[CustomActivityStep2PrimaryActivityChargeCode_localParameter]</OutArgument>
-              <OutArgument x:TypeArguments="x:String" x:Key="PrimaryActivityChargeDesc">[CustomActivityStep2PrimaryActivityChargeDesc_localParameter]</OutArgument>
-              <OutArgument x:TypeArguments="x:String" x:Key="ActivityChargeCodeList">[CustomActivityStep2ActivityChargeCodeList_localParameter]</OutArgument>
             </mxswa:ActivityReference.Arguments>
           </mxswa:ActivityReference>
-          <If Condition="[Microsoft.VisualBasic.IsNothing(CustomActivityStep2MianActivity_localParameter)]">
-            <If.Then>
-              <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;CustomActivityStep2MianActivity_entity&quot;)]" Value="[New Entity()]" />
-            </If.Then>
-            <If.Else>
-              <mxswa:RetrieveEntity Attributes="{x:Null}" Entity="[CreatedEntities(&quot;CustomActivityStep2MianActivity_entity&quot;)]" EntityId="[DirectCast(CustomActivityStep2MianActivity_localParameter.Id, System.Guid)]" EntityName="defra_applicationline" ThrowIfNotExists="False" />
-            </If.Else>
-          </If>
         </sco:Collection>
       </mxswa:ActivityReference.Properties>
     </mxswa:ActivityReference>

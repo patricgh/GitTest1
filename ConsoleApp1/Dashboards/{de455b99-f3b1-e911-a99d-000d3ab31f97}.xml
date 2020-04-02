@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Dashboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <LocalizedNames>
-    <LocalizedName description="New Permitting Officer - My Applications" languagecode="1033" />
+    <LocalizedName description="MyPermit Permitting Officer - My Applications" languagecode="1033" />
   </LocalizedNames>
   <FormId>{de455b99-f3b1-e911-a99d-000d3ab31f97}</FormId>
   <IsCustomizable>1</IsCustomizable>
@@ -53,17 +53,17 @@
                           </labels>
                           <control id="Component1404069" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{46836c7b-8da1-e106-d82c-6bc1249d25c1}">
                             <parameters>
-                              <ViewId>{448C4C14-BABD-E911-A9AB-000D3AB31AD6}</ViewId>
+                              <ViewId>{31FA4CFA-7F59-EA11-A811-000D3ABAC6D0}</ViewId>
                               <IsUserView>false</IsUserView>
                               <RelationshipName />
-                              <TargetEntityType>defra_application</TargetEntityType>
+                              <TargetEntityType>defra_review</TargetEntityType>
                               <AutoExpand>Fixed</AutoExpand>
                               <EnableQuickFind>true</EnableQuickFind>
-                              <EnableViewPicker>true</EnableViewPicker>
-                              <ViewIds>{448C4C14-BABD-E911-A9AB-000D3AB31AD6}</ViewIds>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <ViewIds>{050143A0-471F-4801-BC0B-96C5C92DCA5D},{31FA4CFA-7F59-EA11-A811-000D3ABAC6D0}</ViewIds>
                               <EnableJumpBar>true</EnableJumpBar>
                               <ChartGridMode>Grid</ChartGridMode>
-                              <VisualizationId>{BDE54FD9-5292-E711-80E3-3863BB34ECF0}</VisualizationId>
+                              <VisualizationId />
                               <IsUserChart>false</IsUserChart>
                               <EnableChartPicker>false</EnableChartPicker>
                               <RecordsPerPage>8</RecordsPerPage>
@@ -190,108 +190,108 @@
                             </parameters>
                           </control>
                         </cell>
-                        <cell colspan="1" rowspan="12" showlabel="false" id="{756c5d75-284a-4437-ac89-f881104e8371}" auto="false">
+                        <cell id="{8462b590-9868-77da-693c-49d82483ee73}" showlabel="true" colspan="1" auto="false" rowspan="12">
                           <labels>
-                            <label description="Queue Item" languagecode="1033" />
+                            <label description="Reviews" languagecode="1033" />
                           </labels>
-                          <control id="Componente64575f" uniqueid="{d97a8d7c-2e63-6629-9c04-8dac1ec08ccb}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <control id="Component2045455" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{54db6edb-be4c-d74e-37b8-078b391eb639}">
                             <parameters>
-                              <TargetEntityType>defra_application</TargetEntityType>
-                              <ChartGridMode>Chart</ChartGridMode>
-                              <EnableQuickFind>false</EnableQuickFind>
-                              <EnableViewPicker>false</EnableViewPicker>
-                              <EnableJumpBar>false</EnableJumpBar>
-                              <RecordsPerPage>12</RecordsPerPage>
-                              <HeaderColorCode>#F5F5F5</HeaderColorCode>
-                              <ViewId>{228706F5-B3BD-E911-A9AB-000D3AB31AD6}</ViewId>
+                              <ViewId>{050143A0-471F-4801-BC0B-96C5C92DCA5D}</ViewId>
                               <IsUserView>false</IsUserView>
-                              <ViewIds>{DEB8F262-AF66-412B-BA50-C70525BB5341},{228706F5-B3BD-E911-A9AB-000D3AB31AD6}</ViewIds>
+                              <RelationshipName />
+                              <TargetEntityType>defra_review</TargetEntityType>
                               <AutoExpand>Fixed</AutoExpand>
-                              <VisualizationId>{79190952-BC86-E811-A968-000D3A233E06}</VisualizationId>
+                              <EnableQuickFind>true</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <ViewIds>{050143A0-471F-4801-BC0B-96C5C92DCA5D}</ViewIds>
+                              <EnableJumpBar>true</EnableJumpBar>
+                              <ChartGridMode>Grid</ChartGridMode>
+                              <VisualizationId />
                               <IsUserChart>false</IsUserChart>
                               <EnableChartPicker>false</EnableChartPicker>
-                              <RelationshipName />
+                              <RecordsPerPage>8</RecordsPerPage>
+                              <HeaderColorCode>#FFFFFF</HeaderColorCode>
                             </parameters>
                           </control>
                         </cell>
-                        <cell id="{4d777dd8-550e-d819-ebbe-8aa174b9c9c1}" showlabel="false">
+                        <cell id="{d62b620e-4516-816e-1c33-476ca418134a}" showlabel="false">
                           <labels>
                             <label description="" languagecode="1033" />
                           </labels>
                         </cell>
                       </row>
                       <row>
-                        <cell id="{2658869b-c820-7a1d-be85-03376ce6608a}" showlabel="false">
+                        <cell id="{7187cbe1-aa44-2032-a815-08b2c4a1ae59}" showlabel="false">
                           <labels>
                             <label description="" languagecode="1033" />
                           </labels>
                         </cell>
                       </row>
                       <row>
-                        <cell id="{cc4803a1-23b7-edbb-a798-269c9480a88d}" showlabel="false">
+                        <cell id="{9b0b19b8-c812-b49a-c10b-26a5a9190eba}" showlabel="false">
                           <labels>
                             <label description="" languagecode="1033" />
                           </labels>
                         </cell>
                       </row>
                       <row>
-                        <cell id="{a737e4ec-133c-093b-eac4-4b36798e94d2}" showlabel="false">
+                        <cell id="{d9cc07d1-2a88-ddc4-1073-24a652443955}" showlabel="false">
                           <labels>
                             <label description="" languagecode="1033" />
                           </labels>
                         </cell>
                       </row>
                       <row>
-                        <cell id="{690e34c0-05a9-ad4e-e227-59cbd935357c}" showlabel="false">
+                        <cell id="{99d1a5cd-d97b-b828-c748-08076ad541b0}" showlabel="false">
                           <labels>
                             <label description="" languagecode="1033" />
                           </labels>
                         </cell>
                       </row>
                       <row>
-                        <cell id="{d06954e1-8ae4-aaab-5491-4c63ea3c048c}" showlabel="false">
+                        <cell id="{b5752a38-0dbc-c234-a30a-6527b0d60bb3}" showlabel="false">
                           <labels>
                             <label description="" languagecode="1033" />
                           </labels>
                         </cell>
                       </row>
                       <row>
-                        <cell id="{4039a3c0-84ea-7039-2ab0-591ce22385ae}" showlabel="false">
+                        <cell id="{01d9dc10-3e0a-e901-dd22-4883b5395318}" showlabel="false">
                           <labels>
                             <label description="" languagecode="1033" />
                           </labels>
                         </cell>
                       </row>
                       <row>
-                        <cell id="{221724b8-25de-6977-b339-5c86ca8858e7}" showlabel="false">
+                        <cell id="{60394c82-93d7-3466-71ac-e19051e9a542}" showlabel="false">
                           <labels>
                             <label description="" languagecode="1033" />
                           </labels>
                         </cell>
                       </row>
                       <row>
-                        <cell id="{70b77518-7eb3-9364-bc52-e26eea6c1705}" showlabel="false">
+                        <cell id="{a226b523-8761-e507-4b97-266868a5b6aa}" showlabel="false">
                           <labels>
                             <label description="" languagecode="1033" />
                           </labels>
                         </cell>
                       </row>
                       <row>
-                        <cell id="{ea5aa719-3913-077a-1ea6-888b5c8487b8}" showlabel="false">
+                        <cell id="{e6a2497a-99c4-0381-93be-0e01595da9c1}" showlabel="false">
                           <labels>
                             <label description="" languagecode="1033" />
                           </labels>
                         </cell>
                       </row>
                       <row>
-                        <cell id="{61b650c9-7381-3064-0e6c-45ba6d5c1682}" showlabel="false">
+                        <cell id="{ba3dc484-4256-ed84-d946-44d7e072e343}" showlabel="false">
                           <labels>
                             <label description="" languagecode="1033" />
                           </labels>
                         </cell>
                       </row>
                       <row>
-                        <cell id="{a079836c-cd28-9c43-6380-1179ec729347}" showlabel="false">
+                        <cell id="{47378235-c591-9cb5-38d0-44c4c87caa03}" showlabel="false">
                           <labels>
                             <label description="" languagecode="1033" />
                           </labels>

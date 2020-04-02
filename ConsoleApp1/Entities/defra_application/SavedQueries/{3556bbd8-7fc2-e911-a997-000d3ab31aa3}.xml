@@ -15,7 +15,7 @@
           <cell name="defra_site_description" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="defra_businesstrackid" width="100" />
           <cell name="defra_applicationtype" width="100" />
-          <cell name="defra_areaid" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="defra_area" width="100" />
           <cell name="defra_localauthority" width="100" />
           <cell name="defra_submittedon" width="100" />
           <cell name="defra_numberofrfis" width="100" />
@@ -28,27 +28,27 @@
       <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
         <entity name="defra_application">
           <attribute name="defra_businesstrackid" />
-          <attribute name="defra_areaid" />
           <attribute name="defra_applicationnumber" />
           <attribute name="defra_applicationtype" />
           <attribute name="defra_localauthority" />
           <attribute name="defra_submittedon" />
-          <order attribute="defra_submittedon" descending="false" />
-          <filter type="and">
-            <condition attribute="ownerid" operator="eq-userid" />
-            <condition attribute="statuscode" operator="eq" value="910400022" />
-          </filter>
           <attribute name="defra_site_description" />
           <attribute name="defra_customerid" />
           <attribute name="defra_numberofrfisorsch5s" />
           <attribute name="defra_numberofrfis" />
+          <attribute name="defra_area" />
+          <order attribute="defra_submittedon" descending="false" />
+          <filter type="and">
+            <condition attribute="ownerid" operator="eq-userid" />
+            <condition attribute="statuscode" operator="eq" value="910400000" />
+          </filter>
           <attribute name="defra_applicationid" />
         </entity>
       </fetch>
     </fetchxml>
     <IntroducedVersion>1.20.0.21</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="NEW My Applications - Admin check" languagecode="1033" />
+      <LocalizedName description="MyPermit My Applications - Received" languagecode="1033" />
     </LocalizedNames>
   </savedquery>
 </savedqueries>

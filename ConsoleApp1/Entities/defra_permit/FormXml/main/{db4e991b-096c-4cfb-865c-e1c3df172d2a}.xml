@@ -107,6 +107,14 @@
                       </cell>
                     </row>
                     <row>
+                      <cell id="{4431c17b-38d0-9070-79b1-9ac5e8acb253}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Permit effective date" languagecode="1033" />
+                        </labels>
+                        <control id="defra_permiteffectivedate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="defra_permiteffectivedate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{57c48bce-53e6-9640-217e-eb32d52c0d99}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Created By" languagecode="1033" />
@@ -373,7 +381,7 @@
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>
     <LocalizedNames>
-      <LocalizedName description="Waste - Permit" languagecode="1033" />
+      <LocalizedName description="Permit" languagecode="1033" />
     </LocalizedNames>
     <Descriptions>
       <Description description="A form for this entity." languagecode="1033" />

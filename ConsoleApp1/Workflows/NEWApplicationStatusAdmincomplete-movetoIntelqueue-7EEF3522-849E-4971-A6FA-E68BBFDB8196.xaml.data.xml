@@ -7,6 +7,7 @@
   <Mode>1</Mode>
   <Scope>4</Scope>
   <OnDemand>1</OnDemand>
+  <TriggerOnUpdateAttributeList></TriggerOnUpdateAttributeList>
   <TriggerOnCreate>0</TriggerOnCreate>
   <TriggerOnDelete>0</TriggerOnDelete>
   <AsyncAutodelete>0</AsyncAutodelete>
@@ -23,4 +24,9 @@
   <LocalizedNames>
     <LocalizedName languagecode="1033" description="NEW Application: Status Admin complete -&gt; move to Intel queue" />
   </LocalizedNames>
+  <labels>
+    <steplabels id="{10cafdd1-8ea7-4935-973b-1aad9270f3ea}">
+      <label languagecode="1033" description="Pending payment: You cannot progress to the next stage, please complete the payment.." />
+    </steplabels>
+  </labels>
 </Workflow>

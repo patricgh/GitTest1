@@ -33,16 +33,17 @@
             <condition attribute="queueid" operator="eq" uiname="&lt;Admin Team&gt;" uitype="queue" value="{75A90501-15AE-E911-A9C1-000D3AB3013D}" />
           </filter>
           <link-entity name="defra_application" from="defra_applicationid" to="objectid" alias="ab">
-            <filter type="and">
-              <condition attribute="statuscode" operator="eq" value="910400022" />
-              <condition attribute="defra_submittedon" operator="not-null" />
-            </filter>
             <attribute name="defra_businesstrackid" />
             <attribute name="defra_facility_description" />
             <attribute name="defra_submittedon" />
             <attribute name="defra_applicationtype" />
             <attribute name="defra_site_description" />
             <attribute name="defra_customerid" />
+            <filter type="and">
+              <condition attribute="statuscode" operator="eq" value="910400000" />
+              <condition attribute="defra_submittedon" operator="not-null" />
+              <condition attribute="defra_payment_required" operator="eq" value="0" />
+            </filter>
           </link-entity>
           <attribute name="objectid" />
         </entity>
@@ -50,7 +51,7 @@
     </fetchxml>
     <IntroducedVersion>1.20.0.4</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="New Admin Team - Applications paid" languagecode="1033" />
+      <LocalizedName description="MyPermit Applications - Received and paid" languagecode="1033" />
     </LocalizedNames>
   </savedquery>
 </savedqueries>

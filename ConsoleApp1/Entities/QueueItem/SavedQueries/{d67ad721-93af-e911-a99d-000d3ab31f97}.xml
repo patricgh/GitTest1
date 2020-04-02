@@ -16,7 +16,7 @@
           <cell name="a_4164b7ab0026e811a951000d3ab3984f.defra_site_description" width="125" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="a_4164b7ab0026e811a951000d3ab3984f.defra_businesstrackid" width="150" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="a_4164b7ab0026e811a951000d3ab3984f.defra_primarycontactid" width="125" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
-          <cell name="a_4164b7ab0026e811a951000d3ab3984f.defra_areaid" width="150" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="a_4164b7ab0026e811a951000d3ab3984f.defra_area" width="100" disableSorting="1" />
           <cell name="a_4164b7ab0026e811a951000d3ab3984f.createdon" width="100" disableSorting="1" />
           <cell name="a_4164b7ab0026e811a951000d3ab3984f.defra_submittedon" width="100" disableSorting="1" />
           <cell name="a_4164b7ab0026e811a951000d3ab3984f.defra_dulymadecompletedby" width="100" disableSorting="1" />
@@ -44,7 +44,6 @@
             <attribute name="defra_dulymadecompletedby" />
             <attribute name="defra_determinedbyid" />
             <attribute name="createdon" />
-            <attribute name="defra_areaid" />
             <attribute name="defra_primarycontactid" />
             <attribute name="defra_submittedon" />
             <attribute name="defra_site_description" />
@@ -59,6 +58,7 @@
                 <value>910400007</value>
               </condition>
             </filter>
+            <attribute name="defra_area" />
           </link-entity>
           <attribute name="objectid" />
         </entity>
@@ -66,7 +66,7 @@
     </fetchxml>
     <IntroducedVersion>1.20.0.0</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="New Applications - Allocated to me" languagecode="1033" />
+      <LocalizedName description="MyPermit Applications - Allocated to me" languagecode="1033" />
     </LocalizedNames>
   </savedquery>
 </savedqueries>

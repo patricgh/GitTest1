@@ -17,7 +17,7 @@
           <cell name="ab.defra_businesstrackid" width="100" disableSorting="1" />
           <cell name="aa.defra_applicationtype" width="100" disableSorting="1" />
           <cell name="aa.defra_facility_description" width="100" disableSorting="1" />
-          <cell name="aa.defra_areaid" width="100" disableSorting="1" />
+          <cell name="ab.defra_area" width="100" disableSorting="1" />
           <cell name="ab.defra_localauthority" width="100" disableSorting="1" />
         </row>
       </grid>
@@ -34,7 +34,6 @@
           </filter>
           <attribute name="title" />
           <link-entity name="defra_application" from="defra_applicationid" to="defra_application" visible="false" link-type="outer" alias="aa">
-            <attribute name="defra_areaid" />
             <attribute name="defra_facility_description" />
             <attribute name="defra_applicationtype" />
           </link-entity>
@@ -47,6 +46,7 @@
             <attribute name="defra_localauthority" />
             <attribute name="defra_site_description" />
             <attribute name="defra_customerid" />
+            <attribute name="defra_area" />
           </link-entity>
           <attribute name="objectid" />
         </entity>
@@ -54,7 +54,7 @@
     </fetchxml>
     <IntroducedVersion>1.20.0.4</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="New Intelligence Team - Admin checks completed" languagecode="1033" />
+      <LocalizedName description="MyPermit Intelligence Team - Applications complete" languagecode="1033" />
     </LocalizedNames>
   </savedquery>
 </savedqueries>

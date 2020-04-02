@@ -141,7 +141,7 @@
                           <Sequence DisplayName="StopWorkflowStep5: Not an incoming payment email, stop here.">
                             <Sequence.Variables>
                               <Variable x:TypeArguments="x:Object" Name="StopWorkflowStep5_1" />
-                              <Variable x:TypeArguments="x:String" Default="8ffcabae-7eb8-4835-9e2a-c71aafe57fea" Name="stepLabelLabelId" />
+                              <Variable x:TypeArguments="x:String" Default="e3ae8fdc-f9f6-45eb-a3de-888f8977fed3" Name="stepLabelLabelId" />
                               <Variable x:TypeArguments="x:String" Name="stepLabelDescription">
                                 <Variable.Default>
                                   <Literal x:TypeArguments="x:String" Value="" />

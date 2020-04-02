@@ -65,7 +65,7 @@
                           <Sequence DisplayName="StopWorkflowStep5: It's a new application, do not create permit at this point.">
                             <Sequence.Variables>
                               <Variable x:TypeArguments="x:Object" Name="StopWorkflowStep5_1" />
-                              <Variable x:TypeArguments="x:String" Default="ca60e40f-cea0-4126-a485-b6054e8dbd44" Name="stepLabelLabelId" />
+                              <Variable x:TypeArguments="x:String" Default="300aa21f-edaa-41d2-9f8e-a727ed0fb380" Name="stepLabelLabelId" />
                               <Variable x:TypeArguments="x:String" Name="stepLabelDescription">
                                 <Variable.Default>
                                   <Literal x:TypeArguments="x:String" Value="" />
@@ -135,7 +135,7 @@
                           <Sequence DisplayName="StopWorkflowStep8: No Permit, stop here.">
                             <Sequence.Variables>
                               <Variable x:TypeArguments="x:Object" Name="StopWorkflowStep8_1" />
-                              <Variable x:TypeArguments="x:String" Default="806474d5-d308-4a7f-80c6-24399450f29f" Name="stepLabelLabelId" />
+                              <Variable x:TypeArguments="x:String" Default="ff0ee8ce-e34d-4b68-89c7-509e3f3885d4" Name="stepLabelLabelId" />
                               <Variable x:TypeArguments="x:String" Name="stepLabelDescription">
                                 <Variable.Default>
                                   <Literal x:TypeArguments="x:String" Value="" />

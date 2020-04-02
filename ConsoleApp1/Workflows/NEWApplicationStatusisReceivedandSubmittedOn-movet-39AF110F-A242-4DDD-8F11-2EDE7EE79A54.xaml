@@ -139,23 +139,6 @@
                 <mxswa:ActivityReference.Properties>
                   <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
                   <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
-                    <mxswa:SetState DisplayName="SetStateStep9: Change status to Admin checks in progress" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityId="[InputEntities(&quot;primaryEntity&quot;).Id]" EntityName="defra_application">
-                      <mxswa:SetState.State>
-                        <InArgument x:TypeArguments="mxs:OptionSetValue">
-                          <mxswa:ReferenceLiteral x:TypeArguments="mxs:OptionSetValue">
-                            <mxs:OptionSetValue ExtensionData="{x:Null}" Value="0" />
-                          </mxswa:ReferenceLiteral>
-                        </InArgument>
-                      </mxswa:SetState.State>
-                      <mxswa:SetState.Status>
-                        <InArgument x:TypeArguments="mxs:OptionSetValue">
-                          <mxswa:ReferenceLiteral x:TypeArguments="mxs:OptionSetValue">
-                            <mxs:OptionSetValue ExtensionData="{x:Null}" Value="910400022" />
-                          </mxswa:ReferenceLiteral>
-                        </InArgument>
-                      </mxswa:SetState.Status>
-                    </mxswa:SetState>
-                    <Persist />
                     <Sequence DisplayName="CreateStep8: Create Queue Item">
                       <Sequence.Variables>
                         <Variable x:TypeArguments="x:Object" Name="CreateStep8_1" />
@@ -220,7 +203,7 @@
                       <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateExpression, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateExpression">
                         <mxswa:ActivityReference.Arguments>
                           <InArgument x:TypeArguments="x:String" x:Key="ExpressionOperator">CreateCrmType</InArgument>
-                          <InArgument x:TypeArguments="s:Object[]" x:Key="Parameters">[New Object() { Microsoft.Xrm.Sdk.Workflow.WorkflowPropertyType.Guid, "7c310f82-9825-e811-a963-000d3ab44758", "Key" }]</InArgument>
+                          <InArgument x:TypeArguments="s:Object[]" x:Key="Parameters">[New Object() { Microsoft.Xrm.Sdk.Workflow.WorkflowPropertyType.Guid, "7c310f82-9825-e811-a963-000d3ab44758", "UniqueIdentifier" }]</InArgument>
                           <InArgument x:TypeArguments="s:Type" x:Key="TargetType">
                             <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:EntityReference" />
                           </InArgument>
@@ -345,7 +328,7 @@
                     <Sequence DisplayName="StopWorkflowStep4: Successful">
                       <Sequence.Variables>
                         <Variable x:TypeArguments="x:Object" Name="StopWorkflowStep4_1" />
-                        <Variable x:TypeArguments="x:String" Default="adbb378f-f0f4-40f5-b750-300d510132f7" Name="stepLabelLabelId" />
+                        <Variable x:TypeArguments="x:String" Default="57783173-0c6e-466e-a5ce-c4e14b611b62" Name="stepLabelLabelId" />
                         <Variable x:TypeArguments="x:String" Name="stepLabelDescription">
                           <Variable.Default>
                             <Literal x:TypeArguments="x:String" Value="" />
@@ -384,7 +367,7 @@
                     <Sequence DisplayName="StopWorkflowStep6: No Action - Successful">
                       <Sequence.Variables>
                         <Variable x:TypeArguments="x:Object" Name="StopWorkflowStep6_1" />
-                        <Variable x:TypeArguments="x:String" Default="b6dbaae8-21f4-4a5d-80c9-545b25403a8d" Name="stepLabelLabelId" />
+                        <Variable x:TypeArguments="x:String" Default="a225ddea-ae22-496a-897f-b9e0628a17f6" Name="stepLabelLabelId" />
                         <Variable x:TypeArguments="x:String" Name="stepLabelDescription">
                           <Variable.Default>
                             <Literal x:TypeArguments="x:String" Value="" />

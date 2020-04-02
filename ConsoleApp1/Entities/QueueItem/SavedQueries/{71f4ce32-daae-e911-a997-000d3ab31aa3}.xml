@@ -15,7 +15,7 @@
           <cell name="ab.defra_regimeid" width="100" disableSorting="1" />
           <cell name="ab.defra_businesstrackid" width="100" disableSorting="1" />
           <cell name="ab.defra_applicationtype" width="100" disableSorting="1" />
-          <cell name="ab.defra_areaid" width="100" disableSorting="1" />
+          <cell name="ab.defra_area" width="100" disableSorting="1" />
           <cell name="ab.defra_facility_description" width="100" disableSorting="1" />
           <cell name="defra_application" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="aa.defra_areaid" width="100" disableSorting="1" />
@@ -38,13 +38,13 @@
           <filter type="and">
             <condition attribute="queueid" operator="eq" uiname="&lt;Application Allocation Team&gt;" uitype="queue" value="{B84110E8-D3AE-E911-A997-000D3AB31AA3}" />
           </filter>
+          <attribute name="title" />
           <link-entity name="defra_application" from="defra_applicationid" to="defra_application" visible="false" link-type="outer" alias="aa">
             <attribute name="defra_dulymadecompletedby" />
             <attribute name="defra_determinedbyid" />
             <attribute name="defra_areaid" />
             <attribute name="statuscode" />
           </link-entity>
-          <attribute name="title" />
           <link-entity name="defra_application" from="defra_applicationid" to="objectid" alias="ab">
             <filter type="and">
               <condition attribute="defra_dulymadecompletedby" operator="not-null" />
@@ -54,8 +54,8 @@
             <attribute name="defra_businesstrackid" />
             <attribute name="defra_regimeid" />
             <attribute name="defra_facility_description" />
-            <attribute name="defra_areaid" />
             <attribute name="defra_applicationtype" />
+            <attribute name="defra_area" />
           </link-entity>
           <attribute name="objectid" />
         </entity>
@@ -63,7 +63,7 @@
     </fetchxml>
     <IntroducedVersion>1.20.0.0</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="New Applications Allocations - Allocated Returned" languagecode="1033" />
+      <LocalizedName description="MyPermit Applications Allocations - Allocated Returned" languagecode="1033" />
     </LocalizedNames>
   </savedquery>
 </savedqueries>

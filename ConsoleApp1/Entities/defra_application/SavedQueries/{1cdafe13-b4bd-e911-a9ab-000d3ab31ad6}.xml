@@ -16,7 +16,7 @@
           <cell name="defra_businesstrackid" width="100" />
           <cell name="defra_applicationtype" width="100" />
           <cell name="defra_facility_description" width="100" />
-          <cell name="defra_areaid" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="defra_area" width="100" />
           <cell name="defra_dulymadecompletedby" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="defra_determinedbyid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="defra_submittedon" width="100" />
@@ -32,7 +32,6 @@
       <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
         <entity name="defra_application">
           <attribute name="defra_businesstrackid" />
-          <attribute name="defra_areaid" />
           <attribute name="defra_applicationnumber" />
           <attribute name="defra_facility_description" />
           <attribute name="defra_applicationtype" />
@@ -61,13 +60,14 @@
           <attribute name="defra_numberofrfisorsch5s" />
           <attribute name="defra_numberofrfis" />
           <attribute name="defra_numberofsch5payments" />
+          <attribute name="defra_area" />
           <attribute name="defra_applicationid" />
         </entity>
       </fetch>
     </fetchxml>
     <IntroducedVersion>1.20.0.13</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="NEW Applications - My Team's Applications" languagecode="1033" />
+      <LocalizedName description="MyPermit Applications - My Team's Applications" languagecode="1033" />
     </LocalizedNames>
   </savedquery>
 </savedqueries>

@@ -1,0 +1,120 @@
+<html><head>
+    <meta>
+    <meta>
+    <meta>
+    <meta>
+    <meta>
+    <meta>
+    <meta>
+<meta></head>
+<body onload="checkAppStatus()">
+        
+    <script>
+        var submitted = false;
+        function checkAppStatus() {
+            //alert('hii');
+            var currentStatus = window.parent.opener.Xrm.Page.getAttribute('statuscode').getValue();
+            var x = document.getElementById("deemedwithdiv");
+             //alert(currentStatus);
+            if (currentStatus == 910400002 || currentStatus == 910400009) {
+                x.style.display = "block";
+            }
+            else
+                document.getElementById("withdrawn1").checked = true;
+        }
+
+        function refundCheck() {
+            var x = document.getElementById("refundAmount");
+            if (document.getElementById('refund').checked) {
+                x.style.display = "block";
+            }
+            else
+                x.style.display = "none";
+        }
+
+        function SubmitSelection() {
+            debugger;
+            if (submitted) {
+                alert("You have already submitted the withdrawal, please close this window.");
+                return;
+            }
+            else
+                submitted = true;
+            var r = confirm("This will withdraw the application, please confirm you are happy to proceed.");
+            if (r == true) {
+                var withdrawType = window.parent.opener.Xrm.Page.getAttribute("defra_withdrawaltype");
+                var withdrawReasons = window.parent.opener.Xrm.Page.getAttribute("defra_reasonsforwithdrawal");
+                var refundAmount = window.parent.opener.Xrm.Page.getAttribute("defra_withdrawrefundamount");
+                //var withdrawDate = window.parent.opener.Xrm.Page.getAttribute("defra_dateofwithdrawal");
+                if (document.getElementById("withdrawn1").checked) {
+                    withdrawType.setValue(910400000);
+                }
+                else {
+                    withdrawType.setValue(910400001);
+                }
+                if (document.getElementById("refund").checked) {
+                    //alert(document.getElementById("refundValue").value);
+                    refundAmount.setValue(parseFloat(document.getElementById("refundValue").value));
+                }
+                ////withdrawDate.setValue(Date.now);
+                withdrawReasons.setValue(document.getElementById("appwithdrawn").value);                
+                window.parent.opener.Xrm.Page.data.entity.save();
+                //$("div").css({ "pointer-events": "none" });
+                document.getElementById("completeMessage").style.display = "block";
+                document.getElementById("refund").readOnly = true;
+                document.getElementById("refundValue").readOnly = true;
+                document.getElementById("appwithdrawn").readOnly = true;
+            } else {
+                open(location, '_self').close();
+            }
+        }
+
+        //function getDate() {
+        //    var today = new Date();
+        //    var dd = today.getDate();
+        //    var mm = today.getMonth() + 1; //January is 0!
+
+        //    var yyyy = today.getFullYear();
+        //    if (dd < 10) {
+        //        dd = '0' + dd;
+        //    }
+        //    if (mm < 10) {
+        //        mm = '0' + mm;
+        //    }
+        //    var today = dd + '/' + mm + '/' + yyyy;
+        //    return today;
+        //}
+
+        
+    </script>
+    <h3>Withdraw application</h3>
+
+    <form action="/action_page.php">
+        <p>Please select the type of Application withdrawal:</p>
+        <div id="withdrawndiv">
+            <input type="radio" id="withdrawn1" value="withdrawn">
+            <label for="withdrawn1">Withdraw</label><br>
+        </div>
+        <div id="deemedwithdiv" style="display:none">
+            <input type="radio" id="withdrawn2" value="deemedwith">
+            <label for="withdrawn2">Deemed withdrawn</label><br>
+        </div>
+        <br>
+        <label for="reasons">Reasons for Application withdrawal:</label>
+        <br><br>
+        <textarea id="appwithdrawn" rows="4" cols="50">Please type reason why you want to withdrawn the application.</textarea>
+        <br> <br>
+        <input type="checkbox" id="refund" name="refund" onclick="refundCheck()">
+        <label for="refund">Issue a refund?</label><br><br>
+        <div id="refundAmount" style="display:none">
+            <label for="withdrawn2">Refund amount(£): </label>
+            <input type="number" min="0" step=".01" id="refundValue" value="0">
+        </div>
+        <br><br>
+        <button type="button" onclick="SubmitSelection(); window.close();">Submit</button>
+        <br>
+        <br>
+        <div id="completeMessage" style="display:none"><h3 style="color:red">Withdrawal complete, please close this window.</h3></div>
+    </form>
+
+</body></html>

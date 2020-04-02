@@ -4,7 +4,7 @@
     <formid>{eb93fdda-7622-43c7-a13e-ca8184a60f43}</formid>
     <IntroducedVersion>1.2.1.78</IntroducedVersion>
     <FormPresentation>1</FormPresentation>
-    <FormActivationState>1</FormActivationState>
+    <FormActivationState>0</FormActivationState>
     <form shownavigationbar="true" showImage="false" maxWidth="1900">
       <tabs>
         <tab name="tab_10" id="{6c1d7c98-1d0a-2cbc-1579-b67d3914941b}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" visible="false">

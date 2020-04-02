@@ -25,6 +25,7 @@
     <AppModuleComponent type="26" id="{fc9128f6-bb86-e811-a968-000d3a233e06}" />
     <AppModuleComponent type="59" id="{79190952-bc86-e811-a968-000d3a233e06}" />
     <AppModuleComponent type="1" schemaName="contact" />
+    <AppModuleComponent type="1" schemaName="defra_payment" />
     <AppModuleComponent type="1" schemaName="defra_permit" />
     <AppModuleComponent type="1" schemaName="queue" />
     <AppModuleComponent type="1" schemaName="queueitem" />
@@ -41,6 +42,8 @@
     <AppModuleComponent type="59" id="{4ab08162-94af-e911-a99d-000d3ab31f97}" />
     <AppModuleComponent type="59" id="{a5b48150-94af-e911-a99d-000d3ab31f97}" />
     <AppModuleComponent type="59" id="{6edf5d3e-94af-e911-a99d-000d3ab31f97}" />
+    <AppModuleComponent type="1" schemaName="defra_review" />
+    <AppModuleComponent type="1" schemaName="defra_rfisch5" />
     <AppModuleComponent type="1" schemaName="systemuser" />
   </AppModuleComponents>
   <AppModuleRoleMaps>
@@ -53,7 +56,7 @@
     <Role id="{f3cd2511-7dac-e911-a980-000d3a23443b}" />
   </AppModuleRoleMaps>
   <LocalizedNames>
-    <LocalizedName description="My Permit" languagecode="1033" />
+    <LocalizedName description="MyPermit" languagecode="1033" />
   </LocalizedNames>
   <Descriptions>
     <Description description="This is the App for all permits" languagecode="1033" />

@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{b7852eb0-9b86-4a75-b1a1-c2662f25c714}</formid>
+    <IntroducedVersion>1.32.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{42fabf22-c13b-4f8d-a9f7-6b3fe606a140}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{4510a82e-583b-4e05-ab12-d1944b6c70f0}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{fc335e3d-b539-4c55-8320-0b97b4cbd8b7}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="defra_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="defra_name" uniqueid="{bc9c97c0-a9d4-628a-cc89-30c90218d616}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{64e2dc16-71a6-de6e-8731-044a19676498}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Application Type" languagecode="1033" />
+                        </labels>
+                        <control id="defra_applicationtype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="defra_applicationtype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{498ad55b-a8c3-3b6e-4019-d14aae820939}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Application Sub Type" languagecode="1033" />
+                        </labels>
+                        <control id="defra_applicationsubtype" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="defra_applicationsubtype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a513aae4-dbde-ea6b-a767-b19b2e747890}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Regime" languagecode="1033" />
+                        </labels>
+                        <control id="defra_regime" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="defra_regime" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{484578b4-09eb-a3e1-9755-118cc6543298}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Track" languagecode="1033" />
+                        </labels>
+                        <control id="defra_track" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="defra_track" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7067a986-e483-cd00-6ce4-6aea875165a8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Value" languagecode="1033" />
+                        </labels>
+                        <control id="defra_value" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="defra_value" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{84df00e7-ad58-4ea1-abac-4c8de5e4c268}" showlabel="true" locklevel="1">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{d2653acd-9ce9-551b-97bd-269ec0b713cb}" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

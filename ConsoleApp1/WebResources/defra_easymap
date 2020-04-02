@@ -1,0 +1,13 @@
+<html><head>
+    <meta>
+<meta></head>
+<body onfocusout="parent.setEmailRange();" style="overflow-wrap: break-word;">
+
+    <h1>EasyMap</h1>
+
+    <iframe style="width:100%; height:100%;" src="https://www.google.com/maps/embed">
+    </iframe>
+
+
+
+</body></html>

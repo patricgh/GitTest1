@@ -1,0 +1,21 @@
+<html><head><meta></head><body>
+    <h3>Withdraw application</h3>
+
+    <form action="/action_page.php">
+        <p>Please select the type of Application withdrawal:</p>
+        <input type="radio" id="male" name="gender" value="withdrawn">
+        <label for="male">Withdraw</label><br>
+        <input type="radio" id="female" name="gender" value="deemedwith">
+        <label for="female">Deemed withdrawn</label><br>
+        <br>
+        <label for="reasons">Reasons for Application withdrawal:</label>
+        <br><br>
+        <textarea id="appwithdrawn" rows="4" cols="50">        Please type reason why you want to withdrawn the application.
+        </textarea>
+        <br> <br>
+        <button type="button" onclick="alert('submitted!')">Submit</button>
+    </form>
+
+
+
+</body></html>

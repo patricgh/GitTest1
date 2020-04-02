@@ -2,11 +2,20 @@
   <x:Members>
     <x:Property Name="InputEntities" Type="InArgument(scg:IDictionary(x:String, mxs:Entity))" />
     <x:Property Name="CreatedEntities" Type="InArgument(scg:IDictionary(x:String, mxs:Entity))" />
+    <x:Property Name="SrocCode" Type="OutArgument(x:String)">
+      <x:Property.Attributes>
+        <mxsw:ArgumentRequiredAttribute Value="False" />
+        <mxsw:ArgumentTargetAttribute Value="False" />
+        <mxsw:ArgumentDescriptionAttribute Value="New Argument" />
+        <mxsw:ArgumentDirectionAttribute Value="Output" />
+        <mxsw:ArgumentEntityAttribute Value="" />
+      </x:Property.Attributes>
+    </x:Property>
     <x:Property Name="PrimaryStandardRuleRef" Type="OutArgument(x:String)">
       <x:Property.Attributes>
         <mxsw:ArgumentRequiredAttribute Value="False" />
         <mxsw:ArgumentTargetAttribute Value="False" />
-        <mxsw:ArgumentDescriptionAttribute Value="PrimaryStandardRuleRef&#xA;" />
+        <mxsw:ArgumentDescriptionAttribute Value="PrimaryStandardRuleRef " />
         <mxsw:ArgumentDirectionAttribute Value="Output" />
         <mxsw:ArgumentEntityAttribute Value="" />
       </x:Property.Attributes>
@@ -15,7 +24,7 @@
       <x:Property.Attributes>
         <mxsw:ArgumentRequiredAttribute Value="False" />
         <mxsw:ArgumentTargetAttribute Value="False" />
-        <mxsw:ArgumentDescriptionAttribute Value="PrimaryStandardRuleDesc&#xA;&#xA;" />
+        <mxsw:ArgumentDescriptionAttribute Value="PrimaryStandardRuleDesc  " />
         <mxsw:ArgumentDirectionAttribute Value="Output" />
         <mxsw:ArgumentEntityAttribute Value="" />
       </x:Property.Attributes>
@@ -142,6 +151,31 @@
         </mxswa:ActivityReference.Arguments>
       </mxswa:ActivityReference>
       <Assign x:TypeArguments="x:String" To="[PrimaryStandardRuleDesc]" Value="[AssignOutputArgumentStep2_1.ToString()]" />
+    </Sequence>
+    <Sequence DisplayName="AssignOutputArgumentStep3: SROC code">
+      <Sequence.Variables>
+        <Variable x:TypeArguments="x:Object" Name="AssignOutputArgumentStep3_1" />
+        <Variable x:TypeArguments="x:Object" Name="AssignOutputArgumentStep3_2" />
+        <Variable x:TypeArguments="x:String" Default="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="TypeName" />
+      </Sequence.Variables>
+      <mxswa:GetEntityProperty Attribute="defra_sroccode" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="defra_standardrule" Value="[AssignOutputArgumentStep3_2]">
+        <mxswa:GetEntityProperty.TargetType>
+          <InArgument x:TypeArguments="s:Type">
+            <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="x:String" />
+          </InArgument>
+        </mxswa:GetEntityProperty.TargetType>
+      </mxswa:GetEntityProperty>
+      <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateExpression, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateExpression">
+        <mxswa:ActivityReference.Arguments>
+          <InArgument x:TypeArguments="x:String" x:Key="ExpressionOperator">SelectFirstNonNull</InArgument>
+          <InArgument x:TypeArguments="s:Object[]" x:Key="Parameters">[New Object() { AssignOutputArgumentStep3_2 }]</InArgument>
+          <InArgument x:TypeArguments="s:Type" x:Key="TargetType">
+            <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="x:String" />
+          </InArgument>
+          <OutArgument x:TypeArguments="x:Object" x:Key="Result">[AssignOutputArgumentStep3_1]</OutArgument>
+        </mxswa:ActivityReference.Arguments>
+      </mxswa:ActivityReference>
+      <Assign x:TypeArguments="x:String" To="[SrocCode]" Value="[AssignOutputArgumentStep3_1.ToString()]" />
     </Sequence>
   </mxswa:Workflow>
 </Activity>

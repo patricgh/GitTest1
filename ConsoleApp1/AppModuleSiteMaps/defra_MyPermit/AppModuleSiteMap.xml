@@ -12,12 +12,21 @@
             <Title LCID="1033" Title="My Dashboards" />
           </Titles>
         </SubArea>
-        <SubArea Id="New_SubArea" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" Entity="defra_application" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="New_SubArea" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" Entity="defra_application" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Applications" />
+          </Titles>
+        </SubArea>
         <SubArea Id="NewSubArea_14aa5367" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="defra_permit" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_67bd946b" ResourceId="SitemapDesigner.NewSubArea" VectorIcon="/WebResources/defra_ukmap" Icon="/WebResources/defra_ukmap" Url="$webresource:defra_easymap" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="EasyMap" />
+          </Titles>
+        </SubArea>
       </Group>
     </Area>
   </SiteMap>
   <LocalizedNames>
-    <LocalizedName description="My Permit" languagecode="1033" />
+    <LocalizedName description="MyPermit" languagecode="1033" />
   </LocalizedNames>
 </AppModuleSiteMap>

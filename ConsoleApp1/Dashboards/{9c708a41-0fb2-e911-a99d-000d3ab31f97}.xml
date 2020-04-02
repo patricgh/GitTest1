@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Dashboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <LocalizedNames>
-    <LocalizedName description="New Application Allocations Dashboard" languagecode="1033" />
+    <LocalizedName description="MyPermit Application Allocations Dashboard" languagecode="1033" />
   </LocalizedNames>
   <FormId>{9c708a41-0fb2-e911-a99d-000d3ab31f97}</FormId>
   <IsCustomizable>1</IsCustomizable>

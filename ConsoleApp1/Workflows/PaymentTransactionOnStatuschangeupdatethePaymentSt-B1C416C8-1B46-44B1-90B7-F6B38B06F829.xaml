@@ -50,7 +50,7 @@
                     <Sequence DisplayName="StopWorkflowStep3: No Payment to Update">
                       <Sequence.Variables>
                         <Variable x:TypeArguments="x:Object" Name="StopWorkflowStep3_1" />
-                        <Variable x:TypeArguments="x:String" Default="0045f712-7cf2-4989-bac5-f69ac3b110c9" Name="stepLabelLabelId" />
+                        <Variable x:TypeArguments="x:String" Default="64f198c7-dd9e-4b4f-b4ff-943b5b42dfb0" Name="stepLabelLabelId" />
                         <Variable x:TypeArguments="x:String" Name="stepLabelDescription">
                           <Variable.Default>
                             <Literal x:TypeArguments="x:String" Value="" />

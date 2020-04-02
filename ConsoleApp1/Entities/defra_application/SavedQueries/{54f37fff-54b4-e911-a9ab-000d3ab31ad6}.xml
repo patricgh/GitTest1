@@ -16,7 +16,7 @@
           <cell name="defra_businesstrackid" width="100" />
           <cell name="defra_applicationtype" width="100" />
           <cell name="defra_facility_description" width="100" />
-          <cell name="defra_areaid" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="defra_area" width="100" />
           <cell name="defra_balance_line_items" width="100" />
           <cell name="defra_submittedon" width="100" />
         </row>
@@ -27,7 +27,6 @@
       <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
         <entity name="defra_application">
           <attribute name="defra_businesstrackid" />
-          <attribute name="defra_areaid" />
           <attribute name="defra_applicationnumber" />
           <attribute name="defra_facility_description" />
           <attribute name="defra_site_description" />
@@ -40,13 +39,14 @@
             <condition attribute="statuscode" operator="eq" value="910400000" />
             <condition attribute="defra_payment_required" operator="eq" value="1" />
           </filter>
+          <attribute name="defra_area" />
           <attribute name="defra_applicationid" />
         </entity>
       </fetch>
     </fetchxml>
     <IntroducedVersion>1.20.0.4</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="New Applications - Awaiting payment" languagecode="1033" />
+      <LocalizedName description="MyPermit Applications - Awaiting payment" languagecode="1033" />
     </LocalizedNames>
   </savedquery>
 </savedqueries>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Dashboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <LocalizedNames>
-    <LocalizedName description="New Intelligence Personal - My Applications" languagecode="1033" />
+    <LocalizedName description="MyPermit Intelligence Personal - My Applications" languagecode="1033" />
   </LocalizedNames>
   <FormId>{6c871c82-b259-4429-b83d-314e81cb95f0}</FormId>
   <IsCustomizable>1</IsCustomizable>

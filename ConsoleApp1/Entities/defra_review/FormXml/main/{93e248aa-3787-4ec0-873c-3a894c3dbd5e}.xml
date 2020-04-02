@@ -52,6 +52,27 @@
                       </cell>
                     </row>
                     <row>
+                      <cell id="{584a24c9-06ba-b707-a832-43d449a08c97}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Reviewer" languagecode="1033" />
+                        </labels>
+                        <control id="defra_reviewercontact" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="defra_reviewercontact" disabled="false" uniqueid="{547b3a87-1393-9234-3912-7aa359922740}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A2D479C5-53E3-4C69-ADDD-802327E67A0D}</DefaultViewId>
+                            <AvailableViewIds>{A2D479C5-53E3-4C69-ADDD-802327E67A0D}</AvailableViewIds>
+                            <FilterRelationshipName>defra_contact_defra_application_customerid</FilterRelationshipName>
+                            <DependentAttributeName>defra_review.defra_applicationid</DependentAttributeName>
+                            <DependentAttributeType>defra_application</DependentAttributeType>
+                            <AllowFilterOff>true</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{9548eb0d-e562-d8e1-78d6-edcc85ae97c2}" showlabel="true" locklevel="0">
                         <labels>
                           <label description="Started on" languagecode="1033" />
@@ -112,6 +133,7 @@
           </NavBarArea>
         </NavBarAreas>
       </Navigation>
+      <controlDescriptions />
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>

@@ -14,7 +14,7 @@
           <cell name="defra_startedon" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="defra_completedon" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="defra_reviewerid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
-          <cell name="statecode" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="statuscode" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
         </row>
       </grid>
     </layoutxml>
@@ -23,17 +23,11 @@
       <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
         <entity name="defra_review">
           <attribute name="defra_type" />
-          <attribute name="statecode" />
           <attribute name="defra_startedon" />
           <attribute name="defra_reviewerid" />
           <attribute name="defra_completedon" />
+          <attribute name="statuscode" />
           <order attribute="defra_completedon" descending="false" />
-          <filter type="and">
-            <condition attribute="statecode" operator="in">
-              <value>0</value>
-              <value>1</value>
-            </condition>
-          </filter>
           <attribute name="defra_reviewid" />
         </entity>
       </fetch>

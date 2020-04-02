@@ -69,11 +69,11 @@
     <steplabels id="{02c4ab8f-b6cb-4262-8386-58251cca90fa}">
       <label languagecode="1033" description="Determination" />
     </steplabels>
-    <steplabels id="{8f9cd9ec-51f5-4745-b76d-b69b6941a3ad}">
-      <label languagecode="1033" description="Number of active reviews" />
-    </steplabels>
     <steplabels id="{3e5d3fe3-4540-4a87-8084-c29c2bfeee1f}">
-      <label languagecode="1033" description="Permit Effective Date" />
+      <label languagecode="1033" description="Active reviews" />
+    </steplabels>
+    <steplabels id="{bafe42ff-78c4-4439-975a-2b1dca4c7750}">
+      <label languagecode="1033" description="Active consultations" />
     </steplabels>
     <steplabels id="{97fe01c0-2a26-4a41-8320-6b0fd8c96363}">
       <label languagecode="1033" description="Team Lead" />

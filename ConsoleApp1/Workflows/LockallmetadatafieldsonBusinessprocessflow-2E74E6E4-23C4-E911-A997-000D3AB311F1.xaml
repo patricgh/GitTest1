@@ -77,12 +77,6 @@
                     <Sequence DisplayName="SetDisplayModeStep10: Lock determination finished on">
                       <mcwc:SetDisplayMode ControlId="defra_determinationcompleteddate" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="defra_application" IsReadOnly="True" />
                     </Sequence>
-                    <Sequence DisplayName="SetDisplayModeStep11: Lock peer review started on">
-                      <mcwc:SetDisplayMode ControlId="defra_peerreviewstartedon" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="defra_application" IsReadOnly="True" />
-                    </Sequence>
-                    <Sequence DisplayName="SetDisplayModeStep12: Lock peer review finished on">
-                      <mcwc:SetDisplayMode ControlId="defra_peerreviewedon" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="defra_application" IsReadOnly="True" />
-                    </Sequence>
                     <Sequence DisplayName="SetDisplayModeStep13: Lock Team lead sign-off started on">
                       <mcwc:SetDisplayMode ControlId="defra_teamleadsignoffstartedon" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="defra_application" IsReadOnly="True" />
                     </Sequence>

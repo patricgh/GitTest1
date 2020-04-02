@@ -490,7 +490,7 @@
       <events>
         <event name="onload" application="false" active="false">
           <Handlers>
-            <Handler functionName="Payments.OnLoad" libraryName="defra_/payments/payment_form_events.js" handlerUniqueId="{40e80ea8-59ba-33da-a034-a83d3ab4c25c}" enabled="true" parameters="" passExecutionContext="false" />
+            <Handler functionName="Payments.OnLoad" libraryName="defra_/payments/payment_form_events.js" handlerUniqueId="{40e80ea8-59ba-33da-a034-a83d3ab4c25c}" enabled="false" parameters="" passExecutionContext="false" />
           </Handlers>
         </event>
         <event name="onchange" application="false" active="false" attribute="defra_paymentcategory">

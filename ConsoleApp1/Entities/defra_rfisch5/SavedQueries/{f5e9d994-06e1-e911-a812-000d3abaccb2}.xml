@@ -20,6 +20,7 @@
           <cell name="statuscode" width="100" />
           <cell name="defra_paymentrequired" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="defra_invoiced" width="100" />
+          <cell name="defra_sch5paymentreference" width="100" />
           <cell name="createdon" width="125" />
         </row>
       </grid>
@@ -39,11 +40,9 @@
           <attribute name="defra_dateresolved" />
           <attribute name="defra_channel" />
           <attribute name="defra_applicationid" />
+          <attribute name="defra_sch5paymentreference" />
           <order attribute="statuscode" descending="false" />
           <order attribute="defra_datesent" descending="true" />
-          <filter type="and">
-            <condition attribute="createdby" operator="eq-userid" />
-          </filter>
           <attribute name="defra_rfisch5id" />
         </entity>
       </fetch>

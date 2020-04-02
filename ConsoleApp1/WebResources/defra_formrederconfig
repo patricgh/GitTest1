@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<forms>
+  <form id="Permissions Application">
+    <regimes>
+      <regime id="Waste">
+        <tracks>
+          <track id="Waste Standard Rules">
+            <tabs />
+            <sections />
+            <attributes />
+          </track>
+          <track id="Waste Bespoke">
+            <tabs />
+            <sections/>
+            <attributes/>
+          </track>
+        </tracks>
+      </regime>
+      <regime id="MCP">
+        <tracks>
+          <track id="MCP Bespoke">
+            <tabs>
+              <tab>tab_intelchecks</tab>
+            </tabs>
+            <sections/>
+            <attributes/>
+          </track>
+          <track id="MCP Standard Rules">
+            <tabs >
+              <tab>tab_intelchecks</tab>
+            </tabs>
+            <sections/>
+            <attributes/>
+          </track>
+        </tracks>
+      </regime>
+    </regimes>
+  </form>
+  <form id="Permissions Application - Admin">
+    <regimes>
+      <regime id="Waste">
+        <tracks>
+          <track id="Waste Standard Rules">
+            <tabs />
+            <sections />
+            <attributes />
+          </track>
+          <track id="Waste Bespoke">
+            <tabs />
+            <sections/>
+            <attributes/>
+          </track>
+        </tracks>
+      </regime>
+      <regime id="MCP">
+        <tracks>
+          <track id="MCP Bespoke">
+            <tabs>
+              <tab>tab_intelchecks</tab>
+            </tabs>
+            <sections/>
+            <attributes/>
+          </track>
+          <track id="MCP Standard Rules">
+            <tabs >
+              <tab>tab_intelchecks</tab>
+            </tabs>
+            <sections/>
+            <attributes/>
+          </track>
+        </tracks>
+      </regime>
+    </regimes>
+  </form>
+</forms>

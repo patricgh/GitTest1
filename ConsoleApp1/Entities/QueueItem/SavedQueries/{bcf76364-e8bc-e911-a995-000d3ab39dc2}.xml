@@ -17,7 +17,7 @@
           <cell name="ab.defra_businesstrackid" width="100" disableSorting="1" />
           <cell name="ab.defra_applicationtype" width="100" disableSorting="1" />
           <cell name="ab.defra_facility_description" width="100" disableSorting="1" />
-          <cell name="aa.defra_areaid" width="100" disableSorting="1" />
+          <cell name="ab.defra_area" width="100" disableSorting="1" />
           <cell name="aa.defra_dulymadecompletedby" width="150" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="aa.defra_determinedbyid" width="150" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="ab.defra_permittingteamleaderid" width="100" disableSorting="1" />
@@ -39,7 +39,6 @@
           <link-entity name="defra_application" from="defra_applicationid" to="defra_application" visible="false" link-type="outer" alias="aa">
             <attribute name="defra_dulymadecompletedby" />
             <attribute name="defra_determinedbyid" />
-            <attribute name="defra_areaid" />
           </link-entity>
           <link-entity name="defra_application" from="defra_applicationid" to="objectid" alias="ab">
             <filter type="and">
@@ -52,6 +51,7 @@
             <attribute name="defra_permiteffectivedate" />
             <attribute name="defra_site_description" />
             <attribute name="defra_customerid" />
+            <attribute name="defra_area" />
           </link-entity>
           <attribute name="objectid" />
         </entity>
@@ -59,7 +59,7 @@
     </fetchxml>
     <IntroducedVersion>1.20.0.12</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="New Admin Team - Issue the permit" languagecode="1033" />
+      <LocalizedName description="MyPermit Admin Team - Issue the permit" languagecode="1033" />
     </LocalizedNames>
   </savedquery>
 </savedqueries>

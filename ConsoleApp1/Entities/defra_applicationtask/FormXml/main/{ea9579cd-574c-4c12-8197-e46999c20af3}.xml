@@ -49,10 +49,11 @@
                         </labels>
                         <control id="defra_responsedate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="defra_responsedate" disabled="false" />
                       </cell>
-                      <cell id="{2cd783d6-baee-be88-bc2e-2dc0239ad616}" showlabel="false">
+                      <cell id="{611bb256-c466-388c-c812-ac5ec9a42767}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Answered?" languagecode="1033" />
                         </labels>
+                        <control id="defra_answered" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="defra_answered" disabled="true" uniqueid="{5e63732d-a098-c508-293a-acb9219ae419}" />
                       </cell>
                     </row>
                     <row>
@@ -63,8 +64,8 @@
                         <control id="defra_notes" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="defra_notes" disabled="false" uniqueid="{d67695e6-ebe8-a6b1-de9a-3b4156bd16e0}" />
                       </cell>
                     </row>
-                    <row></row>
-                    <row></row>
+                    <row />
+                    <row />
                     <row />
                     <row>
                       <cell id="{2c3e13ae-6d7e-a55d-415a-a7372527d679}" showlabel="true" locklevel="0">

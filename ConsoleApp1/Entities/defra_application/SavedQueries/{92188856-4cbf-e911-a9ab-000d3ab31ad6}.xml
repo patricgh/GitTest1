@@ -32,25 +32,25 @@
           <attribute name="defra_localauthority" />
           <attribute name="defra_facility_description" />
           <attribute name="defra_applicationtype" />
+          <attribute name="defra_submittedon" />
+          <attribute name="defra_site_description" />
+          <attribute name="defra_customerid" />
           <order attribute="defra_applicationnumber" descending="false" />
           <filter type="and">
-            <condition attribute="statuscode" operator="eq" value="910400022" />
+            <condition attribute="statuscode" operator="eq" value="910400000" />
           </filter>
           <link-entity name="systemuser" from="systemuserid" to="owninguser" alias="aa">
             <filter type="and">
               <condition attribute="parentsystemuserid" operator="eq-userid" />
             </filter>
           </link-entity>
-          <attribute name="defra_submittedon" />
-          <attribute name="defra_site_description" />
-          <attribute name="defra_customerid" />
           <attribute name="defra_applicationid" />
         </entity>
       </fetch>
     </fetchxml>
     <IntroducedVersion>1.20.0.16</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="NEW Lead Admin - Applications Admin checks" languagecode="1033" />
+      <LocalizedName description="MyPermit Lead Admin - Received Applications" languagecode="1033" />
     </LocalizedNames>
   </savedquery>
 </savedqueries>

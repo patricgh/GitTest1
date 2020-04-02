@@ -16,7 +16,7 @@
           <cell name="ab.defra_businesstrackid" width="100" disableSorting="1" />
           <cell name="ab.defra_applicationtype" width="100" disableSorting="1" />
           <cell name="ab.defra_facility_description" width="100" disableSorting="1" />
-          <cell name="ab.defra_areaid" width="100" disableSorting="1" />
+          <cell name="ab.defra_area" width="100" disableSorting="1" />
           <cell name="aa.defra_dulymadecompletedby" width="150" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="aa.defra_determinedbyid" width="150" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="enteredon" width="100" />
@@ -44,12 +44,12 @@
             <attribute name="defra_regimeid" />
             <attribute name="defra_facility_description" />
             <attribute name="defra_applicationtype" />
-            <attribute name="defra_areaid" />
             <filter type="and">
               <condition attribute="statuscode" operator="eq" value="910400021" />
               <condition attribute="defra_dulymadecompletedby" operator="null" />
               <condition attribute="defra_determinedbyid" operator="null" />
             </filter>
+            <attribute name="defra_area" />
           </link-entity>
           <attribute name="objectid" />
         </entity>
@@ -57,7 +57,7 @@
     </fetchxml>
     <IntroducedVersion>1.20.0.0</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="New Applications Allocations - Awaiting allocation" languagecode="1033" />
+      <LocalizedName description="MyPermit Applications Allocations - Awaiting allocation" languagecode="1033" />
     </LocalizedNames>
   </savedquery>
 </savedqueries>

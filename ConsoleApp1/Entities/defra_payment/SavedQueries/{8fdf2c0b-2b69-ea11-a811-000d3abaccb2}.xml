@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{8fdf2c0b-2b69-ea11-a811-000d3abaccb2}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="defra_title" select="1" preview="1" icon="1">
+        <row name="result" id="defra_paymentid">
+          <cell name="statuscode" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="defra_title" width="150" />
+          <cell name="defra_applicationid" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="defra_refundvalue" width="100" />
+          <cell name="a_52a319c40026e811a951000d3ab3984f.statuscode" width="100" disableSorting="1" />
+          <cell name="defra_paymentvalue" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="defra_payment">
+          <attribute name="defra_title" />
+          <attribute name="statuscode" />
+          <attribute name="defra_refundvalue" />
+          <attribute name="defra_paymentvalue" />
+          <attribute name="defra_applicationid" />
+          <order attribute="defra_title" descending="false" />
+          <filter type="and">
+            <condition attribute="statuscode" operator="eq" value="910400001" />
+          </filter>
+          <link-entity name="defra_application" from="defra_applicationid" to="defra_applicationid" alias="a_52a319c40026e811a951000d3ab3984f">
+            <attribute name="statuscode" />
+            <filter type="and">
+              <condition attribute="statuscode" operator="in">
+                <value>910400005</value>
+                <value>910400022</value>
+              </condition>
+            </filter>
+          </link-entity>
+          <attribute name="defra_paymentid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.32.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Refund payments for Returned and Withdrawn applications" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

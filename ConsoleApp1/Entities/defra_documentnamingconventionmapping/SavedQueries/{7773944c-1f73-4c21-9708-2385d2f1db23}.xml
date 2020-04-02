@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{7773944c-1f73-4c21-9708-2385d2f1db23}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="defra_name" select="1" icon="1" preview="1">
+        <row name="result" id="defra_documentnamingconventionmappingid">
+          <cell name="defra_name" width="300" />
+          <cell name="defra_applicationtype" width="100" />
+          <cell name="defra_regime" width="100" />
+          <cell name="defra_track" width="100" />
+          <cell name="defra_value" width="100" />
+          <cell name="defra_applicationsubtype" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="defra_documentnamingconventionmapping">
+          <attribute name="defra_name" />
+          <order attribute="defra_name" descending="false" />
+          <attribute name="defra_value" />
+          <attribute name="defra_track" />
+          <attribute name="defra_regime" />
+          <attribute name="defra_applicationtype" />
+          <attribute name="defra_applicationsubtype" />
+          <attribute name="defra_documentnamingconventionmappingid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.32.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Document Naming Convention Mapping Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

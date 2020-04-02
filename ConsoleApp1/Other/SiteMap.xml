@@ -85,7 +85,6 @@
         <SubArea Id="defra_applicationprice" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="defra_applicationprice" AvailableOffline="true" PassParams="false" />
         <SubArea Id="defra_area" Entity="defra_area" />
         <SubArea Id="defra_rfisch5" Entity="defra_rfisch5" />
-        <SubArea Id="defra_consultation" Entity="defra_consultation" />
       </Group>
     </Area>
     <Area Id="SFA" ResourceId="Area_Sales" DescriptionResourceId="Sales_Description" Icon="/WebResources/Incident_origincode_custom.png" ShowGroups="true" IntroducedVersion="7.0.0.0">
@@ -427,7 +426,6 @@
         <SubArea Id="defra_itemapplicationtaskdefinition" Entity="defra_itemapplicationtaskdefinition" />
         <SubArea Id="defra_applicationquestiongroup" Entity="defra_applicationquestiongroup" />
         <SubArea Id="defra_item_application_question" Entity="defra_item_application_question" />
-        <SubArea Id="defra_consultation" Entity="defra_consultation" />
       </Group>
       <Group Id="UpgradeLogs_Group" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
         <Titles>

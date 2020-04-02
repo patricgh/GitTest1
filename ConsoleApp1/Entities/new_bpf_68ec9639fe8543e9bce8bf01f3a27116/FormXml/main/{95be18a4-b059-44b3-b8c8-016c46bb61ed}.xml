@@ -154,19 +154,19 @@
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{8f9cd9ec-51f5-4745-b76d-b69b6941a3ad}" showlabel="true" visible="true" labelid="{2d77b171-abaa-4765-94f8-e7a70f12eb35}">
+                      <cell id="{3e5d3fe3-4540-4a87-8084-c29c2bfeee1f}" showlabel="true" visible="true" labelid="{6673d326-c769-4de4-8e1a-c688092a8afc}">
                         <labels>
-                          <label description="Number of active reviews" languagecode="1033" />
+                          <label description="Active reviews" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116:defra_activereviews" classid="{c6d124ca-7eda-4a60-aea9-7fb8d318b68f}" datafieldname="defra_activereviews" relationship="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116" isrequired="false" disabled="false" />
+                        <control id="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116:defra_activereviews" classid="{c6d124ca-7eda-4a60-aea9-7fb8d318b68f}" datafieldname="defra_activereviews" relationship="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116" isrequired="true" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{3e5d3fe3-4540-4a87-8084-c29c2bfeee1f}" showlabel="true" visible="true" labelid="{6673d326-c769-4de4-8e1a-c688092a8afc}">
+                      <cell id="{bafe42ff-78c4-4439-975a-2b1dca4c7750}" showlabel="true" visible="true" labelid="{53935a16-0c80-42f5-9da0-a18a343e9c19}">
                         <labels>
-                          <label description="Permit Effective Date" languagecode="1033" />
+                          <label description="Active consultations" languagecode="1033" />
                         </labels>
-                        <control id="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116:defra_permiteffectivedate" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="defra_permiteffectivedate" relationship="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116" isrequired="true" disabled="false" />
+                        <control id="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116:defra_activeconsultations" classid="{c6d124ca-7eda-4a60-aea9-7fb8d318b68f}" datafieldname="defra_activeconsultations" relationship="bpf_defra_application_new_bpf_68ec9639fe8543e9bce8bf01f3a27116" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>

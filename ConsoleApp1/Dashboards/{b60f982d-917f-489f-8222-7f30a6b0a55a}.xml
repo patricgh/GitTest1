@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Dashboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <LocalizedNames>
-    <LocalizedName description="New Lead Admin - My Team's Applications" languagecode="1033" />
+    <LocalizedName description="MyPermit Lead Admin - My Team's Applications" languagecode="1033" />
   </LocalizedNames>
   <FormId>{b60f982d-917f-489f-8222-7f30a6b0a55a}</FormId>
   <IsCustomizable>1</IsCustomizable>

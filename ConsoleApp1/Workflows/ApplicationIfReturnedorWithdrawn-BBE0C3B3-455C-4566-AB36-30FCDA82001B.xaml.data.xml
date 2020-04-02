@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{bbe0c3b3-455c-4566-ab36-30fcda82001b}" Name="Application: If Returned or Withdrawn " xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/ApplicationIfReturnedorWithdrawn-BBE0C3B3-455C-4566-AB36-30FCDA82001B.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>0</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnUpdateAttributeList>defra_withdrawrefundamount,defra_withdrawaltype,defra_returntype,defra_returnrefundamount</TriggerOnUpdateAttributeList>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>1</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <UpdateStage>40</UpdateStage>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.32.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <PrimaryEntity>defra_application</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Application: If Returned or Withdrawn " />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{17a8b7e5-7c85-4861-9893-a49d726f557b}">
+      <label languagecode="1033" description="You can not use 'Deemed withdrawn' at this stage, please select 'Operator withdrawn' to withdraw the application. " />
+    </steplabels>
+    <steplabels id="{e4b31584-4a6d-47e7-ac66-5f07ef53ddbc}">
+      <label languagecode="1033" description="You can not withdraw application at this stage. Please select 'Deemed withdrawn' to withdraw the application." />
+    </steplabels>
+  </labels>
+</Workflow>

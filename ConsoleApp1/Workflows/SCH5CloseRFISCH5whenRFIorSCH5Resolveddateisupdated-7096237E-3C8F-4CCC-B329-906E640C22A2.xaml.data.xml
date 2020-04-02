@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{7096237e-3c8f-4ccc-b329-906e640c22a2}" Name="SCH5: Close RFISCH5 when RFI or SCH5 Resolved date is updated " xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/SCH5CloseRFISCH5whenRFIorSCH5Resolveddateisupdated-7096237E-3C8F-4CCC-B329-906E640C22A2.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>0</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>1</OnDemand>
+  <TriggerOnUpdateAttributeList>defra_dateresolved</TriggerOnUpdateAttributeList>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>1</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <CreateStage>40</CreateStage>
+  <UpdateStage>20</UpdateStage>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.25.0.2</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <PrimaryEntity>defra_rfisch5</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="SCH5: Close RFISCH5 when RFI or SCH5 Resolved date is updated " />
+  </LocalizedNames>
+</Workflow>

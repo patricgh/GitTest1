@@ -107,6 +107,13 @@
         <CanUpdate>0</CanUpdate>
         <CanCreate>0</CanCreate>
       </FieldPermission>
+      <FieldPermission>
+        <EntityName>defra_application</EntityName>
+        <AttributeName>defra_payment_required</AttributeName>
+        <CanRead>4</CanRead>
+        <CanUpdate>0</CanUpdate>
+        <CanCreate>0</CanCreate>
+      </FieldPermission>
     </FieldPermissions>
   </FieldSecurityProfile>
   <FieldSecurityProfile name="New Admin Team FLS Role" fieldsecurityprofileid="{2be53298-afb2-e911-a99d-000d3ab31f97}">
@@ -135,6 +142,13 @@
       <FieldPermission>
         <EntityName>defra_application</EntityName>
         <AttributeName>defra_permitissuecompletemcp</AttributeName>
+        <CanRead>4</CanRead>
+        <CanUpdate>4</CanUpdate>
+        <CanCreate>4</CanCreate>
+      </FieldPermission>
+      <FieldPermission>
+        <EntityName>defra_application</EntityName>
+        <AttributeName>defra_payment_required</AttributeName>
         <CanRead>4</CanRead>
         <CanUpdate>4</CanUpdate>
         <CanCreate>4</CanCreate>

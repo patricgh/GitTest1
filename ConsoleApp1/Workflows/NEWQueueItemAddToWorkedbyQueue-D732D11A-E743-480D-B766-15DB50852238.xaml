@@ -147,7 +147,7 @@
                     <Sequence DisplayName="StopWorkflowStep4: Succeeded">
                       <Sequence.Variables>
                         <Variable x:TypeArguments="x:Object" Name="StopWorkflowStep4_1" />
-                        <Variable x:TypeArguments="x:String" Default="239659b5-1138-4a2f-8b63-7481897ae6b5" Name="stepLabelLabelId" />
+                        <Variable x:TypeArguments="x:String" Default="8a1e5a53-3c93-4e81-8629-c36a1b28ea5f" Name="stepLabelLabelId" />
                         <Variable x:TypeArguments="x:String" Name="stepLabelDescription">
                           <Variable.Default>
                             <Literal x:TypeArguments="x:String" Value="" />
@@ -186,7 +186,7 @@
                     <Sequence DisplayName="StopWorkflowStep6: No Action: Succeeded">
                       <Sequence.Variables>
                         <Variable x:TypeArguments="x:Object" Name="StopWorkflowStep6_1" />
-                        <Variable x:TypeArguments="x:String" Default="b0659800-4c04-4bf7-b93a-d237da43894c" Name="stepLabelLabelId" />
+                        <Variable x:TypeArguments="x:String" Default="03c2c40b-49ff-4b5c-8e71-ddca7257c119" Name="stepLabelLabelId" />
                         <Variable x:TypeArguments="x:String" Name="stepLabelDescription">
                           <Variable.Default>
                             <Literal x:TypeArguments="x:String" Value="" />

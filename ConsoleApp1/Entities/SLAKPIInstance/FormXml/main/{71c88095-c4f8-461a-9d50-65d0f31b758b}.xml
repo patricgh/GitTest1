@@ -80,7 +80,7 @@
                   <labels>
                     <label description="" languagecode="1033" />
                   </labels>
-                  <rows></rows>
+                  <rows />
                 </section>
               </sections>
             </column>

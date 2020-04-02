@@ -15,7 +15,7 @@
           <cell name="defra_site_description" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="defra_businesstrackid" width="100" />
           <cell name="defra_applicationtype" width="100" />
-          <cell name="defra_areaid" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="defra_area" width="100" />
           <cell name="defra_facility_description" width="100" />
           <cell name="defra_dulymadecompletedby" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="defra_determinedbyid" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
@@ -28,7 +28,6 @@
       <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
         <entity name="defra_application">
           <attribute name="defra_businesstrackid" />
-          <attribute name="defra_areaid" />
           <attribute name="defra_applicationnumber" />
           <attribute name="defra_dulymadecompletedby" />
           <attribute name="defra_determinedbyid" />
@@ -46,13 +45,14 @@
           <attribute name="defra_submittedon" />
           <attribute name="defra_site_description" />
           <attribute name="defra_customerid" />
+          <attribute name="defra_area" />
           <attribute name="defra_applicationid" />
         </entity>
       </fetch>
     </fetchxml>
     <IntroducedVersion>1.20.0.13</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="NEW Applications - Assigned to me for Peer review" languagecode="1033" />
+      <LocalizedName description="MyPermit Applications - Assigned to me for Peer review" languagecode="1033" />
     </LocalizedNames>
   </savedquery>
 </savedqueries>

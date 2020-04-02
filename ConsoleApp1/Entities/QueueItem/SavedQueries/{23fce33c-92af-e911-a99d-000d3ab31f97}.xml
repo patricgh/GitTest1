@@ -17,7 +17,7 @@
           <cell name="queueid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="workerid" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="workeridmodifiedon" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
-          <cell name="aa.defra_areaid" width="100" disableSorting="1" />
+          <cell name="aa.defra_area" width="100" disableSorting="1" />
           <cell name="aa.defra_determinedbyid" width="100" disableSorting="1" />
           <cell name="aa.defra_dulymadecompletedby" width="100" disableSorting="1" />
         </row>
@@ -50,8 +50,8 @@
           <link-entity name="defra_application" from="defra_applicationid" to="objectid" alias="aa">
             <attribute name="defra_dulymadecompletedby" />
             <attribute name="defra_determinedbyid" />
-            <attribute name="defra_areaid" />
             <attribute name="statuscode" />
+            <attribute name="defra_area" />
           </link-entity>
           <attribute name="objectid" />
         </entity>
@@ -59,7 +59,7 @@
     </fetchxml>
     <IntroducedVersion>1.20.0.0</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="New Applications - Queues I am a member of" languagecode="1033" />
+      <LocalizedName description="MyPermit Applications - Queues I am a member of" languagecode="1033" />
     </LocalizedNames>
   </savedquery>
 </savedqueries>

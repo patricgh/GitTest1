@@ -16,6 +16,7 @@
           <cell name="defra_responsedate" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="a_2d6abd9931efe811a988000d3ab31f97.defra_guidance" width="300" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="defra_notes" width="300" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="defra_answered" width="100" />
           <cell name="modifiedon" width="100" />
         </row>
       </grid>
@@ -27,13 +28,14 @@
           <attribute name="defra_notes" />
           <attribute name="defra_completed" />
           <attribute name="defra_responsedate" />
-          <order attribute="modifiedon" descending="true" />
+          <order attribute="defra_answered" descending="false" />
           <attribute name="modifiedon" />
           <link-entity name="defra_applicationtaskdefinition" from="defra_applicationtaskdefinitionid" to="defra_applicationtaskdefinitionid" visible="false" link-type="outer" alias="a_2d6abd9931efe811a988000d3ab31f97">
             <attribute name="defra_name" />
             <attribute name="defra_guidance" />
             <attribute name="defra_applicationtasksubtype" />
           </link-entity>
+          <attribute name="defra_answered" />
           <attribute name="defra_applicationtaskid" />
         </entity>
       </fetch>
